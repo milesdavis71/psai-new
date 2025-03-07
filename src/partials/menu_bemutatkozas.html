@@ -1,0 +1,118 @@
+<li>
+    <a href="#"><i class="fas fa-chalkboard-teacher"></i> Bemutatkozás</a>
+    <ul class="menu vertical nested
+        {{#ifpage
+            'bemutatkozas_ps_bs'
+            'tanaraink_ps_bs'
+            'hitoktatok_ps_bs'
+            'felekezetek_bemutatkozasa'
+            'felekezetek_reformatus'
+            'felekezetek_katolikus'
+            'iskolankat_segito_kulsos_munkatarsak'
+            'pedagogiai_program'
+            'szmsz_ps_bs'
+            'kollektiv_szerzodes_ps_bs'
+            'imip'
+            'hazirend_ps_bs'
+            'gyermekvedelem'
+            'tankonyvek_ps'
+            'tankonyvek_bs'
+            'taneszkozok_ps'
+            'taneszkozok_bs'
+            'regisztralt_tehetsegpont'
+            'kek_ter_program'
+            'keve_program'
+            }}
+            is-active
+        {{/ifpage}}">
+        <li {{#ifpage 'bemutatkozas_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/bemutatkozas_ps_bs.html">Bemutatkozás {{>label}}</a>
+        </li>
+        <li {{#ifpage 'tanaraink_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/tanaraink_ps_bs.html">Tanáraink {{>label}}</a>
+        </li>
+        <li {{#ifpage 'csengetesi_rend_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/csengetesi_rend_ps_bs.html">Csengetési rend {{>label}}</a>
+        </li>
+        <li {{#ifpage 'iskolankat_segito_kulsos_munkatarsak' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/iskolankat_segito_kulsos_munkatarsak.html">Iskolánkat segítő külsős
+                munkatársak</a>
+        </li>
+        <li {{#ifpage 'hitoktatok_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/hitoktatok_ps_bs.html">Hitoktatóink {{>label}}</a>
+        </li>
+        <li {{#ifpage 'felekezetek_bemutatkozasa' 'felekezetek_reformatus' 'felekezetek_katolikus' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/felekezetek_bemutatkozasa.html">Felekezetek bemutatkozása</a>
+        </li>
+        <li {{#ifpage 'pedagogiai_program' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/pedagogiai_program.html">Pedagógiai program</a>
+        </li>
+        <li {{#ifpage 'szmsz_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/szmsz_ps_bs.html">SZMSZ</a>
+        </li>
+        <li {{#ifpage 'kollektiv_szerzodes_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/kollektiv_szerzodes_ps_bs.html">Kollektív szerződés</a>
+        </li>
+        <li {{#ifpage 'imip' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/imip.html">IMIP</a>
+        </li>
+        <li {{#ifpage 'hazirend_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/hazirend_ps_bs.html">Házirend</a>
+        </li>
+        <li {{#ifpage 'gyermekvedelem' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/gyermekvedelem.html">Gyermekvédelem</a>
+        </li>
+        <li>
+            <a href="#">Tankönyvek
+            </a>
+            <ul class="menu vertical nested
+                                                    {{#ifpage
+                                                    'tankonyvek_ps'
+                                                    'tankonyvek_bs'
+                                                        }}
+                                                        is-active
+                                                    {{/ifpage}}">
+                <li {{#ifpage 'tankonyvek_ps' }} class=" current" {{/ifpage}}><a href="{{root}}bemutatkozas/tankonyvek_ps.html">Tankönyvek –
+                        Székhely</a>
+                </li>
+                <li {{#ifpage 'tankonyvek_bs' }} class=" current" {{/ifpage}}><a href="{{root}}bemutatkozas/tankonyvek_bs.html">Tankönyvek –
+                        Tagiskola</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Taneszközök
+            </a>
+            <ul class="menu vertical nested
+                                                    {{#ifpage
+                                                        'taneszkozok_ps'
+                                                        'taneszkozok_bs'
+                                                        }}
+                                                        is-active
+                                                    {{/ifpage}}">
+                <li {{#ifpage 'taneszkozok_ps' }} class=" current" {{/ifpage}}><a href="{{root}}bemutatkozas/taneszkozok_ps.html">Taneszközök
+                        –
+                        Székhely</a>
+                </li>
+                <li {{#ifpage 'taneszkozok_bs' }} class=" current" {{/ifpage}}><a href="{{root}}bemutatkozas/taneszkozok_bs.html">Taneszközök –
+                        Tagiskola</a>
+                </li>
+            </ul>
+        </li>
+        <li {{#ifpage 'regisztralt_tehetsegpont' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/regisztralt_tehetsegpont.html">Regisztrált
+                tehetségpont
+            </a>
+        </li>
+        <li {{#ifpage 'kek_ter_program' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/kek_ter_program.html">Kék tér
+                program
+            </a>
+        </li>
+        <li {{#ifpage 'keve_program' }} class="current" {{/ifpage}}>
+            <a href="{{root}}palyazatok/keve_program.html">KEVE
+                program
+            </a>
+        </li>
+    </ul>
+</li>

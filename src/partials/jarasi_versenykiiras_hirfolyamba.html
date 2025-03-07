@@ -1,0 +1,42 @@
+<div class="callout" style="border: #ff4500 ; border-width:1.5px; border-style:solid;">
+    <div class="grid-x grid-margin-x">
+        <div class="cell small-12 medium-12">
+            <h4 class="text-center" style="color: #1779ba; line-height: normal; font-size: 1.3rem; font-weight: 600;">
+                Regisztráció járási mesemondó és prózamondó versenyeinkre
+            </h4>
+            <p class="text-center" style="margin-bottom: -1rem;">
+                <img src="{{root}}assets/img/versenyek/jarasi_prozamondo_verseny.jpg">
+            </p>
+            <br> <br>
+            <h6 class="text-center">
+                {{#each global.jarasiverseny.huszonot}}
+                <strong>A verseny időpontja:</strong><br>
+                {{datum}}<br>
+                <strong>Helyszíne:</strong><br>
+                {{helyszin}}<br>
+                {{cim}}<br>
+                Tel.: <a href="tel:{{telegybe}}">{{tel}}</a><br>
+                {{/each}}
+            </h6>
+            <br>
+        </div>
+        <div class="cell small-12 medium-6">
+            <a class="button expanded primary" style="font-size: 1.1rem; font-weight: 500; line-height: 1.2rem;" href="{{root}}versenyek/hetedhet_orszagon_tul_regisztracio.html">„Hetedhét
+                országon
+                túl…”<br>mesemondó verseny<br><strong>REGISZTRÁCIÓ</strong>
+            </a>
+            <a class="button expanded primary" style="font-size: 1.1rem; font-weight: 500; line-height: 1.2rem;" href="{{root}}versenyek/hetedhet_orszagon_tul_nyilatkozat_feltoltes.html">„Hetedhét
+                országon
+                túl…”<br>mesemondó verseny<br><strong>NYILATKOZAT LETÖLTÉS/FELTÖLTÉS</strong>
+            </a>
+        </div>
+        <div class="cell small-12 medium-6">
+            <a class="button expanded secondary" style="font-size: 1.1rem; font-weight: 500; color: white; line-height: 1.2rem;" href="{{root}}versenyek/szep_beszed_regisztracio.html">„Szép beszéd”<br>prózamondó
+                verseny<br><strong>REGISZTRÁCIÓ</strong>
+            </a>
+            <a class="button expanded secondary" style="font-size: 1.1rem; font-weight: 500; color: white; line-height: 1.2rem;" href="{{root}}versenyek/szep_beszed_nyilatkozat_feltoltes.html">„Szép beszéd”<br>prózamondó
+                verseny<br><strong>NYILATKOZAT LETÖLTÉS/FELTÖLTÉS</strong>
+            </a>
+        </div>
+    </div>
+</div>

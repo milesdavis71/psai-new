@@ -1,0 +1,40 @@
+<div class="grid-x grid-margin-x">
+	<div class="cell large-12">
+		<div class="callout">
+			<h4 class="text-center">
+				<small>Szülői, tanulóra vonatkozó<br>és pedagógus hozzájáruló nyilatkozatok feltöltése</small><br>
+				<i class=" fas fa-upload" style="color: #1779ba;"></i>
+			</h4>
+			<div class="grid-x grid-margin-x">
+
+				<div class="cell auto"></div>
+				<div class="cell large-6">
+					<div class="callout primary">
+						<p class="text-center">
+							<input id="fileupload" type="file" name="fileupload">
+							<button class="button" id="upload-button"
+								onclick="saveFile()"><strong>Feltöltés</strong></button>
+						<div class="text-center" id="successMessage"></div>
+						<script>
+							const successMessage = document.getElementById('successMessage');
+							async function saveFile() {
+								let formData = new FormData();
+								let = selectedFile = fileupload.files[0]
+								formData.append("file", selectedFile);
+								if (selectedFile) {
+									await fetch('{{root}}/assets/php/upload.php', { method: "POST", body: formData });
+									successMessage.innerHTML = '<p style="color: green; margin: -1.2rem 0 -0.5rem;">Sikeres fájlfeltöltés.</p>';
+								} else {
+									successMessage.innerHTML = '<p style="color: red; margin: -1.2rem 0 -0.5rem;">A feltöltéshez ki kell választani egy fájlt.</p>';
+								}
+							}
+						</script>
+						</p>
+					</div>
+
+				</div>
+				<div class="cell auto"></div>
+			</div>
+		</div>
+	</div>
+</div>

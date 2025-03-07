@@ -1,0 +1,24 @@
+<li>
+  <a href="#"><i class="fas fa-paper-plane"></i>&thinsp;&thinsp;&thinsp;Tanórán kívüli foglalkozások</a>
+  <ul class="menu vertical nested
+  {{#ifpage
+    'egyeni_fejlesztes_ps_bs'
+    'szakkorok_ps_bs'
+    'szaktargyi_korrepetalasok_ps_bs'
+    }}
+    is-active
+  {{/ifpage}}">
+    <li {{#ifpage 'egyeni_fejlesztes_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs.html">Egyéni fejlesztés {{>label}}</a>
+
+    </li>
+    <li {{#ifpage 'szakkorok_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}tanoran_kivuli_foglalkozasok/szakkorok_ps_bs.html">Szakkörök,<br>tehetséggondozás {{>label}}</a>
+    </li>
+
+    <li {{#ifpage 'szaktargyi_korrepetalasok_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs.html">Szaktárgyi<br>korrepetálások
+        {{>label}}</a>
+    </li>
+  </ul>
+</li>

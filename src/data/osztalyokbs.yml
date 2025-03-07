@@ -1,0 +1,445 @@
+---
+- osztaly: 1/B
+  nev1: Bakos Kiara Viola
+- osztaly: 1/B
+  nev1: Biró Tamara
+- osztaly: 1/B
+  nev1: Budai Ádám Zoltán
+- osztaly: 1/B
+  nev1: Csetneky András
+- osztaly: 1/B
+  nev1: Csonka Márkó
+- osztaly: 1/B
+  nev1: Igaz Diána
+- osztaly: 1/B
+  nev1: Joó Hanna Lujza
+- osztaly: 1/B
+  nev1: Kajtor Hunor
+- osztaly: 1/B
+  nev1: Katona Máté Zsolt
+- osztaly: 1/B
+  nev1: Koncsek Máté
+- osztaly: 1/B
+  nev1: Kovács Minka
+- osztaly: 1/B
+  nev1: Kurdi Kiara Bella
+- osztaly: 1/B
+  nev1: Ladovszki Dóra
+- osztaly: 1/B
+  nev1: Ladovszki Réka
+- osztaly: 1/B
+  nev1: Nagy Dominik László
+- osztaly: 1/B
+  nev1: Nagyvárady Anna
+- osztaly: 1/B
+  nev1: Paksi Nóra
+- osztaly: 1/B
+  nev1: Pásztor Péter
+- osztaly: 1/B
+  nev1: Pataki Balázs
+- osztaly: 1/B
+  nev1: Porkoláb Letícia Anna
+- osztaly: 1/B
+  nev1: Szalmási Zétény
+- osztaly: 1/B
+  nev1: Szécsi Roland
+- osztaly: 1/B
+  nev1: Sziráczki Luca Vivien
+- osztaly: 1/B
+  nev1: Terhes Adél
+- osztaly: 1/B
+  nev1: Torony Lili
+- osztaly: 1/B
+  nev1: Török Petra Tündi
+- osztaly: 1/B
+  nev1: Valkó Mira
+- osztaly: 1/B
+  nev1: Varga Zselyke Melinda
+- osztaly: 1/B
+  nev1: Varjú Kincső Viola
+- osztaly: 2/B
+  nev2: Ács-Sánta Fanni
+- osztaly: 2/B
+  nev2: Bujdosó Szofi Ivonn
+- osztaly: 2/B
+  nev2: Farkas Szófia
+- osztaly: 2/B
+  nev2: Gál Csobán Soma
+- osztaly: 2/B
+  nev2: Göbölyös Sára Julianna
+- osztaly: 2/B
+  nev2: Gyémánt Konrád
+- osztaly: 2/B
+  nev2: Gyóni Vanda
+- osztaly: 2/B
+  nev2: Jakab Anna
+- osztaly: 2/B
+  nev2: Kardos Izabella Éva
+- osztaly: 2/B
+  nev2: Kovács Sarolta Valentina
+- osztaly: 2/B
+  nev2: Kovács Zója Borbála
+- osztaly: 2/B
+  nev2: Márkus László Ádám
+- osztaly: 2/B
+  nev2: Nagy Léna
+- osztaly: 2/B
+  nev2: Nagy Olivér
+- osztaly: 2/B
+  nev2: Oláh Alexandra
+- osztaly: 2/B
+  nev2: Palotás Nóra
+- osztaly: 2/B
+  nev2: Pereszlényi Nóra
+- osztaly: 2/B
+  nev2: Petrovics Kiara
+- osztaly: 2/B
+  nev2: Siklósi Lilla Magdolna
+- osztaly: 2/B
+  nev2: Sohajda Emma
+- osztaly: 2/B
+  nev2: Tóth Dávid
+- osztaly: 2/B
+  nev2: Tóth Dominika
+- osztaly: 2/B
+  nev2: Varga Tamás Barnabás
+- osztaly: 3/B
+  nev3: Bárkai Dominik
+- osztaly: 3/B
+  nev3: Bujdosó Hanna
+- osztaly: 3/B
+  nev3: Dobra Tamara
+- osztaly: 3/B
+  nev3: Fekete Patrik
+- osztaly: 3/B
+  nev3: Gyémánt Vilmos
+- osztaly: 3/B
+  nev3: Halmágyi-Balogh Benett
+- osztaly: 3/B
+  nev3: Hegedűs Liliána
+- osztaly: 3/B
+  nev3: Hlbocsányi Odett
+- osztaly: 3/B
+  nev3: Igaz Dávid
+- osztaly: 3/B
+  nev3: Jász Kincső
+- osztaly: 3/B
+  nev3: Katona Flóra Zsófia
+- osztaly: 3/B
+  nev3: Kis Nimród
+- osztaly: 3/B
+  nev3: Laczi Domonkos Gábor
+- osztaly: 3/B
+  nev3: Laczi Hanna
+- osztaly: 3/B
+  nev3: Nagyistók Levente
+- osztaly: 3/B
+  nev3: Palotás Zétény
+- osztaly: 3/B
+  nev3: Pap Dorka
+- osztaly: 3/B
+  nev3: Pásztor Júlia
+- osztaly: 3/B
+  nev3: Révész Balázs
+- osztaly: 3/B
+  nev3: Ruck Áron
+- osztaly: 3/B
+  nev3: Sitkei Fanni Réka
+- osztaly: 3/B
+  nev3: Sziráczki Adél
+- osztaly: 3/B
+  nev3: Szvoboda Benedek
+- osztaly: 3/B
+  nev3: Tigyi Atád
+- osztaly: 3/B
+  nev3: Torkos Lili
+- osztaly: 3/B
+  nev3: Tóth Gellért Károly
+- osztaly: 3/B
+  nev3: Tóth Katalin Hedvig
+- osztaly: 3/B
+  nev3: Valkai Kamilla
+- osztaly: 3/B
+  nev3: Varga Renáta
+- osztaly: 3/B
+  nev3: Végh Alíz
+- osztaly: 3/B
+  nev3: Zsögön Anna Eszter
+- osztaly: 4/B
+  nev4: Balázs Ervin
+- osztaly: 4/B
+  nev4: Békési Barnabás
+- osztaly: 4/B
+  nev4: Békési Benett
+- osztaly: 4/B
+  nev4: Benecz Petra
+- osztaly: 4/B
+  nev4: Bodó Roland
+- osztaly: 4/B
+  nev4: Borbély Csanád
+- osztaly: 4/B
+  nev4: Boros Nóra
+- osztaly: 4/B
+  nev4: Bozóki Máté Botond
+- osztaly: 4/B
+  nev4: Bujdosó André Noel
+- osztaly: 4/B
+  nev4: Bujdosó Tamás
+- osztaly: 4/B
+  nev4: Csetneky Vilmos
+- osztaly: 4/B
+  nev4: Garamvölgyi Csanád
+- osztaly: 4/B
+  nev4: Kis Antal Bence
+- osztaly: 4/B
+  nev4: Kiss Máté Atilla
+- osztaly: 4/B
+  nev4: Kiss-Molnár Flóra Erzsébet
+- osztaly: 4/B
+  nev4: Ladovszki Zsófia
+- osztaly: 4/B
+  nev4: Lajkó Boglárka
+- osztaly: 4/B
+  nev4: Nagy Máté Mihály
+- osztaly: 4/B
+  nev4: Porkoláb Aida Fanni
+- osztaly: 4/B
+  nev4: Sipos Dóra
+- osztaly: 4/B
+  nev4: Szabó Viktória Dorka
+- osztaly: 4/B
+  nev4: Széll Hédi
+- osztaly: 4/B
+  nev4: Tóth Barnabás
+- osztaly: 4/B
+  nev4: Török Fanni
+- osztaly: 4/B
+  nev4: Vadász Eszter
+- osztaly: 4/B
+  nev4: Valkó Dominik
+- osztaly: 4/B
+  nev4: Varga Magor Zétény
+- osztaly: 5/B
+  nev5: Bajúsz Kata Napsugár
+- osztaly: 5/B
+  nev5: Baranyi Máté
+- osztaly: 5/B
+  nev5: Botos Milán László
+- osztaly: 5/B
+  nev5: Bujtor Barnabás
+- osztaly: 5/B
+  nev5: Fehér Marcell Roland
+- osztaly: 5/B
+  nev5: Hegedűs Richárd
+- osztaly: 5/B
+  nev5: Hlbocsányi Liza
+- osztaly: 5/B
+  nev5: Jani Milán Ádám
+- osztaly: 5/B
+  nev5: Kardos Anna Réka
+- osztaly: 5/B
+  nev5: Katona Izabella Jázmin
+- osztaly: 5/B
+  nev5: Kovács Andor
+- osztaly: 5/B
+  nev5: Laczi Helga
+- osztaly: 5/B
+  nev5: Lele Renáta
+- osztaly: 5/B
+  nev5: Nagy Ramóna Dorka
+- osztaly: 5/B
+  nev5: Oláh Bence Levente
+- osztaly: 5/B
+  nev5: Oltványi Zsolt Roland
+- osztaly: 5/B
+  nev5: Ördögh Roland
+- osztaly: 5/B
+  nev5: Pigniczki Milán
+- osztaly: 5/B
+  nev5: Reviczki Réka
+- osztaly: 5/B
+  nev5: Sarlai Armand
+- osztaly: 5/B
+  nev5: Siklósi Ádám Attila
+- osztaly: 5/B
+  nev5: Szántó Szófia
+- osztaly: 5/B
+  nev5: Tóth Attila
+- osztaly: 5/B
+  nev5: Tóth Gergő László
+- osztaly: 5/B
+  nev5: Tóth Olivér
+- osztaly: 5/B
+  nev5: Török Ádám
+- osztaly: 5/B
+  nev5: Török Máté
+- osztaly: 6/B
+  nev: Bába Martin
+- osztaly: 6/B
+  nev: Banai Szabolcs
+- osztaly: 6/B
+  nev: Bárkai Olivér Imre
+- osztaly: 6/B
+  nev: Bodó András
+- osztaly: 6/B
+  nev: Bodó Botond
+- osztaly: 6/B
+  nev: Bodó Nándor
+- osztaly: 6/B
+  nev: Boros Réka
+- osztaly: 6/B
+  nev: Branz Ákos Örs
+- osztaly: 6/B
+  nev: Csúcs Zsolt Rómeó
+- osztaly: 6/B
+  nev: Domonkos Jázmin
+- osztaly: 6/B
+  nev: Donka Fanni Petra
+- osztaly: 6/B
+  nev: Engi Regina Júlia
+- osztaly: 6/B
+  nev: Ézsiás Áron
+- osztaly: 6/B
+  nev: Fekete Szabolcs László
+- osztaly: 6/B
+  nev: Fenyvesi Bálint
+- osztaly: 6/B
+  nev: Gera Violetta
+- osztaly: 6/B
+  nev: Jámbor Levente
+- osztaly: 6/B
+  nev: Kajtor Csenge
+- osztaly: 6/B
+  nev: Kálmán Lili
+- osztaly: 6/B
+  nev: Kicsiny - Limpek Mór
+- osztaly: 6/B
+  nev: Nagy Richárd Péter
+- osztaly: 6/B
+  nev: Nagyistók Bálint
+- osztaly: 6/B
+  nev: Németh Lilien
+- osztaly: 6/B
+  nev: Pataki Csenge
+- osztaly: 6/B
+  nev: Pikó Antónia
+- osztaly: 6/B
+  nev: Szvoboda Márton
+- osztaly: 6/B
+  nev: Táborosi-Lázár Zoltán
+- osztaly: 6/B
+  nev: Terhes Dóra
+- osztaly: 6/B
+  nev: Tigyi Abigél
+- osztaly: 6/B
+  nev: Tóth Örs
+- osztaly: 6/B
+  nev: Varga Hunor Róbert
+- osztaly: 7/B
+  nev: Ádám Roland
+- osztaly: 7/B
+  nev: Bacsó Kira
+- osztaly: 7/B
+  nev: Benecz Tamás
+- osztaly: 7/B
+  nev: Holik Noémi
+- osztaly: 7/B
+  nev: Horváth Lili Anna
+- osztaly: 7/B
+  nev: Jakab Csenge
+- osztaly: 7/B
+  nev: Juhász Gergely
+- osztaly: 7/B
+  nev: Kasza Luca
+- osztaly: 7/B
+  nev: Kószó Mihály Dominik
+- osztaly: 7/B
+  nev: Kovács Kende
+- osztaly: 7/B
+  nev: Kovács Richárd
+- osztaly: 7/B
+  nev: Márkus Noémi
+- osztaly: 7/B
+  nev: Molnár Zalán
+- osztaly: 7/B
+  nev: Nagy Dávid
+- osztaly: 7/B
+  nev: Nagy Dóra Ilona
+- osztaly: 7/B
+  nev: Nagy Gergely Levente
+- osztaly: 7/B
+  nev: Nagy Kincső
+- osztaly: 7/B
+  nev: Pataki Laura
+- osztaly: 7/B
+  nev: Perei Noel Dominik
+- osztaly: 7/B
+  nev: Rózsa Levente
+- osztaly: 7/B
+  nev: Ruck Nóra
+- osztaly: 7/B
+  nev: Siklósi Endre
+- osztaly: 7/B
+  nev: Sinkó Jázmin
+- osztaly: 7/B
+  nev: Sipos Máté
+- osztaly: 7/B
+  nev: Szögi-Nagy Tamara
+- osztaly: 7/B
+  nev: Szűcs Botond
+- osztaly: 7/B
+  nev: Tóth Alexandra Jázmin
+- osztaly: 7/B
+  nev: Török Inez
+- osztaly: 8/B
+  nev: Bába Fanni
+- osztaly: 8/B
+  nev: Babó Dénes
+- osztaly: 8/B
+  nev: Banai Vivien
+- osztaly: 8/B
+  nev: Borsi Krisztián Sándor
+- osztaly: 8/B
+  nev: Csányi Bertalan
+- osztaly: 8/B
+  nev: Engi Dorka Ágnes
+- osztaly: 8/B
+  nev: Farkas Dominika Nóra
+- osztaly: 8/B
+  nev: Guiot Jean-Michel Simon
+- osztaly: 8/B
+  nev: Gyémánt Boldizsár
+- osztaly: 8/B
+  nev: Kocsis Milán
+- osztaly: 8/B
+  nev: Kohári Zalán Ferenc
+- osztaly: 8/B
+  nev: Kovács Máté
+- osztaly: 8/B
+  nev: Krisztin Róbert Péter
+- osztaly: 8/B
+  nev: Lehőcz Lili Janka
+- osztaly: 8/B
+  nev: Lele Marcell
+- osztaly: 8/B
+  nev: Lele Zétény
+- osztaly: 8/B
+  nev: Martonosi Lara
+- osztaly: 8/B
+  nev: Molnár Ádám István
+- osztaly: 8/B
+  nev: Nagy Emília
+- osztaly: 8/B
+  nev: Pigniczki Nimród Zoltán
+- osztaly: 8/B
+  nev: Révész Letícia
+- osztaly: 8/B
+  nev: Szabó Csongor Gyula
+- osztaly: 8/B
+  nev: Szabó Nóra Julianna
+- osztaly: 8/B
+  nev: Széll Adél
+- osztaly: 8/B
+  nev: Szvoboda Sára
+- osztaly: 8/B
+  nev: Táborosi-Lázár Miklós

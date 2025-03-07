@@ -1,0 +1,22 @@
+{{#each global.news02}}
+
+<div class="card">
+    <div class="card-divider">
+        <strong>{{title}}</strong>
+    </div>
+    <div class="card-section">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12 medium-4">
+                <h5>
+                    <img class="thumbnail" src="{{root}}assets/img/hirfolyam/{{img}}">
+                </h5>
+            </div>
+            <div class="cell small-12 medium-8">
+                <p>▶️ {{school}}</p>
+                {{> news-content hir="news02"}}
+                
+            </div>
+        </div>
+    </div>
+</div>
+{{/each}}

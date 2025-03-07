@@ -1,0 +1,18 @@
+<table class="hover">
+    <thead>
+        <tr>
+            <td>Szakkör neve</td>
+            <td>Osztály</td>
+            <td>Időpont</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each szakkorokps}}
+        <tr>
+            <td>{{this.szakkor}}</td>
+            <td>{{this.osztaly}}</td>
+            <td>{{this.ora}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

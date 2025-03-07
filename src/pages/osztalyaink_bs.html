@@ -1,0 +1,73 @@
+---
+title: Osztályaink
+description: Lorem ipsum.
+school_ps: Szegedi Petőfi Sándor Általános Iskola
+school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
+<div class="cell medium-9 medium-cell-block-y">
+    {{>head_school_year_ps_bs school="bs"}}
+    <h5 class="text-center">{{title}}</h5>
+    <hr style="height:1px; border:none; color:#3fa9f5; background-color:#3fa9f5; margin-top: -0.5px;">
+    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">
+        <!-- 1. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <!-- Accordion tab title -->
+            <a href="#1b" class="accordion-title text-center">1. osztály</a>
+            <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+            <div class="accordion-content" id="1b" data-tab-content>
+                {{> osztaly_1b}}
+            </div>
+        </li>
+        <!-- 2. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#2b" class="accordion-title text-center">2. osztály</a>
+            <div class="accordion-content" id="2b" data-tab-content>
+                {{> osztaly_2b}}
+            </div>
+        </li>
+        <!-- 3. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#3b" class="accordion-title text-center">3. osztály</a>
+            <div class="accordion-content" id="3b" data-tab-content>
+                {{> osztaly_3b}}
+            </div>
+        </li>
+        <!-- 4. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#4b" class="accordion-title text-center">4. osztály</a>
+            <div class="accordion-content" id="4b" data-tab-content>
+                {{> osztaly_4b}}
+            </div>
+        </li>
+        <!-- 5. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#5b" class="accordion-title text-center">5. osztály</a>
+            <div class="accordion-content" id="5b" data-tab-content>
+                {{> osztaly_5b}}
+            </div>
+        </li>
+        <!-- 6. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#6b" class="accordion-title text-center">6. osztály</a>
+            <!-- fej -->
+            <div class="accordion-content" id="6b" data-tab-content>
+                {{> osztaly_6b}}
+            </div>
+        </li>
+        <!-- 7. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#7b" class="accordion-title text-center">7. osztály</a>
+            <div class="accordion-content" id="7b" data-tab-content>
+                {{> osztaly_7b}}
+            </div>
+        </li>
+        <!-- 8. osztály -->
+        <li class="accordion-item" data-accordion-item>
+            <a href="#8b" class="accordion-title text-center">8. osztály</a>
+            <div class="accordion-content" id="8b" data-tab-content>
+                {{> osztaly_8b}}
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,19 +1,327 @@
-{{!-- This is the base layout for your project, and will be used on every page unless specified. --}}
-
+{{!-- This is the base layout for your project, and will be used on every page. --}}
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <!-- Cache cleaner eleje -->
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="expires" content="Tue, 12 Dec 2023 15:00:00 GMT" />
+    <!-- Cache cleaner vége -->
+    <title>Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskolája</title>
+    <link rel="shortcut icon" type="image/x-icon" href="{{root}}assets/img/psbs_favicon.ico" />
     <link rel="stylesheet" href="{{root}}assets/css/app.css">
-  </head>
+    <link rel="stylesheet" href="{{root}}assets/css/motion-ui.css">
+    <link rel="stylesheet" href="{{root}}assets/fontawesome/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin="">
+    </script>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent-->
+    <script async="" type="text/javascript">
+    window.cookieconsent_options = { "message": "Weboldalunk használatával jóváhagyod a cookie-k használatát a cookie-kkal kapcsolatos irányelv értelmében.", "dismiss": "Bezár", "learnMore": "További információk.", "link": null, "theme": "dark-bottom" };
+    </script>
+    <script async="" type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js">
+    </script>
+    <!-- Cookie pop up vége-->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-N2KS43N');</script>
+    <!-- End Google Tag Manager -->
+</head>
+
 <body>
+    <style type="text/css">
+    /* .container {
+      @include xy-grid-container;
 
-{{!-- Pages you create in the src/pages/ folder are inserted here when the flattened page is created. --}}
-{{> body}}
+    } */
 
-<script src="{{root}}assets/js/app.js"></script>
+
+    #fb {
+        background-color: #3b5998;
+        box-shadow: 0 -5px 0 #3b5998, 0 5px 0 #3b5998;
+    }
+
+    #kreta {
+        background-color: #22aed1;
+        box-shadow: 0 -1.7px 0 #22aed1, 0 1.7px 0 #22aed1;
+    }
+    </style>
+    <!-- START Top Bar small -->
+    <div class="data-sticky-container show-for-small-only" data-sticky-container>
+        <div class="sticky" data-sticky data-sticky-on="small" data-options="marginTop:0;" style="width:100%">
+            <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+                <div class="title-bar-left">
+                    <button class="menu-icon" id="menuicon" type="button" data-toggle></button>
+                    <strong>Menü</strong><strong>│</strong><a href="{{root}}index.html"><i class="fas fa-home fa-lg"></i></a>
+                </div>
+                <div class="title-bar-right">
+                    <a href=https://www.facebook.com/petofiszeged target="_blank" id="fb" style="color: white"><i class="fab fa-facebook-f">&thinsp;</i><strong>PS</strong></a>&emsp;
+                    <a href=https://www.facebook.com/balintszeged/ target="_blank" id="fb" style="color: white"><i class="fab fa-facebook-f fa-lg">&thinsp;</i><strong>BS</strong></a>
+                </div>&emsp;
+                <a href="https://klik200218001.e-kreta.hu" target="_blank" id="kreta" style="color: white; line-height: 1.5rem">
+                    <img src="{{root}}assets/img/kreta_logo_small.png">&thinsp;<strong>PS</strong></a>&emsp;
+                <a href="https://klik200218003.e-kreta.hu" target="_blank" id="kreta" style="color: white; line-height: 1.5rem"><img src="{{root}}assets/img/kreta_logo_small.png">
+                    <strong>BS</strong></a>&thinsp;
+            </div>
+        </div>
+    </div>
+    <!-- END Top Bar small -->
+    <span class="show-for-small-only">
+        <p></p>
+    </span>
+    <div class="grid-container">
+        <div class="grid-y medium-grid-frame">
+            <span class="show-for-large">
+                <img src="{{root}}assets/img/csik.jpg">
+            </span>
+            <h5 class="text-center show-for-large" style="margin-top: -1rem">
+                <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_ps.jpg" style="margin-top: 1.2rem"></a>
+                <strong>A <font color="#3fa9f5">Szegedi Petőfi Sándor Általános Iskola</font> és <font color="#f7931e">Bálint
+                        Sándor Tagiskolája</font> honlapja</strong>
+                <a href="{{root}}index.html"><img src="{{root}}assets/img/logo_bs.jpg" style="margin-top: 1.2rem"></a>
+            </h5>
+            <p class="text-center show-for-large" style="margin-top: -2.2rem">
+                Nyitva tartás: 7:00–18:00 óráig&emsp;|&emsp;Az intézmény fenntartója a Szegedi Tankerületi Központ
+            </p>
+            <span class="show-for-large">
+                <img src="{{root}}assets/img/csik_bottom.jpg" style="margin-top: -2rem; margin-left: 7px; padding-right: 20px" ;>
+            </span>
+            <style type="text/css">
+            .menutd {
+                font-size: 0.9rem;
+            }
+            </style>
+            <div class="cell medium-auto medium-cell-block-container">
+                <div class="grid-x grid-padding-x">
+                    <div class="cell medium-3 medium-cell-block-y" id="becsuk">
+                        <div class="top-bar show-for-small" id="example-animated-menu" data-animate="hinge-in-from-top hinge-out-from-top">
+                            <div class="top-bar-left"> {{> left_menu}}
+                            </div>
+                        </div>
+                        <div class="show-for-large-only"> {{> left_menu}}
+                        </div>
+                    </div>
+                    {{!-- 3 hasábos sliderrel --}}
+                    {{#ifpage
+                    'index'
+                    }}
+                    {{> startdiv}}
+                    {{> head_slider}}
+                    {{> startdiv_search}}
+                    {{> body}}
+                    {{> rightcolumn_search}}
+                    {{/ifpage}}
+                    {{#ifpage
+                    'hirfolyam_2016_17'
+                    'hirfolyam_2017_18'
+                    'hirfolyam_2018_19'
+                    'hirfolyam_2019_20'
+                    'hirfolyam_2020_21'
+                    'hirfolyam_2021_22'
+                    'hirfolyam_2022_23'
+                    }}
+                    {{> startdiv}}
+                    {{> head_slider}}
+                    {{> body}}
+                    {{> rightcolumn_without_search}}
+                    {{/ifpage}}
+                    {{!-- 3 hasábos slider nélkül --}}
+                    {{#ifpage
+                    'kmnew'
+                    'felekezetek_bemutatkozasa'
+                    'csengetesi_rend_ps_bs'
+                    'taneszkozok_ps'
+                    'taneszkozok_bs'
+                    'iskolankat_segito_kulsos_munkatarsak'
+                    'felveteli_tajekoztato'
+                    'beiratkozaskor_leadando_nyomtatvanyok'
+                    'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+                    'beiratkozashoz_szukseges_adatok_elozetes_eletronikus_bekuldese'
+                    'iskolahivagato_ps_bs_kozzetetel'
+                    'teritesi_dij_tandij'
+                    'nyilvanos_vizsgalat'
+                    'nyitvatartas'
+                    'esemenynaptar_ps_bs'
+                    'evismetles'
+                    'fentart_altal_eng_oszt_csop'
+                    'egyeni_fejlesztes_ps_bs_kozzetetel'
+                    'egyeni_fejlesztes_ps_bs'
+                    'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+                    'szaktargyi_korrepetalasok_ps_bs'
+                    'hetvegi_hazi_feladatok_dolgozatok_szabalyai'
+                    'tanulmanyok_alatti_vizsgak_tervezett_rendje'
+                    'osztalyok_szama_es_tanulok_letszama'
+                    'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+                    'szuloi_ertekezletek_ps_bs'
+                    'fogadoorak_ps_bs'
+                    'egyeni_fogadoorak_ps_bs'
+                    'tanev_rendje_ps_bs'
+                    'ntp'
+                    'mi_iskolank_ps_bs'
+                    'tiop_2008_ps_bs'
+                    'alapitvanyok_ps_bs'
+                    'letoltheto_nyomtatvanyok'
+                    'e_ugyintezes'
+                    'kek_ter_program'
+                    'befiz_idopontok_ngsz'
+                    'etkezesi_teritesi_dijak'
+                    'etkezesi_teritesi_dijak_kozzetetel'
+                    'iskolakert'
+                    'elerhetosegeink_helyunk_a_terkepen_ps_bs'
+                    'regisztracios_form'
+                    'successfull_registration'
+                    'iskolahivogato_ps'
+                    'iskolahivogato_bs_beiratkozas'
+                    'covid_intezkedesi_terv_2022_osz'
+                    '16_17_kozott'
+                    '17_18_kozott'
+                    'osztalyaink_ps'
+                    'osztalyaink_bs'
+                    'tankonyvek_bs'
+                    'tankonyvek_ps'
+                    }}
+                    {{> startdiv}}
+                    {{> body}}
+                    {{> rightcolumn_without_search}}
+                    {{/ifpage}}
+                    {{!-- 2 hasábos slider nélkül --}}
+                    {{#ifpage
+                    '2016_09_01_tanevnyito'
+                    'tanevnyito'
+                    'sitemap'
+                    'elerhetosegeink'
+                    'bemutatkozas_ps_bs'
+                    'tanaraink_ps_bs'
+                    'hitoktatok_ps_bs'
+                    'pedagogiai_program'
+                    'szmsz_ps_bs'
+                    'kollektiv_szerzodes_ps_bs'
+                    'imip'
+                    'hazirend_ps_bs'
+                    'gyermekvedelem'
+                    'regisztralt_tehetsegpont'
+                    'keve_program'
+                    'elsos_szulok_tajekoztatasa_kozetkeztetesrol'
+                    'befiz_ingyen_kedvezm_ngsz_tajekoztato'
+                    'ps_bs_beiratkozasi_korzet'
+                    'tajekoztato_beiratkozasrol_kozzetetel'
+                    'etkezesi_teritesi_dijak'
+                    'intezmenyi_tanfelugyelet_eredmenye_2018'
+                    'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
+                    'pedagogus_tanfelugyeletenek_eredmenye_2016'
+                    'szmsz_ps_bs_kozzetetel'
+                    'hazirend_ps_bs_kozzetetel'
+                    'pedagogiai_program_kozzetetel'
+                    'kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata'
+                    'pedagogusok_iskolai_vegzettsege'
+                    'noksosok_szama_szakkepzettsege'
+                    'kompetenciameres_eredmenyei'
+                    'szakkorok_ps_bs_kozzetetel'
+                    'osztalyozo_vizsgak_kovetelmenyei'
+                    'osztalyozo_vizsgak_ertekelesi_rendje'
+                    'tajekoztato_beiratkozasrol'
+                    'engedelyezett_osztalyok_szama_ps_bs'
+                    'orarendek_ps_bs'
+                    'szakkorok_ps_bs'
+                    'versenyeredmenyek_2023_24_ps_bs'
+                    'versenyeredmenyek_2022_23_ps_bs'
+                    'versenyeredmenyek_2021_22_ps_bs'
+                    'versenyeredmenyek_2020_21_ps_bs'
+                    'versenyeredmenyek_2019_20_ps_bs'
+                    'versenyeredmenyek_2018_19_ps_bs'
+                    'versenyeredmenyek_2017_18_ps_bs'
+                    'versenyeredmenyek_2016_17_ps_bs'
+                    'versenyeredmenyek_2015_16_ps_bs'
+                    'versenyeredmenyek_2014_15_ps_bs'
+                    'fooldal_2017_18_ps'
+                    'fooldal_2017_18_bs'
+                    'fooldal_2019_20_ps'
+                    'fooldal_2018_19_ps'
+                    'fooldal_2018_19_bs'
+                    'fooldal_2019_20_ps'
+                    'fooldal_2019_20_bs'
+                    'fooldal_2020_21_ps'
+                    'fooldal_2020_21_bs'
+                    'fooldal_2021_22_ps'
+                    'fooldal_2021_22_bs'
+                    'fooldal_2022_23_ps'
+                    'fooldal_2022_23_bs'
+                    'fooldal_2023_24_ps'
+                    'fooldal_2023_24_bs'
+                    'fooldal_2024_25_ps'
+                    'fooldal_2024_25_bs'
+                    'galeria_2017_18_ps'
+                    'galeria_2017_18_bs'
+                    'galeria_2018_19_ps'
+                    'galeria_2018_19_bs'
+                    'galeria_2019_20_ps'
+                    'galeria_2019_20_bs'
+                    'galeria_2020_21_ps'
+                    'galeria_2020_21_bs'
+                    'galeria_2021_22_ps'
+                    'galeria_2021_22_bs'
+                    'galeria_2022_23_ps'
+                    'galeria_2022_23_bs'
+                    'galeria_2023_24_ps'
+                    'galeria_2023_24_bs'
+                    'galeria_2024_25_ps'
+                    'galeria_2024_25_bs'
+                    'EFOP_4_1_3'
+                    'hatartalanul_palyazataink'
+                    'digitalis_temahet'
+                    'okoiskola'
+                    'comenius_projekt'
+                    'leendo_elsosok_szulei_reszere'
+                    'tanuloknak_es_torv_kepviseloknek'
+                    'munkavallaloknak'
+                    'allaspalyazoknak'
+                    'szerzodeses_partnereknek'
+                    'impresszum'
+                    'hetedhet_orszagon_tul_regisztracio'
+                    'hetedhet_orszagon_tul_sikeres_regisztracio'
+                    'szep_beszed_regisztracio'
+                    'szep_beszed_sikeres_regisztracio'
+                    'covid_intezkedesi_terv_2022_tavasz'
+                    'felekezetek_reformatus_ps'
+                    'felekezetek_reformatus_bs'
+                    'felekezetek_katolikus_ps'
+                    'felekezetek_katolikus_bs'
+                    'felekezetek_baptista'
+                    'adatkezelesi_tajekoztato_tankerulet'
+                    'adatkezelesi_tajekoztato_panaszok'
+                    'adatkezelesi_szabalyzat_intezmeny'
+                    'adatkezelesi_szabalyzat_bs_kamerarendszer'
+                    'psai_altalanos_intezmenyvez_helyettes'
+                    'psai_szakmai_intezmenyvez_helyettes'
+                    'bemutatkozas_ps_beiratkozas'
+                    'bemutatkozas_bs_beiratkozas'
+                    'tajekoztato_beiratkozasrol_szuloknek_2022'
+                    'tajekoztato_beiratkozasrol_szuloknek_2023'
+                    'szakszervezeti_reprezentativitas_eredmeny'
+                    'adatkezelesi_tajekoztató_hit_es_erkolcstan'
+                    'balint_sandor_tagiskola_tagintezmenyvezeto'
+                    'hetedhet_orszagon_tul_nyilatkozat_feltoltes'
+                    'szep_beszed_nyilatkozat_feltoltes'
+                    'reg'
+                    }}
+                    {{> body}}
+                    {{/ifpage}}
+                    <script src="{{root}}assets/js/vendor.js"></script>
+                    <script src="{{root}}assets/js/docs.js"></script>
+                    <script src="{{root}}assets/js/app.js"></script>
+                    <script src="{{root}}assets/js/print.js"></script>
 </body>
+
 </html>

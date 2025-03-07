@@ -1,0 +1,32 @@
+---
+title: Egyéni fogadóórák
+description: Lorem ipsum.
+school_ps: Szegedi Petőfi Sándor Általános Iskola
+school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
+<div class="cell medium-9 medium-cell-block-y">
+    {{>tabs_ul}}
+    {{>tabs_content1}}
+    {{>head_school_year_ps_bs school="ps"}}
+    <h5 class="text-center">{{title}}<br /></h5>
+    <hr />
+    <div class="grid-x grid-margin-x">
+        <div class="cell small-12">
+            <h6 class="text-center">Tanítók<br /></h6>
+            {{>egyeni_fogadoora_tanito_ps}}
+            <h6 class="text-center">Tanárok<br /></h6>
+            {{>egyeni_fogadoora_tanar_ps}}
+        </div>
+    </div>
+    {{>tabs_content2}}
+    {{>head_school_year_ps_bs school="bs"}}
+    <h5 class="text-center">{{title}}</h5>
+    <hr />
+    <div class="grid-x grid-margin-x">
+        <div class="cell small-12">
+            {{>egyeni_fogadoora_tanar_bs}}
+        </div>
+    </div>
+    {{> tabs_content3}}
+</div>

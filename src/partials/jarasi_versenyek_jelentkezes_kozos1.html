@@ -1,0 +1,40 @@
+<style>
+#jarasi-verseny td {
+    padding: 0.4rem;
+    line-height: 1.3rem;
+}
+</style>
+<div class="grid-x grid-margin-x">
+    <div class="cell auto"></div>
+    <div class="cell small-12 large-8">
+        <table id="jarasi-verseny">
+            <!-- <tr>
+                <td><strong>Ünnepélyes megnyitó:</strong></td>
+                <td>2024. április XX. (csütörtök) 13:30</td>
+            </tr> -->
+            <tr>
+                {{#each global.jarasiverseny.huszonot}}
+                <td><strong>A verseny
+                        időpontja:</strong></td>
+                <td>{{datum}}</td>
+            </tr>
+            <tr>
+                <td><strong>Helyszíne:</strong></td>
+                <td>{{helyszin}}<br>{{cim}}<br>
+                    Tel.: <a href="tel:{{telegybe}}">{{tel}}</a> <br>
+                    <a href="mailto:{{mail}}">{{mail}}</a>
+                </td>
+                {{/each}}
+            </tr>
+            <tr>
+                <td><strong>Eredményhirdetés:</strong></td>
+                <td>körülbelül 16:30 és 17 óra között<br>a Petőfi-telepi Művelődési Ház
+                    színháztermében.</td>
+            </tr>
+        </table>
+    </div>
+    <div class="cell auto"></div>
+</div>
+<p class="data-magellan">A nevezéseket <strong>2025. február 21-ig</strong> a lentebb található regisztrációs résznél
+    (<a href="#itt">itt</a>) kérjük beküldeni:
+</p>

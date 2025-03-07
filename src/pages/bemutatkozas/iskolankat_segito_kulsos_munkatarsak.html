@@ -1,0 +1,28 @@
+<div class="cell medium-12 large-9">
+    <h5 class="text-center" style="margin-bottom: 1.1rem">
+        Iskolánkat segítő külsős munkatársak
+    </h5>
+    {{#each global.iskolai_segitok}}
+    <div class="card">
+        <div class="card-divider" style="margin: 0 auto; text-align: center;">
+            <strong>{{job}}</strong>
+        </div>
+        <div class=" card-section">
+            <p class="text-center">
+                <em>{{name}}</em><br>
+                <i class="fa fa-phone-square" style="color: #FFA500;"></i>&ensp;<a href="tel:{{tel1}}">{{tel2}}</a><br>
+                <i class="fa fa-envelope" style="color: #FFA500;"></i>
+                <a href="mailto:{{mail}}">
+                    {{mail}}</a>
+            </p>
+            <div class="grid-x grid-margin-x">
+                <div class="cell auto"></div>
+                <div class="cell small-12 large-10">
+                    {{>md_iskolai_segitok segito=job}}
+                </div>
+                <div class="cell auto"></div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

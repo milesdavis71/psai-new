@@ -1,0 +1,16 @@
+<table class="hover">
+    <thead>
+        <tr>
+            <td>Tantárgy</td>
+            <td>Időpont</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each global.szaktargyi_korrepetalas.ps}}
+        <tr>
+            <td>{{this.tantargy}}</td>
+            <td>{{this.idopont}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

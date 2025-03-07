@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+</head>
+
+<body></body>
+
+</html>
+<script>
+  var n =
+    "Balog Alex\nBarta Gergő Norbert\nBerényi Fanni Margit\nBorbás Bertalan\nBreszka Natasa\nCsászár Kornél\nÉder Barna\nFehér Izabella\nGaramvölgyi Gellért\nGodó Réka\nGyivicsán Zoé\nHadnagy Boglárka\nHéger Viktor\nHorváth Amanda\nHovanyec Ádám\nKormányos Emma Cecília\nKovács Balázs Martin\nLosonczi-Tóth Eszter\nNagy Noel\nNémeth Ádám Péter\nPapp Csongor\nPetró Nimród\nRácz Zita\nSimon Bella Fruzsina\nSóki Izabella\nSzakács János";
+
+  function tablazatFelbont(n) {
+    str = n.split("\n");
+    return str;
+  }
+
+  function tablazatKiir(str) {
+    document.write("<table>");
+    for (let i = 0; i < str.length; i++) {
+      document.write("<tr>");
+
+      document.write("<td>" + str[i] + "</td>");
+
+      document.write("</td>");
+    }
+    document.write("</table>");
+  }
+
+  var noFelbontot = tablazatFelbont(n);
+  tablazatKiir(noFelbontot);
+
+  document.write("</table>");
+  // Requiring fs module in which
+  // writeFile function is defined.
+  const fs = require("fs");
+
+  // Data which will write in a file.
+  let data = noFelbontot;
+
+  // Write data in 'Output.txt' .
+  fs.writeFile("output.txt", data, (err) => {
+    // In case of a error throw err.
+    if (err) throw err;
+  });
+</script>

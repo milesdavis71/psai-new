@@ -1,0 +1,17 @@
+<div class="cell medium-9 medium-cell-block-y">
+
+    {{>tabs_ul}}
+    {{>tabs_content1}}
+    <div class="responsive-embed">
+        <div id="example1" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/versenyeredmenyek/versenyeredmenyek_ps_2015_16.pdf", "#example1");</script>
+    </div>
+    {{>tabs_content2}}
+    <div class="responsive-embed">
+        <div id="example2" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/versenyeredmenyek/versenyeredmenyek_bs_2015_16.pdf", "#example2");</script>
+    </div>
+    {{>tabs_content3}}
+</div>

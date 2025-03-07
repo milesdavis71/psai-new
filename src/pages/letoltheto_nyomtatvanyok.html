@@ -1,0 +1,32 @@
+<div class="cell medium-12 large-9">
+    <h5 class="text-center">Letölthető nyomtatványok</h5>
+    <script>
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    </script>
+    <div class="grid-x grid-margin-x">
+        <div class="cell auto"></div>
+        <div class="cell small-12">
+            <hr style="margin-top: 0.5rem" />
+            <table>
+                <tbody>
+                    {{#each global.download_pdf}}
+                    <tr>
+                        <td>
+                            <i class=" fas fa-file-pdf fa-lg" style="color: gray"></i>
+                        </td>
+                        <td>
+                            {{title}}
+                        </td>
+                        <td style="width:15%">
+                            <a href="{{root}}assets/letoltheto_nyomtatvanyok/{{url}}" target="_blank" download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+                        </td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+        <div class="cell auto"></div>
+    </div>
+</div>

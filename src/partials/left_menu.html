@@ -1,0 +1,175 @@
+<style>
+.current a {
+    color: #FFA500;
+    line-height: 1.3rem;
+
+}
+
+.accordion-title {
+    box-shadow: inset 0 -1px #a2e7f6;
+}
+
+.accordion-menu a {
+    box-shadow: inset 0 -1px #a2e7f6;
+    line-height: 1.3rem;
+}
+</style>
+<ul class="vertical menu accordion-menu" data-accordion-menu>
+    <!-- 2022 július 11-ig -->
+    <!-- <li {{#ifpage 'balint_sandor_tagiskola_tagintezmenyvezeto' }} class="current" {{/ifpage}}>
+    <a href="{{root}}palyazati_kiirasok/balint_sandor_tagiskola_tagintezmenyvezeto.html">&thinsp;<i
+        class="fas fa-exclamation"></i>&ensp;Tagintézményvezetői
+      pályázati
+      kiírás</a>
+
+  </li> -->
+    <li {{#ifpage 'index' }} class="current" {{/ifpage}} style="padding: 0.3rem 0rem;">
+        <a href="{{root}}index.html"><i class="fas fa-home fa-lg"></i>&thinsp;&thinsp;Főoldal/Híreink</a>
+    </li>
+    <li>
+        <a href="#">&thinsp;&thinsp;<i class="fas fa-map-marker-alt"></i>&thinsp;&thinsp;Elérhetőségeink</a>
+        <ul class="menu vertical nested {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}">
+            <li {{#ifpage 'elerhetosegeink' }} class="current" {{/ifpage}}>
+                <a href="{{root}}bemutatkozas/elerhetosegeink.html">Címek, e-mailcímek, telefonszámok</a>
+            </li>
+            <li {{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs' }} class="current" {{/ifpage}}>
+                <a href="{{root}}elerhetosegeink_helyunk_a_terkepen_ps_bs.html">Helyünk a térképen {{>label}}</a>
+            </li>
+        </ul>
+    </li>
+    {{>menu_bemutatkozas}}
+    <li>
+        <a href="#">&thinsp;<i class="fas fa-utensils"></i>&ensp;Étkezési információk</a>
+        <ul class="menu vertical nested
+      {{#ifpage
+        'kozetkeztetes'
+        'kozetkeztetes-etlap'
+        'elsos_szulok_tajekoztatasa_kozetkeztetesrol'
+        'befiz_idopontok_arak_ps_bs'
+        'befiz_idopontok_ngsz'
+        'befiz_idopontok_ngsz_unnepi'
+        'befiz_ingyen_kedvezm_ngsz_tajekoztato'
+        'etkezesi_teritesi_dijak'
+      }}is-active{{/ifpage}}">
+            <li {{#ifpage 'befiz_idopontok_ngsz' }} class="current" {{/ifpage}}>
+                <a href="{{root}}befiz_idopontok_ngsz.html">Befizetési időpontok az NGSZ-nél</a>
+            </li>
+            <li {{#ifpage 'etkezesi_teritesi_dijak' }} class="current" {{/ifpage}}>
+                <a href="{{root}}etkezesi_teritesi_dijak.html">Étkezési térítési díjak</a>
+            </li>
+            <li {{#ifpage 'kozetkeztetes' }} class="current" {{/ifpage}}>
+                <a href="http://www.ngsz.hu/index.php/kozetkeztetes" target="_blank">Közétkeztetés – NGSZ weboldal</a>
+            </li>
+            <li {{#ifpage 'www.ngsz.hu' }} class="current" {{/ifpage}}>
+                <a href="https://ngsz.hu/2021/01/01/kozetkeztetes/#kozetkeztetes-etlap" target="_blank">Közétkeztetés –
+                    étlapok</a>
+            </li>
+            <!-- <li {{#ifpage 'elsos_szulok_tajekoztatasa_kozetkeztetesrol' }} class="current" {{/ifpage}}>
+    <a href="{{root}}elsos_szulok_tajekoztatasa_kozetkeztetesrol.html">Leendő elsős szülők tájékoztatása
+        közétkeztetésről</a>
+</li>
+<li {{#ifpage 'befiz_ingyen_kedvezm_ngsz_tajekoztato' }} class="current" {{/ifpage}}>
+    <a href="{{root}}befiz_ingyen_kedvezm_ngsz_tajekoztato.html">Tájékoztatás ingyenes és kedvezményes
+        étkezési<br>térítési díj benyújtásáról</a>
+</li> -->
+            <!-- <li {{#ifpage 'befiz_idopontok_arak_ps_bs'}} class="current" {{/ifpage}}>
+        <a href="{{root}}befiz_idopontok_arak_ps_bs.html">Befizetési időpontok, árak {{>label}}</a>
+      </li> -->
+        </ul>
+    </li>
+    {{>menu_kozzeteteli_lista}}
+    {{>menu_beiratkozas_felvetel}}
+    <li {{#ifpage 'tanev_rendje_ps_bs' }} class="current" {{/ifpage}}>
+        <a href="{{root}}tanev_rendje_ps_bs.html">&thinsp;<i class="fas fa-calendar-alt"></i>&thinsp;&thinsp;&thinsp;A
+            tanév rendje</a>
+    </li>
+    <li>
+        <a href="#"><i class="fas fa-users-class"></i>&ensp;Osztályaink
+        </a>
+        <ul class="menu vertical nested
+    {{#ifpage
+        'osztalyaink_ps'
+        'osztalyaink_bs'
+        }}
+        is-active
+    {{/ifpage}}">
+            <li {{#ifpage 'osztalyaink_ps' }} class=" current" {{/ifpage}}><a href="{{root}}osztalyaink_ps.html">Osztályaink
+                    –
+                    Székhely</a>
+            </li>
+            <li {{#ifpage 'osztalyaink_bs' }} class=" current" {{/ifpage}}><a href="{{root}}osztalyaink_bs.html">Osztályaink –
+                    Tagiskola</a>
+            </li>
+        </ul>
+    </li>
+    <!-- <li {{#ifpage 'osztalyaink_ps_bs' }} class="current" {{/ifpage}}>
+    <a href="{{root}}osztalyaink_ps_bs.html"><i class="fas fa-users-class"></i>&ensp;Osztályaink
+      {{> label}} </a>
+  </li> -->
+    <li {{#ifpage 'orarendek_ps_bs' }} class="current" {{/ifpage}}>
+        <a href="{{root}}orarendek_ps_bs.html">&thinsp;<i class="fas fa-table"></i>&ensp;Órarendek {{> label}} </a>
+    </li>
+    <li>
+        <a href="#"><i class="fas fa-users"></i>&ensp;Szülői értekezletek, fogadóórák</a>
+        <ul class="menu vertical nested {{#ifpage 'szuloi_ertekezletek_ps_bs' 'fogadoorak_ps_bs' 'egyeni_fogadoorak_ps_bs'}}is-active{{/ifpage}}">
+            <li {{#ifpage 'szuloi_ertekezletek_ps_bs' }} class="current" {{/ifpage}}>
+                <a href="{{root}}szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html">Szülői értekezletek {{>label}}</a>
+            </li>
+            <li {{#ifpage 'fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
+                <a href="{{root}}szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html">Fogadóórák {{>label}}</a>
+            </li>
+            <li {{#ifpage 'egyeni_fogadoorak_ps_bs' }} class="current" {{/ifpage}}>
+                <a href="{{root}}szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html">Egyéni fogadóórák {{>label}}</a>
+            </li>
+        </ul>
+    </li>
+    {{> menu_tanoran_kivuli_foglalkozasok}}
+    <!--     <li>
+        <a href="#">&thinsp;&thinsp;<i class="fas fa-child"></i>&ensp;Délutáni felügyelet
+        </a>
+        <ul class="menu vertical nested
+    {{#ifpage
+        '16_17_kozott'
+        '17_18_kozott'
+        }}
+        is-active
+    {{/ifpage}}">
+            <li {{#ifpage '16_17_kozott' }} class=" current" {{/ifpage}}><a href="{{root}}delutani_gyermekfelugyelet/16_17_kozott.html">16.00–17.00 közötti gyermekfelügyelet</a>
+            </li>
+            <li {{#ifpage '17_18_kozott' }} class=" current" {{/ifpage}}><a href="{{root}}delutani_gyermekfelugyelet/17_18_kozott.html">17.00–18.00
+                    közötti gyermekfelügyelet</a>
+            </li>
+        </ul>
+    </li> -->
+    {{> menu_versenyeredmenyek}}
+    {{> menu_galeriak}}
+    {{> menu_palyazatok}}
+    <li {{#ifpage 'alapitvanyok_ps_bs' }} class="current" {{/ifpage}}>
+        <a href="{{root}}alapitvanyok_ps_bs.html"><i class="fas fa-hands"></i>&thinsp;&thinsp;Alapítványok {{>label}}</a>
+    </li>
+    <li {{#ifpage 'letoltheto_nyomtatvanyok' }} class="current" {{/ifpage}}>
+        <a href="{{root}}letoltheto_nyomtatvanyok.html">&thinsp;&thinsp;<i class="fas fa-file-download"></i>&ensp;Letölthető
+            nyomtatványok</a>
+    </li>
+    <li>
+        <a href="#">&thinsp;<i class="fas fa-at"></i>&ensp;e-Ügyintézés</a>
+        <ul class="menu vertical nested {{#ifpage 'leendo_elsosok_szulei_reszere' 'e_ugyintezes' ''}}is-active{{/ifpage}}">
+            <li {{#ifpage 'leendo_elsosok_szulei_reszere' }} class="current" {{/ifpage}}>
+                <a href="{{root}}e_ugyintezes/leendo_elsosok_szulei_reszere.html">Leendő elsősök szülei részére PS/BS</a>
+            </li>
+            <li {{#ifpage 'e_ugyintezes' }} class="current" {{/ifpage}}>
+                <a href="{{root}}e_ugyintezes/e_ugyintezes.html">Általános tájékoztató</a>
+            </li>
+            <li {{#ifpage '' }} class="current" {{/ifpage}}>
+                <a href="https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx" target="_blank">A KRÉTA rendszer használata</a>
+            </li>
+        </ul>
+    </li>
+    {{> menu_gdpr}}
+    <li {{#ifpage 'kk.gov.hu' }} class="current" {{/ifpage}}>
+        <a href="http://kk.gov.hu/szeged" target="_blank">&thinsp;&thinsp;<i class="fas fa-building"></i>&thinsp;&thinsp;Intézményfenntartó</a>
+    </li>
+    <li {{#ifpage 'impresszum' }} class="current" {{/ifpage}}>
+        <a href="{{root}}impresszum.html"><i class="fas fa-user-cog"></i>&thinsp;&thinsp;Impresszum</a>
+    </li>
+</ul>

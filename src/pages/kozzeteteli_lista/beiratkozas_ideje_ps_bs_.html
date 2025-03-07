@@ -1,0 +1,39 @@
+<div class="cell medium-9 medium-cell-block-y">
+    {{>tabs_ul}}
+    {{>tabs_content1}}
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: #1779ba;">&thinsp;</i>Az engedélyezett osztályok száma:
+        <strong>8</strong>
+    </p>
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: #1779ba;">&thinsp;</i>Az engedélyezett csoportok száma:
+        <strong>8</strong>
+    </p>
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: #1779ba;">&thinsp;</i>Beiratkozás ideje:
+    </p>
+    <div class="responsive-embed">
+        <div id="example1" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/beiratkozas/beiratkozas_ps_2019_20.pdf", "#example1");</script>
+
+    </div>
+
+    {{>tabs_content2}}
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: orange;">&thinsp;</i>Az engedélyezett osztályok száma:
+        <strong>8</strong>
+    </p>
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: orange;">&thinsp;</i>Az engedélyezett csoportok száma:
+        <strong>7</strong>
+    </p>
+    <p>
+        <i class="fas fa-hand-point-right fa-lg" style="color: orange;">&thinsp;</i>Beiratkozás ideje:
+    </p>
+    <div class="responsive-embed">
+        <div id="example2" style="height: 85vh; width: 100vw;"></div>
+        {{>pdfviewer}}
+        <script>PDFObject.embed("{{root}}assets/beiratkozas/beiratkozas_bs_2019_20.pdf", "#example2");</script>
+    </div>
+    {{>tabs_content3}}

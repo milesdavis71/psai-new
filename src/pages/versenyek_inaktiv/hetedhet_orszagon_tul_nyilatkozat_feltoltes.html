@@ -1,0 +1,71 @@
+<div class="cell medium-9 medium-cell-block-y">
+    <!-- <script>
+    Abide.defaults.patterns.alpha = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+    Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+  </script> -->
+    <p class="text-center">
+        <img src="{{root}}assets/img/versenyek/jarasi_mesemondo_verseny.jpg" alt="">
+    </p>
+    <h4 class="text-center">Hozzájáruló nyilatkozat<br>a <em>„Hetedhét országon túl…”</em> járási mesemondó versenyre
+        <br>2025
+        <hr style="margin: 0.5rem 0.4rem;">
+    </h4>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-12">
+                {{>jarasi_versenyek_hozz_nyil_vissza}}
+            </div>
+        </div>
+        <div class="grid-x grid-margin-x">
+            <div class="cell large-12">
+                <div class="callout">
+                    <h4 class="text-center">
+                        <small>Hozzájáruló nyilatkozat letöltése, kinyomtatása</small><br>
+                        <i class=" fas fa-print" style="color: #1779ba;"></i>&emsp13;<i class=" fas fa-download" style="color: #1779ba;"></i>
+                    </h4>
+                    </h4>
+                    <script>
+                    function printPdfSzulo() {
+                        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzajarulo_nyilatkozat_szulo_hetedhet_2024_25.pdf", type: "pdf", targetStyle: "*" });
+                    }
+
+                    function printPdfPed() {
+                        printJS({ printable: "{{root}}assets/versenyek/hetedhet/hozzajarulo_nyilatkozat_pedagogus_hetedhet_2024_25.pdf", type: "pdf", targetStyle: "*" });
+                    }
+                    </script>
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell large-6">
+                            <div class="callout secondary">
+                                <p class="text-center">
+                                    Szülői, tanulóra vonatkozó hozzájáruló nyilatkozat <br> <strong>nyomtatása, letöltése</strong>
+                                </p>
+                                <p class="text-center">
+                                    <a onclick="printPdfSzulo()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+                                    <a href="{{root}}assets/versenyek/hetedhet/hozzajarulo_nyilatkozat_szulo_hetedhet_2024_25.pdf" target="_blank" download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="cell large-6">
+                            <div class="callout secondary">
+                                <p class="text-center">
+                                    Pedagógusra vonatkozó hozzájáruló nyilatkozat<br> <strong>nyomtatása, letöltése</strong>
+                                </p>
+                                <p class="text-center">
+                                    <a onclick="printPdfPed()"><i class=" fas fa-print"></i>&thinsp;Nyomtatás</a>&emsp14;&emsp14;
+                                    <a href="{{root}}assets/versenyek/hetedhet/hozzajarulo_nyilatkozat_pedagogus_hetedhet_2024_25.pdf" target="_blank" download><i class="fas fa-download"></i>&thinsp;Letöltés</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{>upload}}
+        <script>
+        $(document).ready(function() {
+            $(document).foundation();
+        })
+        </script>
+    </div>
+    {{> vissza}}
+</div>

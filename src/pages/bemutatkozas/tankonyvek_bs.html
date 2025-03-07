@@ -1,0 +1,26 @@
+---
+title: Tankönyvlista
+description: Lorem ipsum.
+school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
+<div class="cell medium-9 medium-cell-block-y">
+    {{> head_school_year}}
+    <!-- {{> head_hamarosan}} -->
+    <h5 class="text-center">{{title}}</h5>
+    <hr style="height:1px; border:none; color:#3fa9f5; background-color:#3fa9f5; margin-top: -0.5px;">
+    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">
+        {{#each global.taneszkoz}}
+        <li class="accordion-item" data-accordion-item>
+            <a href="#{{class}}a" class="accordion-title text-center">{{class}}. osztály</a>
+            <div class="accordion-content" id="{{class}}a" data-tab-content>
+                <h5 class="text-center subheader">Tankönyvlista – {{class}}. osztály</h5> <br>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell">
+                        {{> md_tk_bs list=deeplink}}
+                    </div>
+                </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

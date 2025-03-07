@@ -1,0 +1,161 @@
+<div class="cell medium-9 medium-cell-block-y">
+    <script>
+        // Abide.defaults.patterns.alpha = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+    // Abide.defaults.patterns.alpha_numeric = '/^[a-zéáűíőúöüóA-ZÉÁŰŐÚÖÜÓ]+$/';
+  </script>
+    <p class="text-center">
+        <img src="{{root}}assets/img/versenyek/jarasi_prozamondo_verseny.jpg" alt="">
+    </p>
+    <h4 class="text-center">Regisztráció a <em>„Szép beszéd”</em> járási prózamondó versenyre <br>2025
+        <hr style="margin: 0.5rem 0.4rem;">
+    </h4>
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <div class="cell small-12">
+                <p>
+                    A Szegedi Petőfi Sándor Általános Iskola az idei tanévben is megrendezi a több évtizedes hagyománynak örvendő
+                    <em>„Szép beszéd”</em> járási prózamondó versenyt. Szeretettel várjuk az érdeklődő tanulókat és
+                    felkészítőiket.
+                </p>
+                <p><em>Minden résztvevőt ajándékkal, emléklappal várunk, a helyezetteket értékes könyvjutalomban és oklevélben
+                        részesítjük. </em></p>
+                <p>
+                    Az elődeinktől örökölt nyelvet felelősséggel kell továbbadnunk a felnövekvő nemzedéknek. A magyar nyelv
+                    ápolására, annak szép használatára késztet e nemes vetélkedő.
+                </p>
+                <p>
+                    <ul>
+                        <li>A versenyzőknek egy szabadon választott irodalmi művet vagy annak részletét kell kívülről elmondaniuk az
+                            előző évek gyakorlatához hasonlóan (monda, elbeszélés vagy regényrészlet).</li>
+                        <li>Kérjük, a versenyzők <strong>mesével ne</strong> készüljenek!</li>
+                        <li>A szöveg terjedelme lehetőleg ne haladja meg az egy gépelt oldalt!</li>
+                        <li>A verseny két kategóriában folyik, 5–6. és 7–8. osztályos korcsoportban.</li>
+                    </ul>
+                </p>
+                {{> jarasi_versenyek_jelentkezes_kozos1}}
+            </div>
+        </div>
+    </div>
+    <div class="callout">
+        <form data-abide novalidate method="post" action="{{root}}assets/php/proza.php">
+            <h4 class="text-center" id="itt" data-magellan-target="itt">
+                <small>Regisztráció</small>
+            </h4>
+            <div class="grid-container">
+                <div class="grid-x grid-margin-x">
+                    <div class="cell small-12">
+                        <div data-abide-error class="alert callout" style="display: none;">
+                            <p><i class="fi-alert"></i> Hibásan kitöltött mezők.</p>
+                        </div>
+                        <div class="callout success">
+                            <span>Versenyző adatai (minden mező kitöltése kötelező)</span>
+                            <label class="text-left">Vezetéknév
+                                <input type="text" placeholder="Kovács" name="vez_nev_tan" aria-describedby="example1Hint1" aria-errormessage="example1Error1" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Keresztnév
+                                <input type="text" placeholder="Péter" name="ker_nev_tan" aria-describedby="example1Hint2" aria-errormessage="example1Error2" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Az előadott irodalmi mű címe
+                                <input type="text" placeholder="Hét krajcár" name="mese_cime" aria-describedby="example1Hint3" aria-errormessage="example1Error3" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Iskola neve
+                                <input type="text" placeholder="Kosztolányi Dezső Általános Iskola" name="iskola_neve" aria-describedby="example1Hint4" aria-errormessage="example1Error4" required> <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Melyik korcsoportba tartozik?
+                                <select name="korcsoport" id="select" required>
+                                    <option value="" selected='selected'></option>
+                                    <option value="5-6. korcsoport">5–6. osztály</option>
+                                    <option value="7-8. korcsoport">7–8. osztály</option>
+                                </select>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="callout success">
+                            <span>Felkészítő pedagógus adatai (minden mező kitöltése kötelező)</span>
+                            <label class="text-left">Vezetéknév
+                                <input type="text" placeholder="Nagy" name="vez_nev_ped" aria-describedby="example1Hint5" aria-errormessage="example1Error5" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Keresztnév
+                                <input type="text" placeholder="Angéla" name="ker_nev_ped" aria-describedby="example1Hint56" aria-errormessage="example1Error6" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                        </div>
+                        <div class="callout success">
+                            <span>Kapcsolattartó adatai (minden mező kitöltése kötelező)</span>
+                            <label class="text-left">Vezetéknév
+                                <input type="text" placeholder="Nagy" name="vez_nev_kapcs" aria-describedby="example1Hint7" aria-errormessage="example1Error7" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">Keresztnév
+                                <input type="text" placeholder="Angéla" name="ker_nev_kapcs" aria-describedby="example1Hint8" aria-errormessage="example1Error8" required>
+                                <span class="form-error">
+                                    Kötelező mező.
+                                </span>
+                            </label>
+                            <label class="text-left">e-mail cím
+                                <input type="text" placeholder="xxx@yyy.com" name="email" aria-describedby="example1Hint9" aria-errormessage="example1Error9" required pattern="email">
+                                <span class="form-error">
+                                    Kötelező mező, adjon meg érvényes e-mail címet.
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-container">
+                <p>Az Adatkezelési tájékoztatót kötelező elfogadni.</p>
+                <div class="reveal" id="exampleModal1" data-reveal>
+                    {{>jarasi_prozamond_vers_adatkez_tajekozt}}
+                    <button class="close-button" data-close aria-label="Close modal" type="button">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell auto"></div>
+                    <div class="cell large-3">
+                        <button class="hollow button medium" data-open="exampleModal1">Az Adatkezelési tájékoztató
+                            megnyitása</button>
+                    </div>
+                    <div class="cell auto"></div>
+                </div>
+                <input type="checkbox" name="" value="" id="" required><label for="">Elolvastam az Adatkezelési
+                    tájékoztatót</label>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell auto"></div>
+                    <div class="cell large-3">
+                        <button class="button expanded" type="submit" value="Submit"><strong>Elküldés</strong></button>
+                    </div>
+                    <div class="cell auto"></div>
+                    {{>jarasi_versenyek_sikertelen_regisztracio}}
+                </div>
+            </div>
+        </form>
+    </div>
+    {{> jarasi_versenyek_jelentkezes_kozos2}}
+    {{> vissza}}
+    <script>
+    $(document).ready(function() {
+        $(document).foundation();
+    })
+    </script>
+</div>

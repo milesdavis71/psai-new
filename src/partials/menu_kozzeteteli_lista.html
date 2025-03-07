@@ -1,0 +1,213 @@
+<li>
+    <a href="#"><i class="fas fa-list"></i>&thinsp;&thinsp;&thinsp;Közzétételi lista</a>
+    <ul class="menu vertical nested
+    {{#ifpage
+        'felveteli_tajekoztato'
+        'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+        'ps_bs_beiratkozasi_korzet'
+        'iskolahivagato_ps_bs_kozzetetel'
+        'iskolahivogato_bs_kozzetetel'
+        'iskolahivogato_ps_kozzetetel'
+        'bemutatkozas_bs_kozzetetel'
+        'bemutatkozas_ps_kozzetetel'
+        'tajekoztato_beiratkozasrol_kozzetetel'
+        'fentart_altal_eng_oszt_csop'
+        'teritesi_dij_tandij'
+        'etkezesi_teritesi_dijak_kozzetetel'
+        'nyilvanos_vizsgalat'
+        'nyitvatartas'
+        'esemenynaptar_ps_bs'
+        'intezmenyi_tanfelugyelet_eredmenye_2018'
+        'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
+        'pedagogus_tanfelugyeletenek_eredmenye_2016'
+        'pedagogiai_program_kozzetetel'
+        'szmsz_ps_bs_kozzetetel'
+        'hazirend_ps_bs_kozzetetel'
+        'kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata'
+        'pedagogusok_iskolai_vegzettsege'
+        'noksosok_szama_szakkepzettsege'
+        'kompetenciameres_eredmenyei'
+        'evismetles'
+        'egyeni_fejlesztes_ps_bs_kozzetetel'
+        'szakkorok_ps_bs_kozzetetel'
+        'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+        'hetvegi_hazi_feladatok_dolgozatok_szabalyai'
+        'osztalyozo_vizsgak_kovetelmenyei'
+        'tanulmanyok_alatti_vizsgak_tervezett_rendje'
+        'osztalyozo_vizsgak_ertekelesi_rendje'
+        'osztalyok_szama_es_tanulok_letszama'
+        
+      }}
+        is-active
+    {{/ifpage}}">
+        <li>
+            <a href="#">Felvételi lehetőségről<br />szóló tájékoztató</a>
+            <ul class="menu vertical nested
+          {{#ifpage
+            'felveteli_tajekoztato'
+            'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel'
+            'iskolahivagato_ps_bs_kozzetetel'
+            'iskolahivogato_bs_kozzetetel'
+            'iskolahivogato_ps_kozzetetel'
+            'bemutatkozas_bs_kozzetetel'
+            'bemutatkozas_ps_kozzetetel'
+            'ps_bs_beiratkozasi_korzet'
+            }}
+            is-active
+        {{/ifpage}}">
+                <li {{#ifpage 'felveteli_tajekoztato' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/felveteli_tajekoztato.html">Felvételi lehetősége</a>
+                </li>
+                <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok_kozzetetel' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}beiratkozas/beiratkozaskor_leadando_nyomtatvanyok_kozzetetel.html">Beiratkozáskor leadandó
+                        nyomtatványok</a>
+                </li>
+                <li {{#ifpage 'ps_bs_beiratkozasi_korzet' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}/beiratkozas/ps_bs_beiratkozasi_korzet.html">Körzetünk</a>
+                </li>
+                <li {{#ifpage 'iskolahivagato_ps_bs_kozzetetel' 'iskolahivogato_ps_kozzetetel' 'iskolahivogato_bs_kozzetetel' 'bemutatkozas_ps_kozzetetel' 'bemutatkozas_bs_kozzetetel'
+          }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/iskolahivagato_ps_bs_kozzetetel.html">Iskolahívogatók {{>label}}</a>
+                </li>
+            </ul>
+        </li>
+        <li {{#ifpage 'tajekoztato_beiratkozasrol_kozzetetel' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/tajekoztato_beiratkozasrol_kozzetetel.html">Engedélyezett
+                osztályok,<br />csoportok száma, beiratkozás ideje</a>
+        </li>
+        <li {{#ifpage 'fentart_altal_eng_oszt_csop' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/fentart_altal_eng_oszt_csop.html">A fenntartó által engedélyezett
+                osztályok, csoportok száma</a>
+        </li>
+        <li {{#ifpage 'teritesi_dij_tandij' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/teritesi_dij_tandij.html">Térítési díj, tandíj</a>
+        </li>
+        <li {{#ifpage 'etkezesi_teritesi_dijak_kozzetetel' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/etkezesi_teritesi_dijak_kozzetetel.html">Étkezési térítési díjak
+                (Petőfi/Bálint)</a>
+        </li>
+        <li {{#ifpage 'nyilvanos_vizsgalat' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/nyilvanos_vizsgalat.html">Fenntartói értékelés, nyilvános megállapításokat
+                tartalmazó vizsgálatok</a>
+        </li>
+        <li {{#ifpage 'nyitvatartas' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/nyitvatartas.html">Nyitvatartás rendje</a>
+        </li>
+        <li {{#ifpage 'esemenynaptar_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}esemenynaptar_ps_bs.html">Eseménynaptárak {{>label}}</a>
+        </li>
+        <li>
+            <a href="#">Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése</a>
+            <ul class="menu vertical nested
+          {{#ifpage
+            'intezmenyi_tanfelugyelet_eredmenye_2018'
+            'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
+            'pedagogus_tanfelugyeletenek_eredmenye_2016'
+            }}
+            is-active
+        {{/ifpage}}">
+                <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2018' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html">Intézményi tanfelügyelet
+                        eredménye 2018</a>
+                </li>
+                <li {{#ifpage 'intezmenyvezetoi_tanfelugyelet_eredmenye_2018' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/intezmenyvezetoi_tanfelugyelet_eredmenye_2018.html">Intézményvezetői
+                        tanfelügyelet eredménye 2018</a>
+                </li>
+                <li {{#ifpage 'pedagogus_tanfelugyeletenek_eredmenye_2016' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}/kozzeteteli_lista/pedagogus_tanfelugyeletenek_eredmenye_2016.html">Pedagógus
+                        tanfelügyeletének
+                        eredménye 2016</a>
+                </li>
+            </ul>
+        </li>
+        <li {{#ifpage 'szmsz_ps_bs_kozzetetel' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/szmsz_ps_bs_kozzetetel.html">SZMSZ</a>
+        </li>
+        <li {{#ifpage 'hazirend_ps_bs_kozzetetel' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/hazirend_ps_bs_kozzetetel.html">Házirend</a>
+        </li>
+        <li {{#ifpage 'pedagogiai_program_kozzetetel' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/pedagogiai_program_kozzetetel.html">Pedagógiai program</a>
+        </li>
+        <li {{#ifpage 'kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata.html">Kompetencia-
+                és teljesítményalapú értékelési rendszer helyi szabályzata (Petőfi Sándor Általános Iskola)</a>
+        </li>
+        <li {{#ifpage 'pedagogusok_iskolai_vegzettsege' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/pedagogusok_iskolai_vegzettsege.html">Pedagógusok iskolai végzettsége,
+                szakképzettsége {{> label}}</a>
+        </li>
+        <li {{#ifpage 'noksosok_szama_szakkepzettsege' }} class="current" {{/ifpage}}>
+            <a href="{{root}}bemutatkozas/noksosok_szama_szakkepzettsege.html">NOKS-osok száma, szakképzettsége
+                {{> label}}</a>
+        </li>
+        <li {{#ifpage 'kompetenciameres_eredmenyei' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/kompetenciameres_eredmenyei.html">Országos mérés-értékelés évenkénti
+                eredményei</a>
+        </li>
+        <li {{#ifpage 'evismetles' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/evismetles.html"> Tanulók le- és kimaradásával, évfolyamismétlésével
+                kapcsolatos adatok (Petőfi/Bálint)
+            </a>
+        </li>
+        <li>
+            <a href="#">Tanórán kívüli foglalkozások igénybevételének lehetősége</a>
+            <ul class="menu vertical nested
+          {{#ifpage
+            'egyeni_fejlesztes_ps_bs_kozzetetel'
+            'szakkorok_ps_bs_kozzetetel'
+            'muveszeti_oktatas_ps_bs_kozzetetel'
+            'szaktargyi_korrepetalasok_ps_bs_kozzetetel'
+            }}
+            is-active
+        {{/ifpage}}">
+                <li {{#ifpage 'egyeni_fejlesztes_ps_bs_kozzetetel' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html">Egyéni fejlesztés
+                        {{>label}}</a>
+                </li>
+                <li {{#ifpage 'szakkorok_ps_bs_kozzetetel' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html">Szakkörök, tehetséggondozás
+                        {{>label}}</a>
+                </li>
+                <li {{#ifpage 'szaktargyi_korrepetalasok_ps_bs_kozzetetel' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html">Szaktárgyi<br>korrepetálások
+                        {{>label}}</a>
+                </li>
+            </ul>
+        </li>
+        <li {{#ifpage 'hetvegi_hazi_feladatok_dolgozatok_szabalyai' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/hetvegi_hazi_feladatok_dolgozatok_szabalyai.html">Hétvégi házi feladatok,
+                dolgozatok szabályai (Petőfi/Bálint)</a>
+        </li>
+        <li>
+            <a href="#">Tanulmányok alatti vizsgák követelményei </a>
+            <ul class="menu vertical nested
+          {{#ifpage
+            'osztalyozo_vizsgak_kovetelmenyei'
+            'tanulmanyok_alatti_vizsgak_tervezett_rendje'
+            'osztalyozo_vizsgak_ertekelesi_rendje'
+            }}
+            is-active
+        {{/ifpage}}">
+                <li {{#ifpage 'osztalyozo_vizsgak_kovetelmenyei' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/osztalyozo_vizsgak_kovetelmenyei.html">Osztályozó vizsgák
+                        követelményei</a>
+                </li>
+                <li {{#ifpage 'tanulmanyok_alatti_vizsgak_tervezett_rendje' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/tanulmanyok_alatti_vizsgak_tervezett_rendje.html">A tanulmányok alatti
+                        vizsgák
+                        tervezett rendje</a>
+                </li>
+                <li {{#ifpage 'osztalyozo_vizsgak_ertekelesi_rendje' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}/kozzeteteli_lista/osztalyozo_vizsgak_ertekelesi_rendje.html">Osztályozó vizsgák értékelési
+                        rendje</a>
+                </li>
+            </ul>
+        </li>
+        <li {{#ifpage 'osztalyok_szama_es_tanulok_letszama' }} class="current" {{/ifpage}}>
+            <a href="{{root}}kozzeteteli_lista/osztalyok_szama_es_tanulok_letszama.html">Osztályok száma és tanulók létszáma
+                {{> label}}</a>
+        </li>
+    </ul>
+</li>

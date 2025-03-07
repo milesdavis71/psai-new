@@ -1,0 +1,31 @@
+---
+title: Órarend
+description: Lorem ipsum.
+school_ps: Szegedi Petőfi Sándor Általános Iskola
+school_bs: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+---
+<div class="cell medium-9 medium-cell-block-y">
+    {{>tabs_ul}}
+    {{>tabs_content1}}
+    {{>head_school_ps_bs school="ps"}}
+    <h5 class="text-center">{{title}}</h5>
+    <div class="responsive-embed">
+        <div id="example1" style="height: 85vh; width: 100vw"></div>
+        {{>pdfviewer}}
+        <script>
+        PDFObject.embed("{{root}}assets/orarend/ps_2024_25.pdf", "#example1");
+        </script>
+    </div>
+    {{>tabs_content2}}
+    {{>head_school_ps_bs school="bs"}}
+    <h5 class="text-center">{{title}}</h5>
+    <!-- {{>head_hamarosan}} -->
+    <div class="responsive-embed">
+        <div id="example2" style="height: 85vh; width: 100vw"></div>
+        {{>pdfviewer}}
+        <script>
+        PDFObject.embed("{{root}}assets/orarend/bs_2024_25.pdf", "#example2");
+        </script>
+    </div>
+    {{>tabs_content3}}
+</div>

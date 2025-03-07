@@ -1,0 +1,26 @@
+---
+title: Page Title
+description: Lorem ipsum.
+school: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+year: 2024-25-ös tanév
+---
+<div class="cell medium-9 medium-cell-block-y">
+    {{> head_school_year}}
+    <h5 class="text-center">Taneszközlista</h5>
+    {{> ovjuk_kornyezetunket}}
+    <hr style="height:1px; border:none; color:#3fa9f5; background-color:#3fa9f5; margin-top: -0.5px;">
+    <ul class="accordion" data-accordion data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" id="deeplinked-accordion">
+        {{#each global.taneszkoz}}
+        <li class="accordion-item" data-accordion-item>
+            <a href="#{{class}}b" class="accordion-title text-center">{{class}}. osztály</a>
+            <div class="accordion-content" id="{{class}}b" data-tab-content>
+                <h5 class="text-center subheader">Taneszközlista – {{class}}. osztály</h5> <br>
+                <div class="grid-x grid-margin-x">
+                    <div class="cell">
+                        {{> md_taneszk_bs list=deeplink}}
+                    </div>
+                </div>
+        </li>
+        {{/each}}
+    </ul>
+</div>

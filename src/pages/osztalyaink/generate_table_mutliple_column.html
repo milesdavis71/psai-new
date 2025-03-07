@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+</head>
+
+<body></body>
+
+</html>
+<script>
+  var n =
+    "Bohusné Megyesi Vera\tminden hónap első csütörtök 6. óra (13:00-13:45)\nCzeglédyné Somi Éva\tminden péntek 5.óra (12:00-12:45)\nCzeróczki Claudia\tminden hónap első kedd 5. óra (12:00-12:45)\nFodorné Kiss Magdolna\tminden hónap első kedd 4. óra (11:00-11:45)\nHurton Katalin\tminden kedd 8. óra (15:00-15:45)\nJójárt Renáta\tminden hónap első csütörtök 1. óra (8:00-8:45)\nKisné Fülöp Ilona\tminden hónap első péntek 4. óra (11:00-11:45)\nKovács-Kincses Emília\tminden hónap első csütörtök 5. óra (12:00-12:45)\nMinik Ilona\tminden hónap első péntek 2. óra (9:00-9:45)\nNagyistók Zsuzsanna\tminden hónap első szerda 3. óra (10:00-10:45)\nPajkó Mihály Zsolt\tminden hónap első szerda 8. óra (15:00-15:45)\nPolyák-Kósa Krisztina\tminden hónap első csütörtök 4. óra (11:00-11:45)\nPorkolábné Papp Zsuzsa\tminden hétfő 9. óra (16:00-17:00)\nSavanya Béláné\tminden hónap első hétfő 6. óra (13:00-13:45)\nSimonné Tóth Edina\tminden hónap első csütörtök 4. óra (11:00-11:45)\nSkultéti Katalin\tminden kedd 4. óra (11:00-11:45)\nSzegedi László\tminden hónap első hétfő 3. óra (10:00-10:45)\nSzéllné Bartók Mária\tminden hónap első hétfő 5. óra (12:00-12:45)\nTöreki Erika\tminden hónap első szerda 3. óra (10:00-10:45)\nTúri Ágnes\tminden csütörtök 8. óra (15:00-15:45)\nUngerné Fekete Mónika\tminden hónap első csütörtök 3. óra (10:00-10:45)";
+
+  var str = [];
+  function tablazatFelbont(tablazat) {
+    str = tablazat.split("\n");
+    for (let i = 0; i < str.length; i++) {
+      str[i] = str[i].split("\t");
+    }
+    return str;
+  }
+
+  function tablazatKiir(str) {
+    document.write("<table border=2>");
+    for (let i = 0; i < str.length; i++) {
+      document.write("<tr>");
+      for (let k = 0; k < str[i].length; k++) {
+        document.write("<td>" + str[i][k] + "</td>");
+      }
+      document.write("</td>");
+    }
+    document.write("</table>");
+  }
+
+  var noFelbontot = tablazatFelbont(n);
+  tablazatKiir(noFelbontot);
+
+  document.write("</table>");
+  // Requiring fs module in which
+  // writeFile function is defined.
+  const fs = require("fs");
+
+  // Data which will write in a file.
+  let data = noFelbontot;
+
+  // Write data in 'Output.txt' .
+  fs.writeFile("output.txt", data, (err) => {
+    // In case of a error throw err.
+    if (err) throw err;
+  });
+</script>

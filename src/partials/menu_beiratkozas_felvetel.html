@@ -1,0 +1,42 @@
+<li>
+    <a href="#"><i class="fas fa-pencil"></i>&thinsp;&thinsp;&thinsp;Beiratkozás, felvétel</a>
+    <ul class="menu vertical nested
+    {{#ifpage
+        'osztaly_1_kov_ev'
+        'tajekoztato_beiratkozasrol'
+        'beiratkozashoz_szukseges_adatok_elozetes_eletronikus_bekuldese'
+        'beiratkozaskor_leadando_nyomtatvanyok'
+        'engedelyezett_osztalyok_szama_ps_bs'
+        'bemutatkozas_iskolahivagato_ps_bs_beiratkozas'
+        'iskolahivogato_bs_beiratkozas'
+        'iskolahivogato_ps_beiratkozas'
+        'bemutatkozas_bs_beiratkozas'
+        'bemutatkozas_ps_beiratkozas'
+        'bemutatkozas_ps'
+
+      }}
+        is-active
+    {{/ifpage}}">
+        <!-- <li {{#ifpage 'osztaly_1_kov_ev' }} class="current" {{/ifpage}}>
+      <a href="{{root}}osztaly_1_kov_ev.html">2021/22-es tanév elsősök {{>label}}</a>
+    </li> -->
+        <li {{#ifpage 'tajekoztato_beiratkozasrol' }} class="current" {{/ifpage}}>
+            <a href="{{root}}beiratkozas/tajekoztato_beiratkozasrol.html">Tájékoztató a beiratkozásról</a>
+        </li>
+        <!-- <li {{#ifpage 'beiratkozashoz_szukseges_adatok_elozetes_eletronikus_bekuldese' }} class="current" {{/ifpage}}>
+    <a href="{{root}}beiratkozas/beiratkozashoz_szukseges_adatok_elozetes_eletronikus_bekuldese.html">Beiratkozáshoz
+        szükséges adatok előzetes eletronikus beküldése</a>
+</li> -->
+        <li {{#ifpage 'beiratkozaskor_leadando_nyomtatvanyok' }} class="current" {{/ifpage}}>
+            <a href="{{root}}beiratkozas/beiratkozaskor_leadando_nyomtatvanyok.html">Beiratkozáskor leadandó nyomtatványok</a>
+        </li>
+        <li {{#ifpage 'engedelyezett_osztalyok_csoportok_szama_ps_bs' }} class="current" {{/ifpage}}>
+            <a href="{{root}}beiratkozas/engedelyezett_osztalyok_szama_ps_bs.html">Engedélyezett osztályok és
+                csoportok száma</a>
+        </li>
+        <li {{#ifpage 'bemutatkozas_iskolahivagato_ps_bs_beiratkozas' 'bemutatkozas_bs_beiratkozas' 'bemutatkozas_ps_beiratkozas' 'iskolahivogato_ps_beiratkozas' 'iskolahivogato_bs_beiratkozas'
+      }} class="current" {{/ifpage}}>
+            <a href="{{root}}beiratkozas/bemutatkozas_iskolahivagato_ps_bs_beiratkozas.html">Iskolahívogatók PS/BS</a>
+        </li>
+    </ul>
+</li>

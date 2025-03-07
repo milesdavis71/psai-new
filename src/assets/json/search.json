@@ -1,0 +1,1462 @@
+[
+    {
+        "type": "oldal",
+        "name": "Címek, e-mailcímek, telefonszámok",
+        "description": "A központ és a tagintézmény elérhetőségei.",
+        "link": "bemutatkozas/elerhetosegeink.html",
+        "tags": ["email", "cím", "petőfi", "bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "Bemutatkozás PS/BS",
+        "description": "A központ és a tagintézmény bemutatkozása.",
+        "link": "bemutatkozas/bemutatkozas_ps_bs.html",
+        "tags": ["tagiskola", "központ", "bálint", "petőfi"]
+    },
+    {
+        "type": "oldal",
+        "name": "Tanáraink",
+        "description": "A Petőfis és a Bálintos tanárok aktuális listája",
+        "link": "bemutatkozas/tanaraink_ps_bs.html",
+        "tags": ["központ", "tagiskola", "petőfi", "bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "Hitoktatóink",
+        "description": "A Petőfis és a Bálintos hitoktatók aktuális listája",
+        "link": "bemutatkozas/hitoktatok_ps_bs.html",
+        "tags": ["református", "katolikus", "petőfi", "bálint", "tanár"]
+    },
+    {
+        "type": "oldal",
+        "name": "Felekezetek bemutatkozása",
+        "description": "",
+        "link": "bemutatkozas/hitoktatok_ps_bs.html",
+        "tags": ["katolikus", "református"]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolapszichológusok bemutatkozása",
+        "description": "",
+        "link": "bemutatkozas/hitoktatok_ps_bs.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógiai program",
+        "description": "Pedagógiai program",
+        "link": "bemutatkozas/pedagogiai_program.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógiai program 2021",
+        "description": "Pedagógiai program_2021",
+        "link": "bemutatkozas/pedagogiai_program_2021.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "SZMSZ",
+        "description": "Szervezeti és működési szabályzat.",
+        "link": "bemutatkozas/szmsz_ps_bs.html",
+        "tags": ["szervezeti", "működési", "szabályzat"]
+    },
+    {
+        "type": "oldal",
+        "name": "Kollektív szerződés",
+        "description": "Kollektív szerződés",
+        "link": "bemutatkozas/kollektiv_szerzodes_ps_bs.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "IMIP",
+        "description": "Iskolai minőségirányítási program",
+        "link": "bemutatkozas/imip.html",
+        "tags": ["minőségirányítás", "program"]
+    },
+    {
+        "type": "oldal",
+        "name": "Házirend",
+        "description": "Házirend",
+        "link": "bemutatkozas/hazirend.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Gyermekvédelem",
+        "description": "Házirend",
+        "link": "bemutatkozas/hazirend.html",
+        "tags": ["gyermekveszélyeztetés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Gyermekvédelem",
+        "description": "Házirend",
+        "link": "bemutatkozas/hazirend.html",
+        "tags": ["gyermekveszélyeztetés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Tankönyvek – Székhely",
+        "description": "A központ tankönyvlistája",
+        "link": "bemutatkozas/tankonyvek_ps.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Tankönyvek – Tagiskola",
+        "description": "A tagintézmény tankönyvlistája",
+        "link": "bemutatkozas/tankonyvek_bs.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Taneszközök – Székhely",
+        "description": "A tagintézmény taneszközlistája",
+        "link": "bemutatkozas/taneszkozok_bs.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Taneszközök – Tagiskola",
+        "description": "A központ taneszközlistája",
+        "link": "bemutatkozas/taneszkozok_ps.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Regisztrált tehetségpont",
+        "description": "A Szegedi Petőfi Sándor Általános Iskola 2021. április 21-től Regisztrált Tehetségpont",
+        "link": "bemutatkozas/regisztralt_tehetsegpont.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Kék tér program",
+        "description": "A Csongrád Megyei Rendőr-főkapitányság komplex prevenciós programja",
+        "link": "bemutatkozas/kek_ter_program.html",
+        "tags": ["prevenció", "program"]
+    },
+    {
+        "type": "oldal",
+        "name": "KEVE program",
+        "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+        "link": "palyazatok/keve_program.html",
+        "tags": ["kerékpáros", "gyalogos", "közlekedés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Befizetési időpontok az NGSZ-nél",
+        "description": "Az aktuális hónap befizetési időpontjai az NGSZ-nél.",
+        "link": "befiz_idopontok_ngsz.html",
+        "tags": ["ebéd", "étkezés", "közétkeztetés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Közétkeztetés",
+        "description": "Átirányítás az NGSZ weboldalára",
+        "link": "https://ngsz.hu/2021/01/01/kozetkeztetes/",
+        "tags": ["Nevelési és Kulturális Intézmények Gazdasági Szolgálata"]
+    },
+    {
+        "type": "oldal",
+        "name": "Közétkeztetés – étlapok",
+        "description": "Átirányítás az NGSZ weboldalára étlapok aloldalára",
+        "link": "https://ngsz.hu/2021/01/01/kozetkeztetes/#kozetkeztetes-etlap",
+        "tags": ["NGSZ", "étkezés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Elsős szülők tájékoztatása közétkeztetésről",
+        "description": "Az intézményváltáshoz kapcsolódó fontosabb információk a közétkeztetés vonatkozásában.",
+        "link": "elsos_szulok_tajekoztatasa_kozetkeztetesrol.html",
+        "tags": ["NGSZ", "étkezés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Tájékoztatás ingyenes és kedvezményes étkezési térítési díj benyújtásáról",
+        "description": "Keve program – ismerkedés a gyalogos és a kerékpáros közlekedés szabályaival.",
+        "link": "befiz_ingyen_kedvezm_ngsz_tajekoztato.html",
+        "tags": ["NGSZ", "étkezés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Felvételi lehetősége",
+        "description": "A tanuló felvétele. Az iskolaváltás és a tanuló átvételének szabályai.",
+        "link": "kozzeteteli_lista/felveteli_tajekoztato.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Beiratkozáskor leadandó nyomtatványok",
+        "description": "Beiratkozáskor leadandó nyomtatványok.",
+        "link": "beiratkozas/beiratkozaskor_leadando_nyomtatvanyok_kozzetetel.html",
+        "tags": ["letöltés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Körzetünk",
+        "description": "A Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola beiskolázási körzete",
+        "link": "beiratkozas/ps_bs_beiratkozasi_korzet.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Bemutatkozás, Iskolahívogató | Székhely",
+        "description": "Bemutatkozás, Iskolahívogató | Székhely",
+        "link": "kozzeteteli_lista/iskolahivagato_ps_bs_kozzetetel.html#panel1d",
+        "tags": ["Petőfi", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Bemutatkozás, Iskolahívogató | Tagiskola",
+        "description": "Bemutatkozás, Iskolahívogató | Tagiskola",
+        "link": "kozzeteteli_lista/iskolahivagato_ps_bs_kozzetetel.html#panel2d",
+        "tags": ["Bálint", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Bemutatkozás | Székhely",
+        "description": "Bemutatkozás | Székhely",
+        "link": "bemutatkozas/bemutatkozas_ps_bs.html",
+        "tags": ["Petőfi", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Bemutatkozás | Tagiskola",
+        "description": "Bemutatkozás | Tagiskola",
+        "link": "bemutatkozas_ps_bs.html#panel2d",
+        "tags": ["Bálint", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolahívogató | Székhely",
+        "description": "Iskolahívogató | Székhely",
+        "link": "beiratkozas/iskolahivogato_ps_beiratkozas.html",
+        "tags": ["Petőfi", "iskola"]
+    },
+    {
+        "type": "pdf",
+        "name": "Iskolahívogató | Székhely",
+        "description": "Bemutatkozás | Tagiskola",
+        "link": "assets/beiratkozas/iskolahivogato_bs.pdf",
+        "tags": ["Bálint", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolahívogató | Tagiskola",
+        "description": "Iskolahívogató | Székhely",
+        "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html",
+        "tags": ["Petőfi", "iskola"]
+    },
+    {
+        "type": "pdf",
+        "name": "Iskolahívogató | Tagiskola",
+        "description": "Bemutatkozás | Tagiskola",
+        "link": "assets/beiratkozas/iskolahivogato_bs.pdf",
+        "tags": ["Bálint", "iskola"]
+    },
+    {
+        "type": "oldal",
+        "name": "Engedélyezett osztályok, csoportok száma, beiratkozás ideje",
+        "description": "Engedélyezett osztályok, csoportok száma, beiratkozás ideje",
+        "link": "kozzeteteli_lista/tajekoztato_beiratkozasrol_kozzetetel.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "A fenntartó által engedélyezett osztályok, csoportok száma",
+        "description": "A fenntartó által engedélyezett osztályok, csoportok száma",
+        "link": "kozzeteteli_lista/fentart_altal_eng_oszt_csop.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Térítési díj, tandíj",
+        "description": "Térítési díj, tandíj",
+        "link": "kozzeteteli_lista/teritesi_dij_tandij.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Étkezési térítési díjak (Petőfi/Bálint)",
+        "description": "Étkezési térítési díjak táblázat",
+        "link": "kozzeteteli_lista/etkezesi_teritesi_dijak.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok",
+        "description": "Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok",
+        "link": "kozzeteteli_lista/nyilvanos_vizsgalat.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Nyitvatartás rendje",
+        "description": "Az intézmény nyitvatartása, az iskolában tartózkodás rendje",
+        "link": "kozzeteteli_lista/nyitvatartas.html",
+        "tags": ["szorgalmi időben", "szünetekben", "ügyeleti rend"]
+    },
+    {
+        "type": "oldal",
+        "name": "Eseménynaptárak Székhely/Tagiskola",
+        "description": "Eseménynaptárak Székhely/Tagiskola",
+        "link": "esemenynaptar_ps_bs.html",
+        "tags": ["Petőfi", "Bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "Eseménynaptár – Székhely",
+        "description": "Eseménynaptár – Székhely",
+        "link": "esemenynaptar_ps_bs.html",
+        "tags": ["Petőfi"]
+    },
+    {
+        "type": "oldal",
+        "name": "Eseménynaptár – Tagiskola",
+        "description": "Eseménynaptár – Tagiskola",
+        "link": "esemenynaptar_ps_bs.html#panel2d",
+        "tags": ["Bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "Intézményi tanfelügyelet eredménye 2018",
+        "description": "IskolIntézményi tanfelügyelet eredménye 2018",
+        "link": "kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html",
+        "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
+    },
+    {
+        "type": "oldal",
+        "name": "Intézményvezetői tanfelügyelet eredménye 2018",
+        "description": "Intézményvezetői tanfelügyelet eredménye 2018",
+        "link": "kozzeteteli_lista/intezmenyvezetoi_tanfelugyelet_eredmenye_2018.html",
+        "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógus tanfelügyeletének eredménye 2016",
+        "description": "Pedagógus tanfelügyeletének eredménye 2016",
+        "link": "kozzeteteli_lista/pedagogus_tanfelugyeletenek_eredmenye_2016.html",
+        "tags": ["Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése"]
+    },
+    {
+        "type": "oldal",
+        "name": "Kompetencia- és teljesítményalapú értékelési rendszer helyi szabályzata (Petőfi Sándor Általános Iskola)",
+        "description": "Kompetencia- és teljesítményalapú értékelési rendszer helyi szabályzata (Petőfi Sándor Általános Iskola)",
+        "link": "kozzeteteli_lista/kompetencia_es_teljesitmenyalapu_ertekelesi_rendszer_helyi_szabalyzata.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógusok iskolai végzettsége, szakképzettsége PS/BS",
+        "description": "Pedagógusok iskolai végzettsége, szakképzettsége PS/BS",
+        "link": "bemutatkozas/pedagogusok_iskolai_vegzettsege.html",
+        "tags": ["Petőfi", "Bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógusok iskolai végzettsége, szakképzettsége | Székhely",
+        "description": "Pedagógusok iskolai végzettsége, szakképzettsége | Székhely",
+        "link": "bemutatkozas/pedagogusok_iskolai_vegzettsege.html",
+        "tags": ["Petőfi"]
+    },
+    {
+        "type": "oldal",
+        "name": "Pedagógusok iskolai végzettsége, szakképzettsége | Tagiskola",
+        "description": "Iskolahívogató | Tagiskola",
+        "link": "beiratkozas/iskolahivogato_bs_beiratkozas.html#panel2d",
+        "tags": ["Bálint"]
+    },
+    {
+        "type": "oldal",
+        "name": "NOKS-osok száma, szakképzettsége PS/BS",
+        "description": "NOKS-osok száma, szakképzettsége PS/BS",
+        "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html",
+        "tags": ["Petőfi", "Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "NOKS-osok száma, szakképzettsége | Székhely",
+        "description": "NOKS-osok száma, szakképzettsége | Székhely",
+        "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html",
+        "tags": ["Petőfi", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "NOKS-osok száma, szakképzettsége | Tagiskola",
+        "description": "NOKS-osok száma, szakképzettsége | Tagiskola",
+        "link": "bemutatkozas/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Országos mérés-értékelés évenkénti eredményei",
+        "description": "Kompetenciamérés eredményei",
+        "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+        "tags": []
+    },
+    {
+        "type": "oldal",
+        "name": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok (Petőfi/Bálint)",
+        "description": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok (Petőfi/Bálint)",
+        "link": "kozzeteteli_lista/evismetles.html",
+        "tags": ["PS", "BS"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés  PS/ BS",
+        "description": "Egyéni fejlesztés  PS/ BS",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés | Székhely",
+        "description": "Egyéni fejlesztés | Székhely",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés | Tagiskola",
+        "description": "Egyéni fejlesztés | Tagiskola",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás  PS/ BS",
+        "description": "Szakkörök, tehetséggondozás  PS/ BS",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás | Székhely",
+        "description": "Szakkörök, tehetséggondozás | Székhely",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás | Tagiskola",
+        "description": "Szakkörök, tehetséggondozás | Tagiskola",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások   PS/ BS",
+        "description": "Szaktárgyi korrepetálások   PS/ BS",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások | Székhely",
+        "description": "Szaktárgyi korrepetálások | Székhely",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások | Tagiskola",
+        "description": "Szaktárgyi korrepetálások | Tagiskola",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "NOKS-osok száma, szakképzettsége",
+        "description": "NOKS-osok száma, szakképzettsége",
+        "link": "kozzeteteli_lista/noksosok_szama_szakkepzettsege.html#panel2d",
+        "tags": ["Bálint", "Pedagógiai munkát segítők"]
+    },
+    {
+        "type": "oldal",
+        "name": "Országos mérés-értékelés évenkénti eredményei",
+        "description": "Kompetenciamérés eredményei",
+        "link": "kozzeteteli_lista/kompetenciameres_eredmenyei.html",
+        "tags": ["Bálint", "Petőfi"]
+    },
+    {
+        "type": "oldal",
+        "name": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok",
+        "description": "Tanulók le- és kimaradásával, évfolyamismétlésével kapcsolatos adatok",
+        "link": "kozzeteteli_lista/evismetles.html",
+        "tags": ["lemaradás", "kimaradás", "évfolyamismétlés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés   PS / BS",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   PS / BS",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés   Széhhely",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Széhhely",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások "]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés   Tagiskola",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Egyéni fejlesztés   Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs_kozzetetel.html#panel2d",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás  PS / BS",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás  PS / BS",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html.html",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás  Székhely",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás  Székhely",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás   Tagiskola",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szakkörök, tehetséggondozás   Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs_kozzetetel.html.html#panel2d",
+        "tags": ["Bálint", "Petőfi", "Tanórán kívüli foglalkozások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások  Székhely",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  Székhely",
+        "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html",
+        "tags": ["Bálint", "Petőfi", "Szaktárgyi korrepetálások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások  Tagiskola",
+        "description": "Tanórán kívüli foglalkozások igénybevételének lehetősége – Szaktárgyi korrepetálások  Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs_kozzetetel.html#panel2d",
+        "tags": ["Bálint", "Petőfi", "Szaktárgyi korrepetálások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Hétvégi házi feladatok szabályai",
+        "description": "Hétvégi házi feladatok szabályai",
+        "link": "kozzeteteli_lista/hetvegi_hazi_feladatok_dolgozatok_szabalyai.html",
+        "tags": ["Bálint", "Petőfi", "Hétvégi házi feladatok szabályai"]
+    },
+    {
+        "type": "pdf",
+        "name": "Osztályozó vizsgák követelményei",
+        "description": "Tanulmányok alatti vizsgák követelményei – Osztályozó vizsgák követelményei",
+        "link": "kozzeteteli_lista/osztalyozo_vizsgak_kovetelmenyei.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Tanulmányok alatti vizsgák",
+            "Osztályozó vizsgák követelményei"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "A tanulmányok alatti vizsgák tervezett rendje",
+        "description": "Tanulmányok alatti vizsgák követelményei – A tanulmányok alatti vizsgák tervezett ideje, az osztályozó vizsgára jelentkezés módja és határideje",
+        "link": "kozzeteteli_lista/tanulmanyok_alatti_vizsgak_tervezett_rendje.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Tanulmányok alatti vizsgák",
+            "tervezett ideje",
+            "jelentkezés módja",
+            "jelentkezés határideje"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Osztályok száma és tanulók létszáma PS/BS",
+        "description": "Osztályok száma és tanulók létszáma",
+        "link": "kozzeteteli_lista/osztalyok_szama_es_tanulok_letszama.html",
+        "tags": ["Bálint", "Petőfi", "Osztályok száma", "tanulók létszáma"]
+    },
+    {
+        "type": "oldal",
+        "name": "Tájékoztató a beiratkozásról",
+        "description": "Beiratkozás, felvétel – Tájékoztató a beiratkozásról",
+        "link": "beiratkozas/tajekoztato_beiratkozasrol.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "beiratkozás",
+            "felvétel",
+            "tájékoztató",
+            "felvétel"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Beiratkozáskor leadandó nyomtatványok",
+        "description": "Beiratkozás, felvétel – Tájékoztató a beiratkozásról",
+        "link": "beiratkozas/tajekoztato_beiratkozasrol.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "beiratkozás",
+            "felvétel",
+            "nyomtatványok",
+            "leadandó",
+            "letöltés"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Engedélyezett osztályok és csoportok száma",
+        "description": "Beiratkozás, felvétel – Engedélyezett osztályok és csoportok száma",
+        "link": "beiratkozas/engedelyezett_osztalyok_csoportok_szama_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "engedélyezett",
+            "osztályok",
+            "csoportok",
+            "létszám",
+            "szám"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolahívogatók, bemutatkozások",
+        "description": "A Székhely és a Tagiskola megtekinthető és letölthető bemutatkozó kiadványa és iskolahívogatója",
+        "link": "beiratkozas/bemutatkozas_iskolahivagato_ps_bs_beiratkozas.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "bemutatkozó kiadvány",
+            "iskolahívogató",
+            "megtekint",
+            "letölt"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolahívogató, bemutatkozás – Székhely",
+        "description": "A Székhely megtekinthető és letölthető bemutatkozó kiadványa és iskolahívogatója",
+        "link": "beiratkozas/bemutatkozas_iskolahivagato_ps_bs_beiratkozas.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "bemutatkozó kiadvány",
+            "iskolahívogató",
+            "megtekint",
+            "letölt"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolahívogató, bemutatkozás – Tagiskola",
+        "description": "A Tagiskola megtekinthető és letölthető bemutatkozó kiadványa és iskolahívogatója",
+        "link": "beiratkozas/bemutatkozas_iskolahivagato_ps_bs_beiratkozas.html#panel2d",
+        "tags": [
+            "Bálint",
+            "Tagiskola",
+            "bemutatkozó kiadvány",
+            "iskolahívogató",
+            "megtekint",
+            "letölt"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "A tanév rendje PS/BS",
+        "description": "A tanév rendje PS/BS",
+        "link": "tanev_rendje_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "tanév rendje"]
+    },
+    {
+        "type": "oldal",
+        "name": "A tanév rendje – Székhely",
+        "description": "A tanév rendje – Székhely",
+        "link": "tanev_rendje_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "tanév rendje"]
+    },
+    {
+        "type": "oldal",
+        "name": "A tanév rendje – Tagiskola",
+        "description": "A tanév rendje – Tagiskola",
+        "link": "tanev_rendje_ps_bs.html",
+        "tags": ["Petőfi", "Tagiskola", "tanév rendje"]
+    },
+    {
+        "type": "oldal",
+        "name": "Osztályaink PS/BS",
+        "description": "Osztályaink PS/BS",
+        "link": "osztalyaink_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "osztályok"]
+    },
+    {
+        "type": "oldal",
+        "name": "Osztályaink – Székhely",
+        "description": "Osztályaink – Székhely",
+        "link": "osztalyaink_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "osztályok"]
+    },
+    {
+        "type": "oldal",
+        "name": "Osztályaink – Tagiskola",
+        "description": "Osztályaink – Tagiskola",
+        "link": "osztalyaink_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "osztályok"]
+    },
+    {
+        "type": "pdf",
+        "name": "Órarendek PS/BS",
+        "description": "Órarendek PS/BS",
+        "link": "orarendek_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "órarendek"]
+    },
+    {
+        "type": "pdf",
+        "name": "Órarendek – Székhely",
+        "description": "Órarendek – Székhely",
+        "link": "orarendek_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "órarendek"]
+    },
+    {
+        "type": "pdf",
+        "name": "Órarendek – Tagiskola",
+        "description": "Órarendek – Tagiskola",
+        "link": "orarendek_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "órarendek"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szülői értekezletek PS/BS",
+        "description": "Szülői értekezletek PS/BS",
+        "link": "szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "szülői értekezletek"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szülői értekezletek – Székhely",
+        "description": "Szülői értekezletek – Székhely",
+        "link": "szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "szülői értekezletek"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szülői értekezletek– Tagiskola",
+        "description": "Szülői értekezletek – Tagiskola",
+        "link": "szuloi_ertekezlet_fogadoora/szuloi_ertekezletek_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "szülői értekezletek"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fogadóórák PS/BS",
+        "description": "Fogadóórák PS/BS",
+        "link": "szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fogadóórák – Székhely",
+        "description": "Fogadóórák – Székhely",
+        "link": "szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fogadóórák – Tagiskola",
+        "description": "Fogadóórák – Tagiskola",
+        "link": "szuloi_ertekezlet_fogadoora/fogadoorak_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fogadóórák PS/BS",
+        "description": "Egyéni fogadóórák PS/BS",
+        "link": "szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "Egyéni fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fogadóórák – Székhely",
+        "description": "Egyéni fogadóórák – Székhely",
+        "link": "szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "Egyéni fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fogadóórák – Tagiskola",
+        "description": "Egyéni fogadóórák – Tagiskola",
+        "link": "szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "Egyéni fogadóórák"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés PS/BS",
+        "description": "Tanórán kívüli foglalkozások – Egyéni fejlesztés PS/BS",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs.html",
+        "tags": ["Bálint", "Petőfi", "Székhely", "Tagiskola", "egyéni fejlesztés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés – Székhely",
+        "description": "Tanórán kívüli foglalkozások – Egyéni fejlesztés – Székhely",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "egyéni fejlesztés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Egyéni fejlesztés – Tagiskola",
+        "description": "Tanórán kívüli foglalkozások – Egyéni fejlesztés – Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/egyeni_fejlesztes_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "egyéni fejlesztés"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás PS/BS",
+        "description": "Tanórán kívüli foglalkozások – Szakkörök, tehetséggondozás PS/BS",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "Szakkörök, tehetséggondozás"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás – Székhely",
+        "description": "Tanórán kívüli foglalkozások – Szakkörök, tehetséggondozás – Székhely",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "Szakkörök, tehetséggondozás"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szakkörök, tehetséggondozás – Tagiskola",
+        "description": "Tanórán kívüli foglalkozások – Szakkörök, tehetséggondozás – Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/szakkorok_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "Szakkörök, tehetséggondozás"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások PS/BS",
+        "description": "Tanórán kívüli foglalkozások – Szaktárgyi korrepetálások PS/BS",
+        "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "szaktárgyi korrepetálások"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások – Székhely",
+        "description": "Tanórán kívüli foglalkozások – Szaktárgyi korrepetálások – Székhely",
+        "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "szaktárgyi korrepetálások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Szaktárgyi korrepetálások – Tagiskola",
+        "description": "Tanórán kívüli foglalkozások – Szaktárgyi korrepetálások – Tagiskola",
+        "link": "tanoran_kivuli_foglalkozasok/szaktargyi_korrepetalasok_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "szaktárgyi korrepetálások"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2021–2022",
+        "description": "Versenyeredmények PS/BS 2021–2022",
+        "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2021–2022"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2021–2022",
+        "description": "Versenyeredmények – Székhely 2021–2022",
+        "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2021–2022"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2021–2022",
+        "description": "Versenyeredmények – Tagiskola 2021–2022",
+        "link": "versenyeredmenyek/versenyeredmenyek_2021_22_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2021–2022"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2020–2021",
+        "description": "Versenyeredmények PS/BS 2020–2021",
+        "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2020–2021"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2020–2021",
+        "description": "Versenyeredmények – Székhely 2020–2021",
+        "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2020–2021"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2020–2021",
+        "description": "Versenyeredmények – Tagiskola 2020–2021",
+        "link": "versenyeredmenyek/versenyeredmenyek_2020_21_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2020–2021"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2019–2020",
+        "description": "Versenyeredmények PS/BS 2019–2020",
+        "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2019–2020"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2019–2020",
+        "description": "Versenyeredmények – Székhely 2019–2020",
+        "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2019–2020"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2019–2020",
+        "description": "Versenyeredmények – Tagiskola 2019–2020",
+        "link": "versenyeredmenyek/versenyeredmenyek_2019_20_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2019–2020"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2018–2019",
+        "description": "Versenyeredmények PS/BS 2018–2019",
+        "link": "versenyeredmenyek/versenyeredmenyek_2018_2019_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2018–2019"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2018–2019",
+        "description": "Versenyeredmények – Székhely 2018–2019",
+        "link": "versenyeredmenyek/versenyeredmenyek_2018_19_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2018–20189"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2018–2019",
+        "description": "Versenyeredmények – Tagiskola 2018–2019",
+        "link": "versenyeredmenyek/versenyeredmenyek_2018_19_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2018–2019"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2017–2018",
+        "description": "Versenyeredmények PS/BS 2017–2018",
+        "link": "versenyeredmenyek/versenyeredmenyek_2017_2018_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2017–2018"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2017–2018",
+        "description": "Versenyeredmények – Székhely 2017–2018",
+        "link": "versenyeredmenyek/versenyeredmenyek_2017_2018_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2017–2018"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2017–2018",
+        "description": "Versenyeredmények – Tagiskola 2017–2018",
+        "link": "versenyeredmenyek/versenyeredmenyek_2017_18_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2017–2018"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2016–2017",
+        "description": "Versenyeredmények PS/BS 2016–2017",
+        "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2016–2017"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2016–2017",
+        "description": "Versenyeredmények – Székhely 2016–2017",
+        "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2016–2017"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2016–2017",
+        "description": "Versenyeredmények – Tagiskola 2016–2017",
+        "link": "versenyeredmenyek/versenyeredmenyek_2016_17_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2016–2017"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2015–2016",
+        "description": "Versenyeredmények PS/BS 2015–2016",
+        "link": "versenyeredmenyek/versenyeredmenyek_2015_2016_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2015–2016"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2015–2016",
+        "description": "Versenyeredmények – Székhely 2015–2016",
+        "link": "versenyeredmenyek/versenyeredmenyek_2015_16_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2015–2016"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2015–2016",
+        "description": "Versenyeredmények – Tagiskola 2015–2016",
+        "link": "versenyeredmenyek/versenyeredmenyek_2015_16_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2015–2016"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények PS/BS 2014–2015",
+        "description": "Versenyeredmények PS/BS 2014–2015",
+        "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html",
+        "tags": [
+            "Bálint",
+            "Petőfi",
+            "Székhely",
+            "Tagiskola",
+            "versenyeredmények",
+            "2014–2015"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Székhely 2014–2015",
+        "description": "Versenyeredmények – Székhely 2014–2015",
+        "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "versenyeredmények", "2014–2015"]
+    },
+    {
+        "type": "oldal",
+        "name": "Versenyeredmények – Tagiskola 2014–2015",
+        "description": "Versenyeredmények – Tagiskola 2014–2015",
+        "link": "versenyeredmenyek/versenyeredmenyek_2014_15_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "versenyeredmények", "2014–2015"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Székhely 2021–2022",
+        "description": "Fotógaléria – Székhely 2021–2022",
+        "link": "galeriak/2021_22/ps/fooldal_2021_22_ps.html",
+        "tags": ["Petőfi", "Székhely", "fotógaléria", "2021–2022"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Tagiskola 2021–2022",
+        "description": "Fotógaléria – Tagiskola 2021–2022",
+        "link": "galeriak/2021_22/bs/fooldal_2021_22_bs.html",
+        "tags": ["Bálint", "Tagiskola", "fotógaléria", "2021–2022"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Székhely 2020–2021",
+        "description": "Fotógaléria – Székhely 2020–2021",
+        "link": "galeriak/2020_21/ps/fooldal_2020_21_ps.html",
+        "tags": ["Petőfi", "Székhely", "fotógaléria", "2020–2021"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Tagiskola 2020–2021",
+        "description": "Fotógaléria – Tagiskola 2020–2021",
+        "link": "galeriak/2020_21/bs/fooldal_2020_21_bs.html",
+        "tags": ["Bálint", "Tagiskola", "fotógaléria", "2020–2021"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Székhely 2019–2020",
+        "description": "Fotógaléria – Székhely 2019–2020",
+        "link": "galeriak/2019_20/ps/fooldal_2019_20_ps.html",
+        "tags": ["Petőfi", "Székhely", "fotógaléria", "2019–2020"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Tagiskola 2019–2020",
+        "description": "Fotógaléria – Tagiskola 2019–2020",
+        "link": "galeriak/2019_20/bs/fooldal_2019_20_bs.html",
+        "tags": ["Bálint", "Tagiskola", "fotógaléria", "2019–2020"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Székhely 2018–2019",
+        "description": "Fotógaléria – Székhely 2018–2019",
+        "link": "galeriak/2018_19/ps/fooldal_2018_19_ps.html",
+        "tags": ["Petőfi", "Székhely", "fotógaléria", "2018–20189"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Tagiskola 2018–2019",
+        "description": "Fotógaléria – Tagiskola 2018–2019",
+        "link": "galeriak/2018_19/bs/fooldal_2018_19_bs.html",
+        "tags": ["Bálint", "Tagiskola", "fotógaléria", "2018–2019"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Székhely 2017–2018",
+        "description": "Fotógaléria – Székhely 2017–2018",
+        "link": "galeriak/2017_18/ps/fooldal_2017_18_ps.html",
+        "tags": ["Petőfi", "Székhely", "fotógaléria", "2017–2018"]
+    },
+    {
+        "type": "oldal",
+        "name": "Fotógaléria – Tagiskola 2017–2018",
+        "description": "Fotógaléria – Tagiskola 2017–2018",
+        "link": "galeriak/2017_18/bs/fooldal_2017_18_bs.html",
+        "tags": ["Bálint", "Tagiskola", "fotógaléria", "2017–2018"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "EFOP-4.1.3, Székhely",
+        "description": "Páláyzatok – EFOP-4.1.3, Székhely, Infrastrukturális fejlesztések a Szegedi Petőfi Sándor Általános Iskolában",
+        "link": "palyazatok/EFOP_4_1_3.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Pályázat",
+            "EFOP-4.1.3",
+            "Infrastrukturális fejlesztések a Szegedi Petőfi Sándor Általános Iskolában"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Határtalanul PS",
+        "description": "Páláyzatok – Határtalanul, Székhely, Erdélyi legendák nyomában",
+        "link": "palyazatok/hatartalanul_palyazataink.html#panel1d",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Pályázat",
+            "Határtalanul",
+            "Erdélyi legendák nyomában"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Határtalanul PS",
+        "description": "Páláyzatok – Határtalanul, Székhely, Magyar írók, költők nyomában Erdély területén",
+        "link": "palyazatok/hatartalanul_palyazataink.html#panel2d",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Pályázat",
+            "Határtalanul",
+            "Magyar írók, költők nyomában Erdély területén"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Határtalanul BS",
+        "description": "Páláyzatok – Határtalanul, Tagiskola, Erdélyi legendák nyomában",
+        "link": "palyazatok/hatartalanul_palyazataink.html#panel3d",
+        "tags": [
+            "Bálint",
+            "Tagiskola",
+            "Pályázat",
+            "Határtalanul",
+            "Erdélyi legendák nyomában"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Határtalanul BS",
+        "description": "Páláyzatok – Határtalanul, Tagiskola, Királyok és fejedelmek nyomában Erdélyben",
+        "link": "palyazatok/hatartalanul_palyazataink.html#panel4d",
+        "tags": [
+            "Bálint",
+            "Tagiskola",
+            "Pályázat",
+            "Határtalanul",
+            "Királyok és fejedelmek nyomában Erdélyben"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Digitális témahét BS",
+        "description": "Pályázatok – Digitális témahét, Tagiskola",
+        "link": "palyazatok/digitalis_temahet.html",
+        "tags": ["Bálint", "Tagiskola", "Pályázat", "Digitális témahét"]
+    },
+    {
+        "type": "oldal",
+        "name": "Ökoiskola BS",
+        "description": "Pályázatok – Ökoiskola, Tagiskola",
+        "link": "palyazatok/okoiskola.html",
+        "tags": ["Bálint", "Tagiskola", "Pályázat", "Ökoiskola", "Környezetvédelem"]
+    },
+    {
+        "type": "oldal",
+        "name": "Iskolakert BS",
+        "description": "Pályázatok – Iskolakert Alapozó Alprogram, Tagiskola",
+        "link": "palyazatok/iskolakert.html",
+        "tags": ["Bálint", "Tagiskola", "Pályázat", "Iskolakert"]
+    },
+    {
+        "type": "oldal",
+        "name": "Nemzeti Tehetség Program PS",
+        "description": "Pályázatok – Nemzeti Tehetség Program, Tehetséggondozás és fejlesztés a Körtöltésen kívül, Székhely",
+        "link": "palyazatok/ntp.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Pályázat",
+            "Iskolakert",
+            "Tehetséggondozás",
+            "fejlesztés"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Comenius projekt PS/BS",
+        "description": "Pályázatok – Comenius Iskola együttműködés, Székhely és Tagiskola",
+        "link": "palyazatok/comenius_projekt.html#panel1d",
+        "tags": [
+            "Petőfi",
+            "Bálint",
+            "Székhely",
+            "Tagiskola",
+            "Pályázat",
+            "Comenius projekt"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Mi iskolánk PS",
+        "description": "Pályázatok – Petőfi Sándor Általános Iskola „Mi iskolánk, mi óvodánk” pályázat, Székhely",
+        "link": "palyazatok/mi_iskolank_ps_bs.html",
+        "tags": ["Petőfi", "Székhely", "Pályázat", "Mi iskolánk"]
+    },
+    {
+        "type": "oldal",
+        "name": "Mi iskolánk BS",
+        "description": "Pályázatok – Petőfi Sándor Általános Iskola „Mi iskolánk, mi óvodánk” pályázat, Tagiskola",
+        "link": "palyazatok/mi_iskolank_ps_bs.html#panel2d",
+        "tags": ["Bálint", "Tagiskola", "Pályázat", "Mi iskolánk"]
+    },
+    {
+        "type": "oldal",
+        "name": "TIOP 2008 PS/BS",
+        "description": "Pályázatok – TIOP 2008, Székhely, Tagiskola",
+        "link": "palyazatok/tiop_2008_ps_bs.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Bálint",
+            "Tagiskola",
+            "Pályázat",
+            "TIOP 2008"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "A petőfitelepi ifjúságért alapítvány PS",
+        "description": "Alapítványok – A petőfitelepi ifjúságért alapítvány, Székhely",
+        "link": "alapitvanyok_ps_bs.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "Alapítvány",
+            "A petőfitelepi ifjúságért alapítvány"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Freinet tanoda alapítvány BS",
+        "description": "Alapítványok – Freinet tanoda alapítvány, Tagiskola",
+        "link": "alapitvanyok_ps_bs.html",
+        "tags": ["Bálint", "Tagiskola", "Alapítvány", "Freinet tanoda alapítvány"]
+    },
+    {
+        "type": "oldal",
+        "name": "Letölthető nyomtatványok",
+        "description": "Felmentés a mindennapos testnevelés alól, Szülői nyilatkozat a délutáni foglalkozásokról, Adó 1%-ról nyilatkozat a Székhelyre, Adó 1%-ról nyilatkozat a Bálint Sándor Tagiskolába",
+        "link": "letoltheto_nyomtatvanyok.html",
+        "tags": [
+            "Bálint",
+            "Tagiskola",
+            "Petőfi",
+            "Székhely",
+            "Letölthető nyomtatványok",
+            "Felmentés a mindennapos testnevelés alól",
+            "Szülői nyilatkozat a délutáni foglalkozásokról",
+            "Adó 1%-ról nyilatkozat a Székhelyre",
+            "Adó 1%-ról nyilatkozat a Bálint Sándor Tagiskolába"
+        ]
+    },
+    {
+        "type": "oldal",
+        "name": "Leendő elsősök szülei részére PS",
+        "description": "e-Ügyintézés – Tájékoztató leendő elsősök szülei részére, Székhely",
+        "link": "e_ugyintezes/leendo_elsosok_szulei_reszere.html",
+        "tags": [
+            "Petőfi",
+            "Székhely",
+            "e-Ügyintézés",
+            "Tájékoztató elsős szülők részére"
+        ]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Leendő elsősök szülei részére BS",
+        "description": "e-Ügyintézés – Tájékoztató leendő elsősök szülei részére, Tagiskola",
+        "link": "e_ugyintezes/leendo_elsosok_szulei_reszere.html#panel2d",
+        "tags": [
+            "Bálint",
+            "Tagiskola",
+            "e-Ügyintézés",
+            "Tájékoztató elsős szülők részére"
+        ]
+    },
+
+    {
+        "type": "oldal",
+        "name": "Általános tájékoztató",
+        "description": "e-Ügyintézés – Általános tájékoztató",
+        "link": "e_ugyintezes/e_ugyintezes.html",
+        "tags": ["e-Ügyintézés", "Általános tájékoztató"]
+    },
+
+    {
+        "type": "oldal",
+        "name": "A KRÉTA rendszer használata",
+        "description": "e-Ügyintézés – A KRÉTA rendszer használata",
+        "link": "https://tudasbazis.ekreta.hu/pages/viewpage.action?pageId=2424949&preview=/2424949/11829263/KR%C3%89TA%20rendszer%20%C3%A1ttekint%C3%A9se.pptx",
+        "tags": ["e-Ügyintézés", "A KRÉTA rendszer használata"]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Tájékoztató",
+        "description": "GDPR tájékoztatók – Adatkezelési tájékoztató",
+        "link": "gdpr_tajekoztatok/hozzajarulo_nyilatk_psai_adatkezeles_rendezvenyeken.html",
+        "tags": ["gdpr", "tájékoztatók", "Adatkezelési tájékoztató"]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Nyilatkozat",
+        "description": "GDPR tájékoztatók – Hozzájáruló nyilatkozat",
+        "link": "gdpr_tajekoztatok/tanuloknak_es_torv_kepviseloknek.html",
+        "tags": ["gdpr", "tájékoztatók", "Hozzájáruló nyilatkozat"]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Munkavállalóknak",
+        "description": "GDPR tájékoztatók – Adatvédelmi tájékoztató munkavállalóknak",
+        "link": "gdpr_tajekoztatok/munkavallaloknak.html",
+        "tags": ["gdpr", "tájékoztatók", "Adatvédelmi tájékoztató munkavállalóknak"]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Álláspályázóknak",
+        "description": "GDPR tájékoztatók – Adatkezelési tájékoztató álláspályázóknak",
+        "link": "gdpr_tajekoztatok/allaspalyazoknak.html",
+        "tags": [
+            "gdpr",
+            "tájékoztatók",
+            "Adatkezelési tájékoztató álláspályázóknak"
+        ]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Szerződéses partnereknek",
+        "description": "GDPR tájékoztatók – Adatkezelési tájékoztató szerződéses partnereknek",
+        "link": "gdpr_tajekoztatok/szerzodeses_partnereknek.html",
+        "tags": [
+            "gdpr",
+            "tájékoztatók",
+            "Adatkezelési tájékoztató szerződéses partnereknek"
+        ]
+    },
+
+    {
+        "type": "pdf",
+        "name": "Hit- és erkölcstan oktatással kapcsolatos adatkezelés",
+        "description": "GDPR tájékoztatók – Hit- és erkölcstan oktatással kapcsolatos adatkezelés",
+        "link": "gdpr_tajekoztatok/adatkezelesi_tajekoztató_hit_es_erkolcstan.html",
+        "tags": [
+            "gdpr",
+            "tájékoztatók",
+            "Adatkezelési tájékoztató",
+            "hit- és erkölcstan oktatáss",
+            "adatkezelés"
+        ]
+    },
+    {
+        "type": "pdf",
+        "name": "Impresszum",
+        "description": "Impresszum",
+        "link": "impresszum.html",
+        "tags": ["Impresszum"]
+    }
+]

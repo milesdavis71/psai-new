@@ -1,0 +1,28 @@
+<h6 class="text-center">
+    <strong>KORÁBBI ÉVEK HÍRFOLYAMAI:</strong>
+</h6>
+<p>
+<ul class="vertical menu text-center  {{#ifpage
+            'hirfolyam_2021_22'
+            'hirfolyam_2020_21'
+            'hirfolyam_2019_20'
+            'hirfolyam_2021_22'
+            'hirfolyam_2021_22'
+            'hirfolyam_2022_23'
+            }}
+            is-active
+        {{/ifpage}}">
+    <li{{#ifpage 'hirfolyam_2022_23' }} class="current" {{/ifpage}}><a
+            href="{{root}}hirfolyam_2022_23.html">2022–2023-as tanév</a></li>
+        <li{{#ifpage 'hirfolyam_2021_22' }} class="current" {{/ifpage}}><a
+                href="{{root}}hirfolyam_2021_22.html">2021–2022-es tanév</a></li>
+            <li{{#ifpage 'hirfolyam_2020_21' }} class="current" {{/ifpage}}><a
+                    href="{{root}}hirfolyam_2020_21.html">2020–2021-es tanév</a></li>
+                <li{{#ifpage 'hirfolyam_2019_20' }} class="current" {{/ifpage}}><a
+                        href="{{root}}hirfolyam_2019_20.html">2019–2020-as tanév</a></li>
+                    <li{{#ifpage 'hirfolyam_2018_19' }} class="current" {{/ifpage}}><a
+                            href="{{root}}hirfolyam_2018_19.html">2018–2019-es tanév</a></li>
+                        <li{{#ifpage 'hirfolyam_2017_18' }} class="current" {{/ifpage}}><a
+                                href="{{root}}hirfolyam_2017_18.html">2017–2018-as tanév</a></li>
+</ul>
+</p>

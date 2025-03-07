@@ -1,0 +1,18 @@
+<table class="hover">
+    <thead>
+        <tr>
+            <td>Tantárgy</td>
+            <td>Nap</td>
+            <td>Óra</td>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each egyenifejlps}}
+        <tr>
+            <td>{{this.nev}}</td>
+            <td>{{this.nap}}</td>
+            <td>{{this.ora}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

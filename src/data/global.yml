@@ -1,0 +1,897 @@
+ngsz-befiz-date:
+  - month: április
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 03. 05.
+    date02: 03. 06.
+    date03: 03. 12.
+    date04: 03. 13.
+    date05: 03. 19.
+    date06: 03. 20.
+    date07: 03. 26.
+    date08: 03. 27.
+    date09: 04. 02.
+    date10: 03. 03.
+  - month: május
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 04. 09.
+    date02: 04. 10.
+    date03: 04. 16.
+    date04: 04. 17.
+    date05: 04. 23.
+    date06: 04. 24.
+    date07: 04. 30.
+  - month: június
+    de: "07:30–14:30"
+    du: "10:00–17:00"
+    date01: 05. 07.
+    date02: 05. 08.
+    date04: 05. 15.
+    date05: 05. 21.
+    date06: 05. 22.
+    date07: 05. 28.
+    date08: 05. 29.
+    date09: 06. 04.
+    date10: 06. 05.
+
+news:
+    - 
+      title: BEIRATKOZÁS 2025-2026 – székhely és tagiskola
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: beiratkozas.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news35  
+    - 
+      title: 'Iskolahívógató: Gergely-járás játékos foglalkozás'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskolája
+      img: gergelyjaras.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news33  
+    - 
+      title: Járási verseny
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: csik_bottom.jpg
+      align: 
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news32  
+    - 
+      title: Fogadóóra 2025 tavasz
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: fogadoora_small.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news30  
+
+    - 
+      title: Farsang
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: farsang_maszk.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news29  
+    - 
+      title: Vidám, játékos téli sor-és váltóverseny alsó tagozatosoknak
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: teli_szunet.jpg
+      align: center
+      imgclass: medium-12
+      contentclass: 
+      content: news28  
+
+    - 
+      title: Tangram alkotói pályázat óvodásoknak
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: tangram.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news27  
+    - 
+      title: Sakkverseny
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: sakkverseny.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news26  
+    - 
+      title: Téli szünet
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: teli_szunet_2021.png
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news25  
+    - 
+      title: Karácsonyi műsor
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: karacsonyi_musor.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news24  
+    - 
+      title: Egészségnap
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: egeszsegnap.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news23  
+    - 
+      title: Papírgyűjtés eredményhirdetés
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: papirgyujtes.png
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news22  
+    - 
+      title: Alapítványi bál
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: ball.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news21  
+    - 
+      title: Őszi szünet
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: oszi_szunet.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news20  
+    - 
+      title: Október 23-i megemlékezés
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: okt23.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news19  
+    - 
+      title: Óvodások szavalóversenye
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: szavaloverseny.jpg
+      align: 
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news18  
+    - 
+      title: Szüreti piknik
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: szureti_piknik.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news17  
+
+    - 
+      title: 'Suliváró foglalkozások'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: sulivaro.jpg
+      align: 
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news16  
+    - 
+      title: Hit- és erkölcstan oktatással kapcsolatos tájékoztató
+      school: 
+      img: csik_bottom.jpg
+      align: center
+      imgclass: 
+      contentclass: medium-12
+      content: news15
+    - 
+      title: Szülői értekezletek 2025 tavasz – SZÉKHELY
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news14
+    - 
+      title: Szülői értekezletek 2025 tavasz – TAGISKOLA
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news13
+    - 
+      title: 'Beiskolázási nyílt óra és iskolába hívogató foglalkozás'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: sulivaro.jpg
+      align: 
+      imgclass: medium-5
+      contentclass: medium-7
+      content: news12
+    - 
+      title: 'Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben'
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      img: csik_bottom.jpg
+      align: 
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news11
+
+
+newsold:
+
+    - 
+      title: Tanévnyitó ünnepség 2024 ősz – SZÉKHELY
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: tanevnyito.png
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news08
+
+    - 
+      title: Tanévnyitó ünnepség 2024 ősz – TAGISKOLA
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: tanevnyito.png
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news07
+    - 
+      title: Tankönyvosztás 2024–2025 – Tagiskola 
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: tankonyvosztas_right.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news06
+    - 
+      title: Tankönyvek átvétele – SZÉKHELY
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      img: tankonyvosztas_left.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news05
+    - 
+      title: 2024. Nyári vezetői ügyelet 
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      img: summer_holiday_2024.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news04
+    -
+      title: Vármegyei matematika verseny, III. helyezés 
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: bs_varmegyei_mat_verseny_2024_3_hely_szabo_viktoria.jpg
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news01
+    - 
+      title: Tudásbajnokság, országos döntő, matematika, I. helyezés 
+      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      img: bs-tudasbajnoksag-mat-orszagos-donto-2024-1-hely.jpg
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news02
+
+    
+taneszkoz:
+    - 
+      class: "1"
+      deeplink: 1o
+    - 
+      class: "2"
+      deeplink: 2o
+    - 
+      class: "3"
+      deeplink: 3o
+    - 
+      class: "4"
+      deeplink: 4o
+    - 
+      class: "5"
+      deeplink: 5o
+    - 
+      class: "6"
+      deeplink: 6o
+    - 
+      class: "7"
+      deeplink: 7o
+    - 
+      class: "8"
+      deeplink: 8o
+
+kompetenciameres-2024:
+    - 
+      meresiterulet: angol idegen nyelv 
+      oszt: 6.
+      pontps: 1566
+      pontbs: 1507
+      smile1ps: 🙂
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 😐
+    -
+      meresiterulet: angol idegen nyelv 
+      oszt: 7.
+      pontps: 1571
+      pontbs: 1622
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 😐
+      smile3bs: 🙂
+    -
+      meresiterulet: angol idegen nyelv 
+      oszt: 8.
+      pontps: 1686
+      pontbs: 1630
+      smile1ps: 🙂
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 😐
+    -
+      meresiterulet: matematika 
+      oszt: 6.
+      pontps: 1531
+      pontbs: 1512
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: matematika 
+      oszt: 7.
+      pontps: 1613
+      pontbs: 1577
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: matematika 
+      oszt: 8.
+      pontps: 1613
+      pontbs: 1617
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: szövegértés 
+      oszt: 6.
+      pontps: 1481
+      pontbs: 1501
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: szövegértés 
+      oszt: 7.
+      pontps: 1562
+      pontbs: 1569
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: szövegértés 
+      oszt: 8.
+      pontps: 1587
+      pontbs: 1616
+      smile1ps: 🙂
+      smile1bs: 🙂
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 🙂
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: természettudomány 
+      oszt: 6.
+      pontps: 1493
+      pontbs: 1464
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 😐
+      smile3bs: 😐
+    -
+      meresiterulet: természettudomány 
+      oszt: 7.
+      pontps: 1598
+      pontbs: 1588
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 🙂
+      smile3bs: 🙂
+    -
+      meresiterulet: természettudomány 
+      oszt: 8.
+      pontps: 1591
+      pontbs: 1554
+      smile1ps: 😐
+      smile1bs: 😐
+      csop1: megyeszékh. ált. isk. 
+      smile2ps: 😐
+      smile2bs: 😐
+      csop2: megyeszékh. közepes ált. isk. 
+      smile3ps: 😐
+      smile3bs: 😐
+
+tanevrendje_ps_bs:
+    - tan_nelk_nap_1: "2024. október 4. (péntek)"
+      tan_nelk_nap_2: "2024. december 7. (szombat)"
+      tan_nelk_nap_3: "2025. február 3. (hétfő)"
+      tan_nelk_nap_4: "2025. június 18. (szerda)"
+      osziszunet_start: "2024. október 25. (péntek)"
+      osziszunet_end: "2024. november 4. (hétfő) "
+      teliszunet_start: "2024. december 20. (péntek)"
+      teliszunet_end: "2025. január 6. (hétfő)"
+      tavasziszunet_start: "2025. április 16. (szerda)"
+      tavasziszunet_end: "2025. április 28. (hétfő)"
+      felev_end: "2025. január 17. (péntek)"
+
+
+csengetesi_rend_ps:
+  - ora: 1
+    ido: 08:00 – 08:45
+  - ora: 2
+    ido: 09:00 – 09:45
+  - ora: 3
+    ido: 10:00 – 10:45
+  - ora: 4
+    ido: 11:00 – 11:45
+  - ora: 5
+    ido: 12:05 – 12:50
+  - ora: 6
+    ido: 13:05 – 13:50
+  - ora: 7
+    ido: 14:00 – 14:45
+  - ora: 8
+    ido: 15:00 – 15:45
+
+gallery_fooldal_bs:
+    2023-24:
+    - pict_folder_url: 2023_09_01_Tanévnyitó
+      title: Tanévnyitó
+      date: 2023 09 01
+      html_url:
+    - pict_folder_url: 2023_10_01_Zene-világnapja
+      title: Zene-világnapja
+      date: 2023 09 01
+    - pict_folder_url: 2023_10_20_PÁV-nap
+      title: PÁV nap
+      date: 2023_10_20
+    - pict_folder_url: 2023_10_26_Halloween
+      title: Halloween
+      date: 2023_10_26
+    - pict_folder_url: 2023_10_26_Magyar-népmese-napja
+      title: Magyar népmese napja
+      date: 2023_10_26
+    - pict_folder_url: 2023_11_09_Könyvtárlátogatások
+      title: 2023_11_09_Könyvtárlátogatások
+      date: 2023. 11. 09
+    - pict_folder_url: 2023_11_10_Márton-nap
+      title: 2023_11_10_Márton-nap
+      date: 2023_11_10
+    - pict_folder_url: 2023_11_17_bs-ps-kosármeccs
+      title: 2023_11_17_bs-ps-kosármeccs
+      date: 2023_11_17
+    - pict_folder_url: 2023_11_22_Versmondó-verseny díjazottai-alsó-tagozat
+      title: 2023_11_22_Versmondó-verseny díjazottai-alsó-tagozat
+      date: 2023_11_22
+    - pict_folder_url: 2023_12_04_Adventi-készülődés
+      title: 2023_12_04_Adventi-készülődés
+      date: 2023_12_04
+    - pict_folder_url: 2024_01_19_Bábszínház-foglalkozás
+      title: 2024_01_19_Bábszínház-foglalkozás
+      date: 2024_01_19
+    - pict_folder_url: 2024_01_31_Medve-nap
+      title: 2024_01_31_Medve-nap
+      date: 2024_01_31
+    - pict_folder_url: 2024_02_05_Tisza-élővilágának-emléknapja
+      title: 2024_02_05_Tisza-élővilágának-emléknapja
+      date: 2024_02_05
+    - pict_folder_url: 2024_02_06_Farsangi-bál
+      title: 2024_02_06_Farsangi-bál
+      date: 2024_02_06
+    - pict_folder_url: 2024_02_07_Januári-események
+      title: 2024_02_07_Januári-események
+      date: 2024_02_07
+    - pict_folder_url: 2024_02_09_Bűnmegelőzés
+      title: 2024_02_09
+      date: 2024_02_09_Bűnmegelőzés
+    - pict_folder_url: 2024_02_12_KEVE_kék-tér
+      title: 2024_02_12
+      date: 2024_02_12_KEVE_kék-tér
+    - pict_folder_url: 2024_02_15_Kiszebáb-égetés
+      title: 2024_02_15_Kiszebáb-égetés
+      date: 2024_02_15_Kiszebáb-égetés
+    - pict_folder_url: 2024_02_19_Büszkeségeink
+      title: 2024_02_19_Büszkeségeink
+      date: 2024_02_19_Büszkeségeink
+    - pict_folder_url: 2024_02_23_Magyar-Parasport-Napja
+      title: 2024_02_23_Magyar-Parasport-Napja
+      date: 2024_02_23_Magyar-Parasport-Napja
+    - pict_folder_url: 2024_02_27_Könyvtári-látogatás
+      title: 2024_02_27_Könyvtári-látogatás
+      date: 2024_02_27_Könyvtári-látogatás
+    - pict_folder_url: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+      title: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+      date: 2024_03_05_Erős-Pista-kalandjai-rajzpályázat
+    - pict_folder_url: 2024_03_13_Rendhagyó-órák
+      title: 2024_03_13_Rendhagyó-órák
+      date: 2024_03_13_Rendhagyó-órák
+    - pict_folder_url: 2024_03_14_Március-15
+      title: 2024_03_14_Március-15
+      date: 2024_03_14_Március-15
+    - pict_folder_url: 2024_03_19_Iskolakert
+      title: 2024_03_19_Iskolakert
+      date: 2024_03_19_Iskolakert
+    - pict_folder_url: 2024_03_26_Víz-világnapja
+      title: 2024_03_26_Víz-világnapja
+      date: 2024_03_26_Víz-világnapja
+    - pict_folder_url: 2024_04_12 A-magyar-költészet-napja
+      title: 2024_04_12 A-magyar-költészet-napja
+      date: 2024_04_12 A-magyar-költészet-napja
+    - pict_folder_url: 2024_04_17_Rendhagyó-órák
+      title: 2024_04_17_Rendhagyó-órák
+      date: 2024_04_17_Rendhagyó-órák
+    - pict_folder_url: 2024_04_29_Témahetek
+      title: 2024_04_29_Témahetek
+      date: 2024_04_29_Témahetek
+    - pict_folder_url: 2024_04_30_Büszkeségeink
+      title: 2024_04_30_Büszkeségeink
+      date: 2024_04_30_Büszkeségeink
+    - pict_folder_url: 2024_04-22_Csendéletfestő-háziverseny
+      title: 2024_04-22_Csendéletfestő-háziverseny
+      date: 2024_04-22_Csendéletfestő-háziverseny
+    - pict_folder_url: 2024_05_10_Rendhagyó-órák
+      title: 2024_05_10_Rendhagyó-órák
+      date: 2024_05_10_Rendhagyó-órák
+    - pict_folder_url: 2024_05_13_Bálint-Sándor-emlékhét
+      title: 2024_05_13_Bálint-Sándor-emlékhét
+      date: 2024_05_13_Bálint-Sándor-emlékhét
+    - pict_folder_url: 2024_05_17_Vármegyei-csendéletfestő-verseny
+      title: 2024_05_17_Vármegyei-csendéletfestő-verseny
+      date: 2024_05_17_Vármegyei-csendéletfestő-verseny
+    - pict_folder_url: 2024_05_31_Sudoku-háziverseny
+      title: 2024_05_31_Sudoku-háziverseny
+      date: 2024_05_31_Sudoku-háziverseny
+    - pict_folder_url: 2024_06_03_Családi-nap
+      title: 2024_06_03_Családi-nap
+      date: 2024_06_03_Családi-nap
+    - pict_folder_url: 2024_06_10_Négyet-egy-sorba
+      title: 2024_06_10_Négyet-egy-sorba
+      date: 2024_06_10_Négyet-egy-sorba
+    - pict_folder_url: 2024_06_11_Határtalanul
+      title: 2024_06_11_Határtalanul
+      date: 2024_06_11_Határtalanul
+    - pict_folder_url: 2024_06_17_Színes-programok
+      title: 2024_06_17_Színes-programok
+      date: 2024_06_17_Színes-programok
+    - pict_folder_url: 2024_06_18_Osztálykirándulások
+      title: 2024_06_18_Osztálykirándulások
+      date: 2024_06_18_Osztálykirándulások
+    - pict_folder_url: 2024_06_21_Legizgalmasabb-projektjeink
+      title: 2024_06_21_Legizgalmasabb-projektjeink
+      date: 2024_06_21_Legizgalmasabb-projektjeink
+    - pict_folder_url: 2024_06_25_Színes-programok
+      title: 2024_06_25_Színes-programok
+      date: 2024_06_25_Színes-programok
+
+gallery_bs:
+  2023-24:
+    pict_folder_url: 2023_09_01_Tanévnyitó
+      - 01.jpg
+      - 02.jpg
+      - 03.jpg
+      - 04.jpg
+      - 05.jpg
+      - 06.jpg
+      - 07.jpg
+      - 08.jpg
+
+download_pdf:
+  -
+    title: Igazolás mindennapos testnevelés alóli felmentéshez – Székhely/Tagiskola
+    url: igazolas_mindennapos_testneveles_aloli_felmenteshez_ps_bs.pdf
+  -
+    title: Szülői nyilatkozat a kötelező alsós napközi foglalkozások tudomásulvételéről – Székhely/Tagiskola
+    url: szuloi_nyilatkozat_kotelezo_alsos_napkozi_tudomasulvetelerol.pdf
+  -
+    title: Szülői kérelem az alsós napközis foglalkozásokról való állandó felmentéshez – Székhely/Tagiskola
+    url: kerelem_allando_napkozis_kikerohoz_alsos.pdf
+  -
+    title: Szülői nyilatkozat a felső tagozatos napközi foglalkozások elhagyásának időpontjairól – Székhely/Tagiskola
+    url: szuloi_nyilatkozat_a_delutani_foglalkozasok_elhagyasarol.pdf
+  -
+    title: Adategyeztető lap – Székhely/Tagiskola
+    url: adategyeteto_lap.pdf
+  - 
+    title: Etika vagy Hit és erkölcstan szülői nyilatkozat – Székhely/Tagiskola
+    url: etika_vagy_hit_es_erkolcstan_szuloi_nyilatkozat.pdf
+  - 
+    title: Szülői hozzájáruló nyilatkozat fénykép vagy videofelvétel készítéséhez és felhasználásához – Székhely/Tagiskola
+    url: szuloi_hozzajarulo_nyilatkozat_fenykep_vagy_videofelvetel_keszitesehez_es_felhasznalasahoz.pdf
+  - 
+    title: Szülői nyilatkozat osztálykassza vezetéséről – Székhely/Tagiskola
+    url: szuloi_nyilatkozat_osztalykassza_vezeteserol.pdf
+  - 
+    title: Szülői nyilatkozat allergiáról és cukorbetegségről – Székhely/Tagiskola 
+    url: szuloi_nyilatkozat_allergiarol_es_cukorbetegsegrol.pdf
+  - 
+    title: Szülöi nyilatkozat házi feladat otthoni ellenőrzéséről – Székhely/Tagiskola
+    url: szuloi_nyilatkozat_hazi_feladat_otthoni_ellenorzeserol.pdf
+  - 
+    title: Tanulói adatlap a 2024–25-ös tanévre – Székhely/Tagiskola 
+    url: tanuloi_adatlap_a_2024–25_os_tanevre.pdf
+
+szaktargyi_korrepetalas:
+  ps:
+  - tantargy: korrepetálás 1
+    idopont: szerda 6. óra
+  - tantargy: korrepetálás 2
+    idopont: hétfő 6. óra
+  - tantargy: korrepetálás 3
+    idopont: hétfő 5. óra
+  - tantargy: korrepetálás 4
+    idopont: csütörtök 5. óra
+  - tantargy: korrepetálás 6
+    idopont: szerda 7. óra
+  - tantargy: korrepetálás 7
+    idopont: hétfő 6. óra
+  - tantargy: korrepetálás 8
+    idopont: kedd 8. óra
+  bs:
+  - tantargy: korrepetálás
+    idopont: szerda 6. óra
+    tanar: Ungerné Fekete Mónika
+
+  - tantargy: korrepetálás
+    idopont: csütörtök 7. óra
+    tanar: Ungerné Fekete Mónika
+
+  - tantargy: korrepetálás
+    idopont: hétfő 7. óra
+    tanar: Nagyistók Zsuzsanna
+
+  - tantargy: korrepetálás
+    idopont: kedd 6. óra
+    tanar: Nagyistók Zsuzsanna
+
+
+egyenifejlesztes:
+  bs:
+  - tantargy: BTMN-F/1
+    idopont: kedd 7.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-F/2
+    idopont: hétfő 7.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-F/3
+    idopont: kedd 8.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN -K/2
+    idopont: szerda 5.ó.
+    tanar: Fodorné Kiss Magdolna
+  - tantargy: BTMN-K/3
+    idopont: szerda 4.ó.
+    tanar: Terhes Bernadett
+  - tantargy: BTMN-K/4
+    idopont: szerda 4.ó.
+    tanar: Skultéti Katalin
+  - tantargy: BTMN-K/5
+    idopont: kedd 5.ó.
+    tanar: Csernus Fruzsina
+  - tantargy: BTMN-K/6
+    idopont: csütörtök 4.ó.
+    tanar: Csernus Fruzsina
+  - tantargy: BTMN-K/7
+    idopont: csütörtök 6.ó.
+    tanar: Széllné Bartók Mária
+  - tantargy: BTMN-K/1
+    idopont: szerda 4.ó.
+    tanar: Savanya Béláné
+  - tantargy: BTMN-K/8
+    idopont: szerda 6. ó.
+    tanar: Ungerné Fekete Mónika
+  - tantargy: BTMN-K/9
+    idopont: kedd 6.ó.
+    tanar: Porkolábné Papp Zsuzsa
+  - tantargy: BTMN-K/10
+    idopont: kedd 6.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/11
+    idopont: kedd 8.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/12
+    idopont: szerda 7.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: BTMN-K/13
+    idopont: kedd 7.ó.
+    tanar: Zombori-Benczur Izabella
+  - tantargy: SNI
+    idopont: hétfő 7.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: hétfő 8.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 3.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 6.óra
+    tanar: Mede Brigitta
+  - tantargy: SNI
+    idopont: kedd 7.óra
+    tanar: Mede Brigitta
+
+
+iskolai_segitok:
+  - job: iskolapszichológus
+    name: Ficz Gábor
+    mail: falco444@gmail.com
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+  - job: Gyógypedagógus I.
+    name: Mede Brigitta
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Gyógypedagógus II.
+    name: Bozóki Petra
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Szurdópedagógus
+    name: Petrás Zsuzsanna
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Logopédus
+    name: Dusik-Balázs Dóra
+    mail: −
+    tel1: −
+    tel2: −
+
+  - job: Iskolai segítő
+    name: Hajdú Éva
+    mail: hajdu.eva@csgyjk.ritek.hu
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+  - job: Iskolarendőr
+    name: Kocsis Mihály Zsolt
+    mail: jaksai@csongrad.police.hu
+    tel1: '+36203879927'
+    tel2: +36 20 387 9927
+
+jarasiversenBSy:
+  huszonot:
+    - datum: 2025. február 27. (csütörtök) 13 óra 30 perc
+      helyszin: Szegedi Petőfi Sándor Általános Iskola
+      cim: Szeged, Benczúr Gyula u. 29.
+      tel: +36 30 736 2795
+      telegybe: '+36307362795'
+      mail: titkarsag@petofiszeged.hu
+  1-:
+  - filename: 2o
+    caption: Alsó tagozatos osztályterem
+  - filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
+ 
+  2-:
+  - folder: hirfolyam/jarasi_verseny/
+    filename: udvar-eletkep
+    caption: Udvari életkép
+  - folder: hirfolyam/jarasi_verseny/
+    filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
+
+  3-:
+  - folder: hirfolyam/jarasi_verseny/
+    filename: angol-tan-1-oszt
+    caption: Angolnyelvtanítás első osztálytól
+  - folder: hirfolyam/jarasi_verseny/
+    filename: tablet
+    caption: Tablet használata tanórán
+ 
+
+psbemutatk:
+  1-:
+  - folder: bemutatkozas/ps/
+    filename: also-tagozatos-osztalyterem
+    caption: Alsó tagozatos osztályterem
+  - folder: bemutatkozas/ps/
+    filename: felso-tagozatos-osztalyterem
+    caption: Felső tagozatos osztályterem
+  - folder: bemutatkozas/ps/
+    filename: felujitott-tornaterem
+    caption: Felújított osztályterem
+
+
+  2-:
+  - folder: bemutatkozas/ps/
+    filename: udvar-eletkep
+    caption: Udvari életkép
+  - folder: bemutatkozas/ps/
+    filename: udvari-jatszokak
+    caption: Udvari játszókák
+  - folder: bemutatkozas/ps/
+    filename: szureti-piknik
+    caption: Szüreti piknik
+
+  3-:
+  - folder: bemutatkozas/ps/
+    filename: angol-tan-1-oszt
+    caption: Angolnyelvtanítás első osztálytól
+  - folder: bemutatkozas/ps/
+    filename: tablet
+    caption: Tablet használata tanórán
+  - folder: bemutatkozas/ps/
+    filename: info-szaktanterem
+    caption: Informatikai szaktanterem
+ 
+  4-:
+  - folder: bemutatkozas/ps/
+    filename: haziversenyek
+    caption: Háziversenyek
+  - folder: bemutatkozas/ps/
+    filename: termttud-szaktanterem
+    caption: Természettudományos szaktanterem
+  - folder: bemutatkozas/ps/
+    filename: ebedlo
+    caption: Ebédlő
+  

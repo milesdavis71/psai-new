@@ -1,0 +1,49 @@
+<li>
+  <a href="#">&thinsp;&thinsp;<i class="fas fa-file-alt"></i>&ensp;Pályázatok</a>
+  <ul class="menu vertical nested
+  {{#ifpage
+    'EFOP_4_1_3'
+    'hatartalanul_palyazataink'
+    'digitalis_temahet'
+    'okoiskola'
+    'iskolakert'
+    'ntp'
+    'comenius_projekt'
+    'mi_iskolank_ps_bs'
+    'tiop_2008_ps_bs'
+    
+    }}
+    is-active
+  {{/ifpage}}">
+    <li {{#ifpage 'EFOP_4_1_3' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/EFOP_4_1_3.html">EFOP-4.1.3 &ensp;PS</a>
+    </li>
+    <li {{#ifpage 'hatartalanul_palyazataink' 'hatartalanul_2017_18' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/hatartalanul_palyazataink.html"><img src="{{root}}assets/img/hatartalanul_logo.jpg"
+          alt="Határtalanul logó">&ensp;<img src="{{root}}assets/img/bga_logo.jpg"
+          alt="Bethlen Gábor alap">&ensp;Határtalanul {{>label}}</a>
+    </li>
+    <li {{#ifpage 'digitalis_temahet' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/digitalis_temahet.html">Digitális témahét&ensp;BS</a>
+    </li>
+    <li {{#ifpage 'okoiskola' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/okoiskola.html">Ökoiskola&ensp;BS</a>
+    </li>
+    <li {{#ifpage 'iskolakert' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/iskolakert.html">Iskolakert&ensp;BS</a>
+    </li>
+    <li {{#ifpage 'ntp' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/ntp.html"><img src="{{root}}assets/img/palyazatok/kozos/ntp_logo_small.jpg"
+          alt="Határtalanul logó">&ensp;Nemzeti Tehetség Program</a>
+    </li>
+    <li {{#ifpage 'comenius_projekt' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/comenius_projekt.html">Comenius projekt&ensp;PS/BS</a>
+    </li>
+    <li {{#ifpage 'mi_iskolank_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/mi_iskolank_ps_bs.html">Mi iskolánk {{>label}}</a>
+    </li>
+    <li {{#ifpage 'tiop_2008_ps_bs' }} class="current" {{/ifpage}}>
+      <a href="{{root}}palyazatok/tiop_2008_ps_bs.html">TIOP 2008 {{>label}}</a>
+    </li>
+  </ul>
+</li>

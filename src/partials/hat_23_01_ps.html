@@ -1,0 +1,613 @@
+<style type="text/css">
+.card:hover {
+    box-shadow: 0 0 30px rgba(33, 33, 33, .3);
+}
+</style>
+<script type="text/javascript">
+//
+// No external JavaScript libraries are used or required
+// Plugins used are autoprefixer and babel
+//
+(() => {
+    'use strict';
+
+    // Create object literal with project variables
+    const galleryVariables = {
+        galleryAuthor: document.querySelector('.js-modal-author'),
+        galleryButton: document.querySelector('.js-close-button'),
+        galleryLinks: document.querySelectorAll('a[data-toggle="galleryModal"]'),
+
+
+
+        galleryModal: document.querySelector('.js-gallery-reveal'),
+        galleryOverlay: document.querySelector('.js-gallery-overlay'),
+        galleryPreview: document.querySelector('.js-modal-preview'),
+        galleryPreviewAuthor: document.querySelector('.js-modal-author')
+    }
+
+    // Fade in function
+    const fadeIn = (element) => {
+        // Create variable with initial opacity
+        let elementOpacity = 0.1;
+
+        // Create timer for fadeIn function
+        let timer = setInterval(() => {
+            if (elementOpacity >= 1) {
+                // Reset interval
+                clearInterval(timer);
+            }
+
+            // Set element opacity to elementOpacity
+            element.style.opacity = elementOpacity;
+
+            // Increase value of elementOpacity
+            elementOpacity += elementOpacity * 0.1;
+
+            // Show element
+            element.style.display = 'block';
+        }, 15);
+    }
+
+    // Fade out function
+    const fadeOut = (element) => {
+        // Create variable with initial opacity
+        let elementOpacity = 1;
+
+        // Create timer for fadeOut function
+        let timer = setInterval(() => {
+            if (elementOpacity <= 0.1) {
+                // Reset interval
+                clearInterval(timer);
+
+                // Hide element
+                element.style.display = 'none';
+            }
+
+            // Set element opacity to elementOpacity
+            element.style.opacity = elementOpacity;
+
+            // Decrease value of elementOpacity
+            elementOpacity -= elementOpacity * 0.1;
+        }, 15);
+    }
+
+    // Open reveal dialog by clicking on images
+    for (let x = 0, y = galleryVariables.galleryLinks.length; x < y; x++) {
+        // Add event listener for image containers
+        galleryVariables.galleryLinks[x].addEventListener('click', (e) => {
+            e.preventDefault();
+
+            // Get clicked image
+            let image = e.target;
+
+            // Get src of the image
+            let imageSrc = image.getAttribute('src');
+
+            // Get alt of the image
+            let imageAlt = image.getAttribute('alt');
+
+            // Set alt attribute of preview image to clicked image
+            galleryVariables.galleryPreview.setAttribute('alt', imageAlt);
+
+            // Set src attribute of preview image to clicked image
+            galleryVariables.galleryPreview.setAttribute('src', imageSrc);
+
+            // Set preview headline to alt of clicked phot
+            galleryVariables.galleryPreviewAuthor.textContent = imageAlt;
+
+            // Avoid openning modal unless its content is loaded
+            if (galleryVariables.galleryPreview.getAttribute('src').length > 0 && galleryVariables.galleryPreview.getAttribute('alt').length > 0 && galleryVariables.galleryPreviewAuthor.textContent.length > 0) {
+                // Add Foundation class to hide overflow
+                document.body.classList.add('is-reveal-open');
+
+                // Show modal dialog
+                galleryVariables.galleryModal.style.display = 'block';
+
+                // Show modal overlay (fade it in)
+                fadeIn(galleryVariables.galleryOverlay);
+            }
+        });
+    }
+
+    // Close reveal dialog
+    galleryVariables.galleryButton.addEventListener('click', (e) => {
+        e.preventDefault();
+
+        // Hide modal overlay (fade it out)
+        fadeOut(galleryVariables.galleryOverlay);
+
+        // Wait before overlay fades out
+        setTimeout(() => {
+            // Hide modal dialog
+            galleryVariables.galleryModal.style.display = 'none';
+
+            // Reset alt attribute of preview image
+            galleryVariables.galleryPreview.setAttribute('alt', '');
+
+            // Reset src attribute of preview image
+            galleryVariables.galleryPreview.setAttribute('src', '');
+
+            // Reset text for preview headline
+            galleryVariables.galleryPreviewAuthor.textContent = '';
+
+            // Remove Foundation class to hide overflow
+            document.body.classList.remove('is-reveal-open');
+        }, 250);
+    });
+})();
+</script>
+<h4 class="text-center">„Történelmi megállók Erdélyben”<br><small>2024. június 11–15.</small>
+</h4>
+<hr>
+<div class="grid-x grid-margin-x">
+    <!-- start 1_1 pict cell -->
+    <div class="cell small-12 large-6">
+        <p>
+            Iskolánk hetedik osztályos tanulóival a Határtalanul! pályázat keretében 2024. június 11 - 15. között Erdélybe utazhattunk, ahol az ott eltöltött öt nap során rendkívül sok érdekes és izgalmas program várt bennünket.
+        </p>
+        <p>
+            Az utazás előtt tartott előkészítő órákon a diákok felidézték a trianoni békeszerződés során elcsatolt területeken élő magyarság történetét, illetve megismerhették a székely nép sorsát. Interaktív tananyag segítségével a népi hangszerekkel, hagyományokkal foglalkoztunk.
+        </p>
+        <p>
+            Betekintést nyerhettek népszokásaikon, hagyományaikon keresztül kultúrájukba, mindennapi életükbe. A részletes programterv ismertetését követően minden tanuló felkészült az általa választott témában.
+        </p>
+    </div> <!-- end pict cell -->
+    <!-- start 1_3. pict cell -->
+    <div class="cell small-12 large-6">
+        <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="imgbusz">
+            <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/busz.jpg">
+        </a><!-- end pict -->
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="imgbusz" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/busz.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<h4><small>Első nap</small></h4>
+<p>
+    Az indulás napján nagyon korán kellett kelnünk, hiszen hosszú út állt előttünk. Hajnali négy órakor álmosan gyülekeztünk az iskola előtt a buszra várva. Kezdeti fáradtságunk hamar elszállt, hiszen a székelyvarsági szállásra vezető utunkat többször is megszakítottuk egy-egy izgalmas helyszínen.
+</p>
+<p>
+    Déva váránál álltunk meg először. Verőfényes napsütésben sétáltunk a gyönyörűen felújított vár területén, ahova a drótkötélpályás felvonó segítségével jutottunk el.
+</p>
+<p>Folytattuk utunkat Gyulafehérvárra, ahol megtekintettük a székesegyházat, majd a Károly-kapun átsétálva megcsodáltuk
+    a gyönyörű tájat.
+</p>
+<!-- Picts day1_1_3 -->
+<div class="grid-x grid-margin-x">
+    <!-- start 1_1 pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img101">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Déva.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Déva
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img101" data-reveal data-overlay="true">
+            <a href="hatartalanul_palyazataink.html#hat23ps">
+                <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Déva.jpg" alt="" />
+                <button class="close-button" data-close aria-label="Close reveal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 1_3. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img102">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Gyulafehérvár.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Gyulafehérvár
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img102" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Gyulafehérvár.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<p>Innen utunk a szállásunkra vezetett, a székelyvarsági Csorgókő Panzióba. Itt igen kedves fogadtatásban volt részünk. Az egész napos fárasztó túrázás után nagyon jól esett a finom, meleg vacsora. </p>
+<h4><small>Második nap</small></h4>
+<p>Kirándulásunk második napjának reggelén ellátogattunk a székelyudvarhelyi Emlékezet parkjába, ahol 13 magyar király, író és egyéb híres ember szobránál tettük tiszteletünket. Ezután Szejkefürdőn jártunk, megtekintettük a Székelykapu Múzeumot és Orbán Balázs sírhelyét. Innen Korondra utaztunk és a verőfényes napsütésben helyi kézművesek termékeiből vásárolgattunk, majd egy egészen különös szakma művelőivel, taplász-mesterekkel ismerkedtünk meg. Megmutatták nekünk, hogy hogyan készítenek táskát, kendőt, sapkát és különböző dísztárgyakat taplógombából. Délután szekereken jutottunk el a Csorgókő-vízeséshez, majd az ötszintes kilátóról gyönyörködtünk Székelyvarság káprázatos domborzatában.</p>
+<!-- Picts day2_1_3 -->
+<div class="grid-x grid-margin-x">
+    <!-- start 2_4. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img104">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Székelykapu.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Szejkefürdő
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img104" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Székelykapu.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 2_5. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img105">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Taplász_mesternél.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Korond
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img105" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Taplász_mesternél.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 1_2. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img103">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Úton_a_Csorgókő_vízeséshez.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Úton a Csorgókő vízeséshez
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img103" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Úton_a_Csorgókő_vízeséshez.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 1_2. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img128">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Székelyvarság_kilátó.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Székelyvarság, kilátó
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img128" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Székelyvarság_kilátó.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<h4><small>Harmadik nap</small></h4>
+<p>Kirándulásunk harmadik napján első utunk a Dani Gergely Általános Iskolába vezetett, ami a legkeletibb magyar iskola Gyimesbükkön. A helyi hetedik osztályosok, osztályfőnökük és az iskola igazgatója fogadott minket. Magával ragadó volt a gyermekek nyitottsága, vendégszeretete. Ez a közvetlenség hatott a mi diákjainkra is, akik örömmel vettek részt táncmulatságban, majd közös sporttevékenységben. Fájó szívvel köszöntünk el vendéglátóinktól, akikkel jó barátságot alakítottak ki gyermekek, pedagógusok egyaránt.</p>
+<p>A délutánunkat a hegyek között folytattuk a Hidegségben. A Muhos patak mellett fekvő esztenánál szalonnát és kolbászt sütöttünk, valamint házi készítésű sajtot kóstoltunk. A helyi idegenvezető megismertette velünk a gyimesi csángók történetét. Hazafelé menet útba ejtettük az ezeréves határt is, ahol élő történelemórán vettünk részt. Megható volt az itt élő emberek viszontagságos életútját hallgatni ebben a gazdag természeti környezetben.</p>
+<!-- Picts day2_7_9 -->
+<div class="grid-x grid-margin-x">
+    <!-- start 2_4. pict cell -->
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img113">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Dani_Gergely_Általános_Iskola.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Dani Gergely Általános Iskola
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img113" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Dani_Gergely_Általános_Iskola.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div>
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img114">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Esztena.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        A Muhos patak mellett
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img114" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Esztena.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div>
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img115">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Esztena_sütögetés.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Sütögetés az esztenánál
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img115" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Esztena_sütögetés.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div>
+    <div class="cell small-12 large-6">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img134">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Ezeréves_határ.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Az ezeréves határnál
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img134" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Ezeréves_határ.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div>
+</div>
+<h4><small>Negyedik nap</small></h4>
+<p>Erdélyi tartózkodásunk negyedik napján korán reggel a Súgó - barlang felé vettük az irányt. Miután megküzdöttünk a meredek hegyoldallal, a barlangban cseppkövek csodálatos látványa fogadott bennünket. A barlang mélyén lekapcsoltuk a zseblámpákat, hogy kipróbáljuk, milyen érzés teljes csendben és vaksötétben lenni.</p>
+<!-- Picts day2_7_9 -->
+<p>A Súgó-barlangból egy újabb csodálatosan szép természeti jelenséghez, a Gyilkos-tóhoz indultunk. A Gyilkos-tónál finom kürtős kalácsot ettünk, hogy legyen energiánk a hosszú sétához a Békás-szorosban. Lélegzetelállítóan gyönyörű látványt nyújt a Békás-patak és az azt körülölelő hatalmas sziklafalak. Igazi természeti ritkaság, amit itt láthattunk. A függőhídon való átjutás igazi kihívás elé állította tanulóinkat.</p>
+<!-- Picts day2_7_9 -->
+<div class="grid-x grid-margin-x">
+    <!-- start 2_4. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img116">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Gyilkos-tó.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Gyilkos-tó
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img116" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Gyilkos-tó.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 2_5. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img117">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Békás-szoros.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Békás szoros
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img117" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Békás-szoros.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 2_6. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img118">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/esti_játék.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Esti játék
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img118" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/esti_játék.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <div class="cell small-12 large-12">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img119">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Békás-szoros_2.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Békás szoros
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img119" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Békás-szoros_2.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<h4><small>Ötödik nap</small></h4>
+<p>Az ötödik nap ismét az utazásról szólt. Szívünkben vegyes érzésekkel indultunk haza. Egyrészt sajnáltuk, hogy vége lett a csodás kalandoknak, másrészt örültünk, hogy este végre viszontláthatjuk a családunkat. </p>
+<!-- Picts day2_7_9 -->
+<p>Fehéregyházán felkerestük a Petőfi Múzeumot, ahol egy lebilincselő előadás meghallgatása után egy koszorú elhelyezésével emlékeztünk meg Petőfi Sándorról és elénekeltük a Székely himnuszt. Segesváron sétáltunk a vár területén, majd megmásztuk a Diákok lépcsőjét és megnéztük Petőfi szobrát.</p>
+<div class="grid-x grid-margin-x">
+    <!-- start 5_5. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img120">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Fehéregyháza.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Fehéregyháza
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img120" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Fehéregyháza.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 5_6. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img121">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Diákok_lépcsője_Segesvár.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Segesvár
+                    </p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img121" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Diákok_lépcsője_Segesvár.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+    <!-- start 5_4. pict cell -->
+    <div class="cell small-12 large-4">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img122">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Óratorony.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Az óratoronynál
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img122" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Óratorony.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<p>
+    Kirándulásunk utolsó helyszíne a nagybaromlaki erődtemplom volt. Felmentünk a templomtoronyba, ahonnan csodálatos kilátás nyílt a környező vidékre, felidézve bennünk az összes festői szépségű táj emlékét, melyeket az elmúlt napokban láthattunk.
+</p>
+<div class="grid-x grid-margin-x">
+    <!-- start 5_5. pict cell -->
+    <div class="cell small-12 large-12">
+        <div class="cell">
+            <div class="card">
+                <!-- pict --><a href="hatartalanul_palyazataink.html#hat23ps" data-toggle="img123">
+                    <img src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Nagybaromlak.jpg">
+                </a><!-- end pict -->
+                <div class="card-section">
+                    <p class="text-center">
+                        Nagybaromlak
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- modal -->
+        <div class="large js-gallery-reveal gallery-reveal reveal" id="img123" data-reveal data-overlay="true">
+            <img class="js-modal-preview modal-preview" src="{{root}}assets/img/palyazatok/ps/hatartalanul/hat_23/Nagybaromlak.jpg" alt="" />
+            <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div><!-- end  modal -->
+    </div> <!-- end pict cell -->
+</div>
+<p>
+    Hazaérkezésünk után fotókkal színesítettük beszámolónkat, amelyet az Erdélyben szerzett élményekről tartottunk diáktársainknak.
+</p>
+<p>Szerencsések vagyunk, hogy lehetőséget kaptunk erre az erdélyi útra. Rengeteg tudással gazdagodtunk. Olyan határainkon kívül eső területeken játunk, ahol magyarul beszélnek, magyarként élnek az emberek. Megismerhettük hagyományaikat, népi kultúrájukat is. Minden általunk meglátogatott helyszínről előzetesen kiselőadásokkal készültünk, melyeket hol a hosszú út közben, hol a helyszíneken adtunk elő egymásnak. Esténként vetélkedőket szerveztünk, melyek során játékos formában mérhették össze frissen megszerzett tudásunkat tanulóink. Lefekvés előtt soha nem maradt el a közös játék a szabadban, vagy a társalgóban, ahol időnként spontán bulik is kialakultak. A hosszú buszúton sem unatkoztunk soha. Rengeteget nevettünk és énekeltünk. Maradandó élmény marad ez az út mindannyiunk számára, egy szép, örök emlék, mely akkor is összeköt majd bennünket, ha már nem járunk egy iskolába.</p>
+<!-- <p class="text-right">
+    <em>Molnár-Berkó Rita</em><br />
+    osztályfőnök
+</p> -->

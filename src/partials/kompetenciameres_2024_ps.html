@@ -1,0 +1,32 @@
+<table class="hover stack">
+    <tbody>
+        {{> meres_table_head}}
+        {{#each global.kompetenciameres-2024}}
+        <tr>
+            <td class="text-center">
+                {{this.meresiterulet}}
+            </td>
+            <td class="text-center">
+                {{this.oszt}}
+            </td>
+            <td class="text-center">
+                {{this.pontps}}
+            </td>
+            <td class="text-center" style="font-size: x-large;">
+                {{this.smile1ps}}
+            </td>
+            <td class="text-center">
+                {{this.csop1}}
+            </td>
+            <td class="text-center" style="font-size: x-large;">
+                {{this.smile2ps}}
+            </td>
+            <td class="text-center">
+                {{this.csop2}}
+            </td>
+            <td class="text-center" style="font-size: x-large;">
+                {{this.smile3ps}}
+            </td>
+        </tr> {{/each}}
+    </tbody>
+</table>

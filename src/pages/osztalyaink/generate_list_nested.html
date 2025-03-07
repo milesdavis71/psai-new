@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body></body>
+</html>
+<script>
+  var n =
+    "2022.október 3. (hétfő)-tanítás nélküli munkanap\n2022. október 5. (szerda)- nyílt tanítási nap\n2022. október 15. (szombat)-tanítás nélküli munkanap\nőszi szünet:\nutolsó tanítási nap: 2022. október 28. (péntek)\nelső tanítási nap: 2022. november 7. hétfő\n2022. december 21.(szerda)-tanítás nélküli munkanap\ntéli szünet:\nutolsó tanítási nap: 2022. december 20. (kedd)\nelső tanítási nap: 2023. január 3. (kedd)\n2023. február 3. (péntek)-tanítás nélküli munkanap\n2023. március 16. (csütörtök) nyílt tanítási nap\ntavaszi szünet:\nutolsó tanítási nap: 2023. április 5. (szerda)\nelső tanítási nap: 2023. április 12. (szerda)\n2023. június 15. (csütörtök)-a tanév utolsó tanítási napja\n2023. június 16. (péntek) 17:00 Ballagás\n2023. június 22. (csütörtök) 17:00 Évzáró";
+
+  function tablazatFelbont(n) {
+    str = n.split("\n");
+    return str;
+  }
+
+  function tablazatKiir(str) {
+    document.write("<table border=1>");
+    document.write("<ul>");
+
+    for (let i = 0; i < str.length; i++) {
+      document.write("<li>" + str[i] + "</li>");
+    }
+    document.write("</ul>");
+
+    document.write("</table>");
+  }
+
+  var noFelbontot = tablazatFelbont(n);
+  tablazatKiir(noFelbontot);
+
+  document.write("</table>");
+  // Requiring fs module in which
+  // writeFile function is defined.
+  const fs = require("fs");
+
+  // Data which will write in a file.
+  let data = noFelbontot;
+
+  // Write data in 'Output.txt' .
+  fs.writeFile("output.txt", data, (err) => {
+    // In case of a error throw err.
+    if (err) throw err;
+  });
+</script>

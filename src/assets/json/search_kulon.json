@@ -1,0 +1,76 @@
+[
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2021–2022",
+    "description": "Fotógaléria – Székhely 2021–2022",
+    "link": "galeriak/2021_22/ps/fooldal_2021_22_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2021–2022"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2021–2022",
+    "description": "Fotógaléria – Tagiskola 2021–2022",
+    "link": "galeriak/2021_22/bs/fooldal_2021_22_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2021–2022"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2020–2021",
+    "description": "Fotógaléria – Székhely 2020–2021",
+    "link": "galeriak/2020_21/ps/fooldal_2020_21_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2020–2021"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2020–2021",
+    "description": "Fotógaléria – Tagiskola 2020–2021",
+    "link": "galeriak/2020_21/bs/fooldal_2020_21_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2020–2021"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2019–2020",
+    "description": "Fotógaléria – Székhely 2019–2020",
+    "link": "galeriak/2019_20/ps/fooldal_2019_20_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2019–2020"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2019–2020",
+    "description": "Fotógaléria – Tagiskola 2019–2020",
+    "link": "galeriak/2019_20/bs/fooldal_2019_20_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2019–2020"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2018–2019",
+    "description": "Fotógaléria – Székhely 2018–2019",
+    "link": "galeriak/2018_19/ps/fooldal_2018_19_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2018–20189"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2018–2019",
+    "description": "Fotógaléria – Tagiskola 2018–2019",
+    "link": "galeriak/2018_19/bs/fooldal_2018_19_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2018–2019"]
+  },
+
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Székhely 2017–2018",
+    "description": "Fotógaléria – Székhely 2017–2018",
+    "link": "galeriak/2017_18/ps/fooldal_2017_18_ps.html",
+    "tags": ["Petőfi", "Székhely", "fotógaléria", "2017–2018"]
+  },
+  {
+    "type": "oldal",
+    "name": "Fotógaléria – Tagiskola 2017–2018",
+    "description": "Fotógaléria – Tagiskola 2017–2018",
+    "link": "galeriak/2017_18/bs/fooldal_2017_18_bs.html",
+    "tags": ["Bálint", "Tagiskola", "fotógaléria", "2017–2018"]
+  }
+]

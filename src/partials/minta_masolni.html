@@ -1,0 +1,633 @@
+<style type="">
+  .button
+  {
+  padding: 0.2em 0.2em;
+  }
+.accordion-content
+  {
+  text-align: center;
+  }
+
+  #cell
+  {
+  padding: 0 0 0;
+
+  }
+
+.subheader
+  {
+font-weight: bold;
+  }
+
+  
+  
+  #alcim
+  {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+  
+  }
+  
+  #alcim1
+  {
+    line-height: 1.3rem;
+    margin-left: 1rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  #alcim2
+  {
+    line-height: 1.3rem;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
+  
+  }
+
+
+
+</style>
+
+<ul class="vertical menu accordion-menu" data-accordion-menu>
+  <li>
+    <a href="#">Helyünk a térképen</a>
+    <ul class="menu vertical nested is-active">
+      <li>
+        <a href="#">Item 1A</a>
+        <ul class="menu vertical nested">
+          <li><a href="#">Item 1Ai</a></li>
+          <li><a href="#">Item 1Aii</a></li>
+          <li><a href="#">Item 1Aiii</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Item 1B</a></li>
+      <li><a href="#">Item 1C</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">Item 2</a>
+    <ul class="menu vertical nested">
+      <li><a href="#">Item 2A</a></li>
+      <li><a href="#">Item 2B</a></li>
+    </ul>
+  </li>
+  <li><a href="#">Item 3</a></li>
+</ul>
+
+
+
+
+
+
+
+
+<ul class="accordion" data-accordion data-multi-expand="false" data-allow-all-closed="true">
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title">Helyünk a térképen</a>
+
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table class="hover">
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">
+              <div class="button-group-option">
+                <a href="elerhetosegeink_ps.html" class="hollow secondary button radius">Petőfi</a>
+                <a href="elerhetosegeink_bs.html" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title">Bemutatkozás</a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table class="hover">
+        <tbody>
+<!--           <tr>
+            <td id="cell" class="menutd">
+              <p class="subheader">Bemutatkozás</p>
+              <div class="button-group-option">
+                <a href="#" class="hollow secondary button radius">Petőfi</a>
+                <a href="#" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr> -->
+
+          <tr>
+            <td id="cell" class="menutd">
+              <p class="subheader">Tanáraink</p>
+              <div class="button-group-option">
+                <a href="{{root}}bemutatkozas/tanaraink_ps.html" class="hollow secondary button radius">Petőfi</a>
+                <a href="{{root}}bemutatkozas/tanaraink_bs.html" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" class="menutd">
+              <p class="subheader">Hitoktatók</p>
+              <div class="button-group-option">
+                <a href="{{root}}assets/bemutatkozas/hitoktatok_ps_2018_19.pdf" target="_blank" class="hollow secondary button radius">Petőfi</a>
+                <a href="{{root}}assets/bemutatkozas/hitoktatok_ps_2018_19.pdf" target="_blank" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/pedagogiai_program.pdf" target="_blank">Pedagógiai program</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/ped_prog_mellekletei_ps_bs.pdf" target="_blank">Pedagógiai program mellékletei</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/szmsz_ps_bs_2018_19.pdf" target="_blank">SzMSz</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/kollektiv_szerzodes_ps_bs.pdf" target="_blank">Kollektív szerződés</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/imip.pdf" target="blank">IMIP</a>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/hazirend_ps_bs_2018_19.pdf" target="_blank">Házirend</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell">
+              <a href="{{root}}assets/bemutatkozas/gyermekvedelem.pdf" target="_blank"<strike>Gyermekvédelem</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" class="menutd">
+              <p class="subheader">Tankönyek</p>
+              <div class="button-group-option">
+                <a href="{{root}}assets/tankonyvek/ps_tk_2018_19.pdf" target="_blank" class="hollow secondary button radius" target="_blank">Petőfi</a>
+                <a href="{{root}}assets/tankonyvek/bs_tk_2018_19.pdf" target="_blank" class="hollow button radius" target="_blank">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+        <tr>
+          <td id="cell" class="menutd">
+            <p class="subheader">Taneszközök</p>
+            <div class="button-group-option">
+              <a href="{{root}}assets/bemutatkozas/taneszkoz_ps_2018_19.pdf" target="_blank" class="hollow secondary button radius">Petőfi</a>
+              <a href="{{root}}assets/bemutatkozas/taneszkoz_bs_2018_19.pdf" target="_blank" class="hollow button radius">Bálint</a>
+            </div>
+          </td>
+        </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title">Étkezési információk</a>
+
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table class="hover">
+        <tbody>
+          <tr>
+            <td id="cell">
+              <a href="http://www.ngsz.hu/" target="_blank">Étkezés – NGSZ információk</a>
+            </td>
+          </tr>
+          <tr>
+            <td id="cell" class="menutd">
+              <p class="subheader">Befizetési időpontok, árak<br />(2019 január)</p>
+              <div class="button-group-option">
+                <a href="{{root}}assets/informaciok/ebedbefizetes_ps_2019_jan.pdf" target="_blank" class="hollow secondary button radius">Petőfi</a>
+                <a href="{{root}}assets/informaciok/ebedbefizetes_bs_2019_jan.pdf" target="_blank" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title">Közzétételi lista</a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table class="hover">
+        <tbody>
+  
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p class="subheader" id="alcim">Felvételi lehetőségről szóló tájékoztató</p>
+              <p id="alcim1">
+              <a href="{{root}}assets/bemutatkozas/felveteli_tajekoztato.pdf" target="_blank">Pedagógiai program</a><br />
+              </p>
+              <p  id="alcim1">
+              Beiratkozáskor leadandó nyomtatványok
+              </p>
+              <p id="alcim2"><a href="{{root}}assets/beiratkozas/nyilatkozat_felugyeleti_jogrol.pdf" target="_blank">Nyilatkozat felügyeleti jog gyakorlásáról</p>
+              <h6></h6>
+              <p id="alcim2"><a href="{{root}}assets/beiratkozas/nyilatkozat_hit_es_erkolcstanrol.pdf" target="_blank">Nyilatkozat etika, illetve hit- és erkölcstan oktatásról</a></p>
+              <p id="alcim1">
+              <a href="{{root}}assets/beiratkozas/korzet.pdf" target="_blank">Körzetünk</a>
+              </p>
+              <p id="alcim1">Iskolahívogatók</p>
+  
+              <div class="button-group-option">
+                <a href="{{root}}assets/beiratkozas/iskolahivogato_ps_2018_osz.pdf" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/beiratkozas/iskolahivogato_bs_2018_osz.pdf" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p class="subheader" id="alcim">Beiratkozás ideje, engedélyezett osztályok,<br />csoportok száma</p>
+  
+              <p  id="alcim1">
+              Beiratkozás ideje
+              </p>
+              <div class="button-group-option">
+                <a href="{{root}}assets/beiratkozas/beiratkozas_ps_2018_19.pdf" target="_blank" class="hollow secondary button radius"  style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/beiratkozas/beiratkozas_bs_2018_19.pdf" target="_blank" class="hollow button radius">Bálint</a>
+              </div>
+              <p id="alcim1"><a href="{{root}}assets/beiratkozas/osztalyok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett osztályok száma</p>
+              <h6></h6>
+              <p id="alcim1"><a href="{{root}}assets/beiratkozas/csoportok_szama_ps_bs_2018_19.pdf" target="_blank">Engedélyezett csoportok száma</a></p>
+  
+            </td>
+          </tr>
+  
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/informaciok/etkezesi_dijak_2018_jantol.pdf" target="_blank">Étkezés térítési díjak (Petőfi/Bálint)</a>
+            </p>
+            </td>
+          </tr>
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/nyilvanos_vizsgalat.pdf" target="_blank">Fenntartói értékelés, nyilvános megállapításokat tartalmazó vizsgálatok</a>
+            </p>
+            </td>
+          </tr>
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/nyitvatartas.pdf" target="_blank">Nyitvatartás rendje</a>
+            </p>
+            </td>
+          </tr>
+  
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p class="subheader" id="alcim">Eseménynaptár</p>
+  
+              <div class="button-group-option">
+                <a href="{{root}}assets/kozzetetel/esemenyek_ps_2018_19.pdf" target="_blank" class="hollow secondary button radius"  style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/kozzetetel/esemenyek_bs_2018_19.pdf" target="_blank" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+  
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+          <p  id="alcim">
+          Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése
+          </p>
+          <p id="alcim1"><a href="{{root}}assets/kozzetetel/intezm_tanfelugyelet_ eredmenye_2018.pdf" target="_blank">Intézményi tanfelügyelet eredménye 2018</p>
+          <h6></h6>
+          <p id="alcim1"><a href="{{root}}assets/kozzetetel/intezmenyvezetoi_tanfelugyelet_eredmenye_2018.pdf" target="_blank">Intézményvezetői tanfelügyelet eredménye 2018</a></p>
+          <p id="alcim1"><a href="{{root}}assets/kozzetetel/pedagogus_tanfelugyeletenek_eredmenye_2018.pdf" target="_blank">Pedagógus tanfelügyeletének eredménye 2016</a></p>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/bemutatkozas/szmsz_ps_bs_2018_19.pdf" target="_blank">SzMSz (Petőfi/Bálint)</a>
+            </td>
+          </tr>
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/bemutatkozas/hazirend.pdf" target="_blank">Házirend (Petőfi/Bálint)</a>
+            </td>
+          </tr>
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/bemutatkozas/pedagogiai_program_ps_bs_2018_19.pdf" target="_blank">Pedagógiai program (Petőfi/Bálint)</a>
+            </td>
+          </tr>
+  
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              Pedagógusok iskolai végzettsége, szakképzettsége
+              <div class="button-group-option">
+                <a href="{{root}}bemutatkozas/tanarok_ps.html" class="hollow secondary button radius"  style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}bemutatkozas/tanarok_bs.html" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              NOKS-osok száma, szakképzettsége
+              <div class="button-group-option">
+                <a href="{{root}}bemutatkozas/noksosok_ps.html" class="hollow secondary button radius"  style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}bemutatkozas/noksosok_bs.html" class="hollow button radius">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/kompetenciameres_eredmenyei_2018_19.pdf" target="_blank">Országos mérés-értékelés évenkénti eredményei</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/evismetles.pdf" target="_blank">Tanulók le- és kimaradásával, évfolyamismétléssel kapcsolatos adatok (Petőfi/Bálint)</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p class="subheader" id="alcim">Tanórán kívüli foglalkozások igénybevételének lehetősége</p>
+              <p  id="alcim1">
+              Egyéni fejlesztés,tehetséggondozás
+              </p>
+          
+              <div class="button-group-option">
+                <a href="{{root}}assets/tanoran_kivuli/egyeni_fejlesztes_ps_2018_2019.pdf" target="_blank" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/tanoran_kivuli/egyeni_fejlesztes_bs_2018_2019.pdf" target="_blank" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+              <p  id="alcim1">
+              Szakköreink
+              </p>
+            
+              
+              <div class="button-group-option">
+                <a href="{{root}}assets/tanoran_kivuli/szakkorok_ps_2018_2019.pdf" target="_blank" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/tanoran_kivuli/szakkorok_ps_2018_2019.pdf" target="_blank" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+              <p  id="alcim1">
+              Művészeti oktatás
+              </p>
+              
+              <div class="button-group-option">
+                <a href="{{root}}assets/tanoran_kivuli/muveszeti_oktatas_ps.pdf" target="_blank" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/tanoran_kivuli/muveszeti_oktatas_bs.pdf" target="_blank" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+              <p  id="alcim1">
+              Szaktárgyi korrepetálások
+              </p>
+              
+              <div class="button-group-option">
+                <a href="{{root}}assets/tanoran_kivuli/szaktargyi_korrepetalasok_ps_2018_2019.pdf" target="_blank" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/tanoran_kivuli/szaktargyi_korrepetalasok_bs_2018_2019.pdf" target="_blank" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/hazi_feladat_dolgozat.pdf" target="_blank">Hétvégi házi feladatok, dolgozatok szabályai (Petőfi/Bálint)</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p id="alcim">
+              <a href="{{root}}assets/kozzetetel/osztalyozo_vizsga.pdf" target="_blank">Osztályozó vizsga tantárgyankénti évfolyamonkénti követelményei</a>
+            </td>
+          </tr>
+
+          <tr>
+            <td id="cell" align="left" class="menutd">
+              <p class="subheader" id="alcim">Osztályok száma és tanulók létszáma</p>
+         
+              <div class="button-group-option">
+                <a href="{{root}}assets/osztalyok/osztalyok_ps_1_8.pdf" target="_blank" class="hollow secondary button radius" style="margin-left: 1rem">Petőfi</a>
+                <a href="{{root}}assets/osztalyok/osztalyok_bs_1_8.pdf" target="_blank" class="hollow button radius" style="margin-right: 0.3rem">Bálint</a>
+              </div>
+            </tr>
+  
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Beiratkozás, felvétel</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>A tanév rendje</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Osztályaink</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Órarendek</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Szülői értekezletek, fogadóórák</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Tanórán kívüli foglalkozások</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <!-- Accordion tab title -->
+    <a href="#" class="accordion-title"><strike>Versenyeredmények</strike></a>
+
+    <!-- Accordion tab content: it would start in the open state due to using the `is-active` state class. -->
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <p>Panel 1. Lorem ipsum dolor</p>
+      <a href="#">Nowhere to Go</a>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title">Fotó archívum</a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">2018–2019-es tanév<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title"><strike>Pályázatok</strike></a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">2018–2019-es tanév<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title"><strike>Alapítványok</strike></a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">Letölthető nyomtatványok<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title"><strike>GDPR tájékoztató</strike></a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">2018–2019-es tanév<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title"><strike>Intézményfenntartó</strike></a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">2018–2019-es tanév<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+  <li class="accordion-item" data-accordion-item>
+    <a href="#" class="accordion-title"><strike>Impresszum</strike></a>
+    <div class="accordion-content" data-tab-content style="background-color: #ecf8ff">
+      <table>
+        <tbody>
+          <tr>
+            <td id="cell" class="menutd">2018–2019-es tanév<br />
+             <a href=album_2018_19_ps.html>Petőfi</a>&emsp;<a href="#">Bálint</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </li>
+
+
+
+<!-- egészer záro <ul> -->
+</ul>
