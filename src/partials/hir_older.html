@@ -1,20 +1,13 @@
-{{#each global.newsolder}}
+{{#each global.newsold}} {{> news_title sc=school}}
+
 <div class="card">
-    <div class="card-divider">
-        <strong>{{title}}</strong>
+  <div class="card-section">
+    <div class="grid-x grid-margin-x">
+      {{> hir_cells imageclass=img}}
+      <div class="cell small-12 {{contentclass}}">
+        {{> md_news_content hir=content}}
+      </div>
     </div>
-    <div class="card-section">
-        <div class="grid-x grid-margin-x">
-            <div class="cell small-12 {{imgclass}}">
-                <p class="text-{{align}}">
-                    <img class="thumbnail" src="{{root}}assets/img/hirfolyam/{{img}}">
-                </p>
-            </div>
-            <div class="cell small-12 {{contentclass}}">
-                <p>▶️ {{school}}</p>
-                {{> md_news_content hir=content}}
-            </div>
-        </div>
-    </div>
+  </div>
 </div>
 {{/each}}
