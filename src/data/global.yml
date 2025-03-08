@@ -37,8 +37,8 @@ ngsz-befiz-date:
 
 news:
     - 
-      title: BEIRATKOZÁS 2025-2026 – székhely és tagiskola
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      title: ➡️ Beiratkozás 2025-2026
+      school: all
       img: beiratkozas.jpg
       align: 
       imgclass: medium-5
@@ -46,7 +46,7 @@ news:
       content: news35  
     - 
       title: 'Iskolahívógató: Gergely-járás játékos foglalkozás'
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: gergelyjaras.jpg
       align: 
       imgclass: medium-4
@@ -54,7 +54,7 @@ news:
       content: news33  
     - 
       title: Járási verseny
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: csik_bottom.jpg
       align: 
       imgclass: medium-12
@@ -62,7 +62,7 @@ news:
       content: news32  
     - 
       title: Fogadóóra 2025 tavasz
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: fogadoora_small.jpg
       align: 
       imgclass: medium-4
@@ -71,7 +71,7 @@ news:
 
     - 
       title: Farsang
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: farsang_maszk.jpg
       align: 
       imgclass: medium-5
@@ -79,7 +79,7 @@ news:
       content: news29  
     - 
       title: Vidám, játékos téli sor-és váltóverseny alsó tagozatosoknak
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: teli_szunet.jpg
       align: center
       imgclass: medium-12
@@ -88,7 +88,7 @@ news:
 
     - 
       title: Tangram alkotói pályázat óvodásoknak
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: tangram.jpg
       align: 
       imgclass: medium-3
@@ -96,7 +96,7 @@ news:
       content: news27  
     - 
       title: Sakkverseny
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: sakkverseny.jpg
       align: 
       imgclass: medium-3
@@ -104,7 +104,7 @@ news:
       content: news26  
     - 
       title: Téli szünet
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: teli_szunet_2021.png
       align: 
       imgclass: medium-5
@@ -112,7 +112,7 @@ news:
       content: news25  
     - 
       title: Karácsonyi műsor
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: karacsonyi_musor.jpg
       align: 
       imgclass: medium-5
@@ -120,7 +120,7 @@ news:
       content: news24  
     - 
       title: Egészségnap
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: egeszsegnap.jpg
       align: 
       imgclass: medium-5
@@ -128,7 +128,7 @@ news:
       content: news23  
     - 
       title: Papírgyűjtés eredményhirdetés
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: papirgyujtes.png
       align: 
       imgclass: medium-4
@@ -136,7 +136,7 @@ news:
       content: news22  
     - 
       title: Alapítványi bál
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: ball.jpg
       align: 
       imgclass: medium-5
@@ -144,7 +144,7 @@ news:
       content: news21  
     - 
       title: Őszi szünet
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: all
       img: oszi_szunet.jpg
       align: 
       imgclass: medium-4
@@ -152,7 +152,7 @@ news:
       content: news20  
     - 
       title: Október 23-i megemlékezés
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: all
       img: okt23.jpg
       align: 
       imgclass: medium-5
@@ -160,7 +160,7 @@ news:
       content: news19  
     - 
       title: Óvodások szavalóversenye
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: szavaloverseny.jpg
       align: 
       imgclass: medium-3
@@ -168,7 +168,7 @@ news:
       content: news18  
     - 
       title: Szüreti piknik
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: szureti_piknik.jpg
       align: 
       imgclass: medium-5
@@ -177,7 +177,7 @@ news:
 
     - 
       title: 'Suliváró foglalkozások'
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: sulivaro.jpg
       align: 
       imgclass: medium-4
@@ -185,23 +185,23 @@ news:
       content: news16  
     - 
       title: Hit- és erkölcstan oktatással kapcsolatos tájékoztató
-      school: 
+      school: Tagiskola
       img: csik_bottom.jpg
       align: center
       imgclass: 
       contentclass: medium-12
       content: news15
     - 
-      title: Szülői értekezletek 2025 tavasz – SZÉKHELY
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      title: Szülői értekezletek 2025 tavasz
+      school: Székhely
       img: szuloi.png
       align: center
       imgclass: medium-6
       contentclass: medium-6
       content: news14
     - 
-      title: Szülői értekezletek 2025 tavasz – TAGISKOLA
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      title: Szülői értekezletek 2025 tavasz
+      school: Tagiskola
       img: szuloi.png
       align: center
       imgclass: medium-6
@@ -209,7 +209,7 @@ news:
       content: news13
     - 
       title: 'Beiskolázási nyílt óra és iskolába hívogató foglalkozás'
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: sulivaro.jpg
       align: 
       imgclass: medium-5
@@ -217,7 +217,7 @@ news:
       content: news12
     - 
       title: 'Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben'
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      school: all
       img: csik_bottom.jpg
       align: 
       imgclass: medium-12
@@ -228,8 +228,8 @@ news:
 newsold:
 
     - 
-      title: Tanévnyitó ünnepség 2024 ősz – SZÉKHELY
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      title: Tanévnyitó ünnepség 2024 ősz
+      school: Székhely
       img: tanevnyito.png
       align: center
       imgclass: medium-12
@@ -237,44 +237,44 @@ newsold:
       content: news08
 
     - 
-      title: Tanévnyitó ünnepség 2024 ősz – TAGISKOLA
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      title: Tanévnyitó ünnepség 2024 ősz
+      school: Tagiskola
       img: tanevnyito.png
       align: center
       imgclass: medium-12
       contentclass: medium-12
       content: news07
     - 
-      title: Tankönyvosztás 2024–2025 – Tagiskola 
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      title: Tankönyvosztás 2024–2025 
+      school: Tagiskola
       img: tankonyvosztas_right.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news06
     - 
       title: Tankönyvek átvétele – SZÉKHELY
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola
+      school: Székhely
       img: tankonyvosztas_left.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news05
     - 
       title: 2024. Nyári vezetői ügyelet 
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola és Bálint Sándor Tagiskola
+      school: all
       img: summer_holiday_2024.jpg
       imgclass: medium-3
       contentclass: medium-9
       content: news04
     -
       title: Vármegyei matematika verseny, III. helyezés 
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: bs_varmegyei_mat_verseny_2024_3_hely_szabo_viktoria.jpg
       imgclass: medium-4
       contentclass: medium-8
       content: news01
     - 
       title: Tudásbajnokság, országos döntő, matematika, I. helyezés 
-      school: ▶️ Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája
+      school: Tagiskola
       img: bs-tudasbajnoksag-mat-orszagos-donto-2024-1-hely.jpg
       imgclass: medium-4
       contentclass: medium-8

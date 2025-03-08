@@ -1,0 +1,36 @@
+{{#ifequal sc "Székhely"}}
+<div class="title-bar" style="background-color: rgb(214.8186602871, 235.9894736842, 250.0313397129); color: black;">
+    <div class="title-bar-left" style="flex: 3 !important;">
+      
+      <span class="title-bar-title">{{title}}</span>
+    </div>
+    <div class="title-bar-right" style="flex: 1 !important;">
+     {{school}}
+    </div>
+  </div>
+{{/ifequal}}
+
+{{#ifequal sc "Tagiskola"}}
+<div class="title-bar" style="background-color: rgb(255, 227.1, 216.75); color: black;">
+    <div class="title-bar-left" style="flex: 3 !important;">
+      
+      <span class="title-bar-title">{{title}}</span>
+    </div>
+    <div class="title-bar-right" style="flex: 1 !important;">
+     {{school}}
+    </div>
+  </div>
+{{/ifequal}}
+
+{{#ifequal sc "all"}}
+<div class="title-bar" style="background-color: rgb(226, 226, 226); color: black;">
+    <div class="title-bar-left" style="flex: 3 !important;">
+      
+      <span class="title-bar-title">{{title}}</span>
+    </div>
+    <div class="title-bar-right" style="flex: 1 !important;">
+    </div>
+  </div>
+{{/ifequal}}
+
+
