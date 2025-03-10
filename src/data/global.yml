@@ -245,6 +245,18 @@ newsold:
     contentclass: medium-8
     content: news02
 
+oldnews:
+  - url: hirfolyam_2019_20
+    title: "2019–20"
+  - url: hirfolyam_2020_21
+    title: "2020–21"
+  - url: hirfolyam_2021_22
+    title: "2021–22"
+  - url: hirfolyam_2022_23
+    title: "2022–23"
+  - url: hirfolyam_2023_24
+    title: "2023–24"
+
 taneszkoz:
   - class: "1"
     deeplink: 1o
