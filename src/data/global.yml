@@ -800,7 +800,7 @@ psbemutatk:
       caption: Felső tagozatos osztályterem
     - folder: bemutatkozas/ps/
       filename: felujitott-tornaterem
-      caption: Felújított osztályterem
+      caption: Tornaterem
 
   2-:
     - folder: bemutatkozas/ps/
@@ -808,7 +808,7 @@ psbemutatk:
       caption: Udvari életkép
     - folder: bemutatkozas/ps/
       filename: udvari-jatszokak
-      caption: Udvari játszókák
+      caption: Játék az udvaron
     - folder: bemutatkozas/ps/
       filename: szureti-piknik
       caption: Szüreti piknik
