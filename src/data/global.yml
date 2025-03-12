@@ -43,6 +43,13 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news35
+  - title: Meghívó
+    school: Székhely
+    img:  marc15ps2025.jpg
+    align:
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news37
   - title: "Iskolahívógató: Gergely-járás játékos foglalkozás"
     school: Tagiskola
     img: gergelyjaras.jpg
@@ -50,6 +57,13 @@ news:
     imgclass: medium-4
     contentclass: medium-8
     content: news33
+  - title: Hit- és erkölcstan oktatással kapcsolatos tájékoztató
+    school: Tagiskola
+    img: csik_bottom.jpg
+    align: center
+    imgclass:
+    contentclass: medium-12
+    content: news15
   - title: Járási mesemondó és prózamondó verseny
     school: Székhely
     img: nincs
@@ -71,6 +85,13 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news29
+  - title: "Suliváró foglalkozások"
+    school: Székhely
+    img: sulivaro.jpg
+    align:
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news16
   - title: Vidám, játékos téli sor-és váltóverseny alsó tagozatosoknak
     school: Tagiskola
     img: teli_szunet.jpg
@@ -78,6 +99,20 @@ news:
     imgclass: medium-12
     contentclass:
     content: news28
+  - title: Szülői értekezletek 2025 tavasz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news14
+  - title: Szülői értekezletek 2025 tavasz
+    school: Tagiskola
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news13
   - title: Tangram alkotói pályázat óvodásoknak
     school: Tagiskola
     img: tangram.jpg
@@ -129,6 +164,21 @@ newsold:
     imgclass: medium-5
     contentclass: medium-7
     content: news21
+  - title: Óvodások szavalóversenye
+    school: Székhely
+    img: szavaloverseny.jpg
+    align:
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news18
+  - title: "Beiskolázási nyílt óra és iskolába hívogató foglalkozás"
+    school: Székhely
+    img: sulivaro.jpg
+    align:
+    imgclass: medium-5
+    contentclass: medium-7
+    content: news12
+
   - title: Őszi szünet
     school: all
     img: oszi_szunet.jpg
@@ -143,13 +193,6 @@ newsold:
     imgclass: medium-5
     contentclass: medium-7
     content: news19
-  - title: Óvodások szavalóversenye
-    school: Székhely
-    img: szavaloverseny.jpg
-    align:
-    imgclass: medium-3
-    contentclass: medium-9
-    content: news18
   - title: Szüreti piknik
     school: Székhely
     img: szureti_piknik.jpg
@@ -157,41 +200,6 @@ newsold:
     imgclass: medium-5
     contentclass: medium-7
     content: news17
-  - title: "Suliváró foglalkozások"
-    school: Székhely
-    img: sulivaro.jpg
-    align:
-    imgclass: medium-4
-    contentclass: medium-8
-    content: news16
-  - title: Hit- és erkölcstan oktatással kapcsolatos tájékoztató
-    school: Tagiskola
-    img: csik_bottom.jpg
-    align: center
-    imgclass:
-    contentclass: medium-12
-    content: news15
-  - title: Szülői értekezletek 2025 tavasz
-    school: Székhely
-    img: szuloi.png
-    align: center
-    imgclass: medium-6
-    contentclass: medium-6
-    content: news14
-  - title: Szülői értekezletek 2025 tavasz
-    school: Tagiskola
-    img: szuloi.png
-    align: center
-    imgclass: medium-6
-    contentclass: medium-6
-    content: news13
-  - title: "Beiskolázási nyílt óra és iskolába hívogató foglalkozás"
-    school: Székhely
-    img: sulivaro.jpg
-    align:
-    imgclass: medium-5
-    contentclass: medium-7
-    content: news12
   - title: "Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben"
     school: all
     img: csik_bottom.jpg
@@ -214,6 +222,13 @@ newsold:
     imgclass: medium-12
     contentclass: medium-12
     content: news07
+  - title: Szülői értekezletek 2025 tavasz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news36    
   - title: Tankönyvosztás 2024–2025
     school: Tagiskola
     img: tankonyvosztas_right.jpg
