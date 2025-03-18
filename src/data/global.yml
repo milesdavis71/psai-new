@@ -43,6 +43,14 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news35
+
+  - title: Balatonkenesei Gyermek- és Ifjúsági Tábor 2025
+    school: all
+    img: nyaritabor.png
+    align: center
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news38
   - title: Meghívó
     school: Székhely
     img:  marc15ps2025.jpg
