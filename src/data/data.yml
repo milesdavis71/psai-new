@@ -1,0 +1,32 @@
+# data.yml
+tableData:
+  headers:
+    - "Department"
+    - "Employee"
+    - "Position"
+    - "Salary"
+
+  rows:
+    - department: "Marketing"
+      employee: "John Smith"
+      position: "Director"
+      salary: "$85,000"
+      rowspan: 3
+
+    - employee: "Sarah Johnson"
+      position: "Manager"
+      salary: "$65,000"
+
+    - employee: "Mike Brown"
+      position: "Specialist"
+      salary: "$55,000"
+
+    - department: "Development"
+      employee: "Lisa Wong"
+      position: "Lead Developer"
+      salary: "$95,000"
+      rowspan: 2
+
+    - employee: "Tom Wilson"
+      position: "Developer"
+      salary: "$75,000"

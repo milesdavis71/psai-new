@@ -640,6 +640,8 @@ download_pdf:
     url: szuloi_nyilatkozat_hazi_feladat_otthoni_ellenorzeserol.pdf
   - title: Tanulói adatlap a 2024–25-ös tanévre – Székhely/Tagiskola
     url: tanuloi_adatlap_a_2024–25_os_tanevre.pdf
+  - title:  Nyilatkozat fokozott figyelmet igénylő egészségi állapotról
+    url: nyilatk_eg_allapotrol.pdf
 
 szaktargyi_korrepetalas:
   ps:

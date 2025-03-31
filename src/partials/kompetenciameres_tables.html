@@ -1,0 +1,24 @@
+{{#ifequal year "year22"}}
+
+<table class="unstriped ">
+    <thead>
+        <tr>
+            {{#each data.tableData.headers}}
+            <th>{{this}}</th>
+            {{/each}}
+        </tr>
+    </thead>
+    <tbody>
+        {{#each data.tableData.rows}}
+        <tr>
+            {{#if department}}
+            <td rowspan="{{rowspan}}">{{department}}</td>
+            {{/if}}
+            <td>{{employee}}</td>
+            <td>{{position}}</td>
+            <td>{{salary}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+{{/ifequal}}
