@@ -53,7 +53,7 @@ news:
     content: news38
   - title: Meghívó
     school: Székhely
-    img:  marc15ps2025.jpg
+    img: marc15ps2025.jpg
     align:
     imgclass: medium-3
     contentclass: medium-9
@@ -236,7 +236,7 @@ newsold:
     align: center
     imgclass: medium-6
     contentclass: medium-6
-    content: news36    
+    content: news36
   - title: Tankönyvosztás 2024–2025
     school: Tagiskola
     img: tankonyvosztas_right.jpg
@@ -640,8 +640,6 @@ download_pdf:
     url: szuloi_nyilatkozat_hazi_feladat_otthoni_ellenorzeserol.pdf
   - title: Tanulói adatlap a 2024–25-ös tanévre – Székhely/Tagiskola
     url: tanuloi_adatlap_a_2024–25_os_tanevre.pdf
-  - title:  Nyilatkozat fokozott figyelmet igénylő egészségi állapotról
-    url: nyilatk_eg_allapotrol.pdf
 
 szaktargyi_korrepetalas:
   ps:
@@ -859,3 +857,23 @@ psbemutatk:
     - folder: bemutatkozas/ps/
       filename: ebedlo
       caption: Ebédlő
+
+bsbemutatk:
+  - folder: bemutatkozas/bs/
+    filename: "01"
+  - folder: bemutatkozas/bs/
+    filename: "02"
+  - folder: bemutatkozas/bs/
+    filename: "03"
+  - folder: bemutatkozas/bs/
+    filename: "04"
+  - folder: bemutatkozas/bs/
+    filename: "05"
+  - folder: bemutatkozas/bs/
+    filename: "06"
+  - folder: bemutatkozas/bs/
+    filename: "07"
+  - folder: bemutatkozas/bs/
+    filename: "08"
+  - folder: bemutatkozas/bs/
+    filename: "09"

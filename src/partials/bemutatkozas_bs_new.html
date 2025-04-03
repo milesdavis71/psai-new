@@ -1,0 +1,60 @@
+<div class="grid-x grid-margin-x">
+  <div class="cell small-12 medium-3 text-center">
+    <img src="{{root}}assets/img/bsai_logo_nagy.jpg" />
+  </div>
+  <div class="cell small-12 medium-6">{{> elerhetoseg-bs}}</div>
+  <div class="cell small-12 medium-3">
+    <img src="{{root}}assets/img/psai-qrcode.png" style="width: 128px" />
+  </div>
+</div>
+<p class="text-center">
+  Az intézmény igazgatója Winkler Andrea<br />
+  tagiskola-igazgató: Porkolábné Papp Zsuzsanna
+  <br />
+</p>
+<p>
+  „Mi azt akarjuk, hogy az iskola családi otthon legyen, <br />
+  ahol kinyílik a szív és feltárulnak a gondolatok”<br />
+  (Célestin Freinet)
+</p>
+<div class="grid-x grid-margin-x">
+  <div class="cell small-12 medium-8">{{> bemutatkozas_bs_markdown}}</div>
+
+  <div class="cell small-12 medium-4">
+    {{#each global.bsbemutatk}}
+    <div class="cell">
+      <div class="card">
+        <!-- pict --><a
+          href="{{root}}/bemutatkozas/bemutatkozas_ps_bs.html#panel2d"
+          data-toggle="Modal{{filename}}"
+        >
+          <img src="../assets/img/{{folder}}{{filename}}.jpg" /> </a
+        ><!-- end pict -->
+      </div>
+    </div>
+    <!-- end cell -->
+    <!-- modal -->
+    <div
+      class="large js-gallery-reveal gallery-reveal reveal"
+      id="Modal{{filename}}"
+      data-reveal
+      data-overlay="true"
+    >
+      <img
+        class="js-modal-preview modal-preview"
+        src="../assets/img/{{folder}}{{filename}}.jpg"
+        alt=""
+      />
+      <button
+        class="close-button"
+        data-close
+        aria-label="Close reveal"
+        type="button"
+      >
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <!-- end  modal -->
+    {{/each}}
+  </div>
+</div>
