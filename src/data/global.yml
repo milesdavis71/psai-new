@@ -494,6 +494,13 @@ kompetenciameres-2023:
     smile3bs: 😐
 
 news:
+  - title: Szülői értekezletek 2025 tavasz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news39
   - title: ➡️ Beiratkozás 2025-2026
     school: all
     img: beiratkozas.jpg
@@ -501,7 +508,6 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news35
-
   - title: Balatonkenesei Gyermek- és Ifjúsági Tábor 2025
     school: all
     img: nyaritabor.png
@@ -566,13 +572,6 @@ news:
     contentclass:
     content: news28
   - title: Szülői értekezletek 2025 tavasz
-    school: Székhely
-    img: szuloi.png
-    align: center
-    imgclass: medium-6
-    contentclass: medium-6
-    content: news14
-  - title: Szülői értekezletek 2025 tavasz
     school: Tagiskola
     img: szuloi.png
     align: center
@@ -588,6 +587,13 @@ news:
     content: news27
 
 newsold:
+  - title: Szülői értekezletek 2025 tavasz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news14
   - title: Sakkverseny
     school: Székhely
     img: sakkverseny.jpg
