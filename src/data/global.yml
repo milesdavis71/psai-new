@@ -494,13 +494,6 @@ kompetenciameres-2023:
     smile3bs: 😐
 
 news:
-  - title: Szülői értekezletek 2025 tavasz
-    school: Székhely
-    img: szuloi.png
-    align: center
-    imgclass: medium-6
-    contentclass: medium-6
-    content: news39
   - title: ➡️ Beiratkozás 2025-2026
     school: all
     img: beiratkozas.jpg
@@ -508,6 +501,20 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news35
+  - title: Szülői értekezletek 2025 tavasz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news39
+  - title: Petőfisek kiscsillagai
+    school: Székhely
+    img: ps_kiscsillagok_2025.jpg
+    align: center
+    imgclass: medium-12
+    contentclass: medium-12
+    content: news40
   - title: Balatonkenesei Gyermek- és Ifjúsági Tábor 2025
     school: all
     img: nyaritabor.png
