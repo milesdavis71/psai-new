@@ -10,6 +10,7 @@
     pkgs.yarn
     pkgs.exiftool
     pkgs.imagemagick
+    pkgs.lftp
  ];
 
   # Sets environment variables in the workspace
