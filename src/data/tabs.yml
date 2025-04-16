@@ -1,0 +1,24 @@
+tabs:
+  - id: panel1
+    label: First Tab
+    active: true
+    content: >
+      <p>This is the content for the first tab. You can include HTML here.</p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+      </ul>
+  
+  - id: panel2
+    label: Second Tab
+    content: >
+      <p>This is the second tab content.</p>
+      <div class="callout secondary">
+        <p>You can use Foundation components within tabs.</p>
+      </div>
+  
+  - id: panel3
+    label: Third Tab
+    content: >
+      <p>Content for the third tab goes here.</p>
+      <button class="button">A sample button</button>

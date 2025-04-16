@@ -10,7 +10,7 @@
     pkgs.yarn
     pkgs.exiftool
     pkgs.imagemagick
-    pkgs.lftp
+    pkgs.openssh
  ];
 
   # Sets environment variables in the workspace
@@ -21,7 +21,6 @@ idx = {
       # "vscodevim.vim"
             "redhat.vscode-yaml"
             "esbenp.prettier-vscode"
-
     ];
 
     # Enable previews

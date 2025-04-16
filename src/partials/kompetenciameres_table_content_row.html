@@ -1,0 +1,25 @@
+{{#ifequal type '2024ps'}}
+<tr>
+  {{#if @first}}
+  <td rowspan="{{../osztalyok.length}}">{{../tantargy}}</td>
+  {{/if}}
+  <td>{{osztaly}}</td>
+  <td>{{pont}}</td>
+  <td>{{orszpont}}</td>
+  <td>{{viszcsop1}}</td>
+  <td>{{viszcsop2}}</td>
+  <td>{{viszcsop3}}</td>
+</tr>
+{{/ifequal}} {{#ifequal type '2011y'}}
+
+<tr>
+  {{#if @first}}
+  <td rowspan="{{../osztalyok.length}}">{{../tantargy}}</td>
+  {{/if}}
+  <td>{{osztaly}}</td>
+  <td>{{pont}}</td>
+  <td>{{orszpont}}</td>
+  <td>{{viszcsop1}}</td>
+  <td>{{viszcsop2}}</td>
+</tr>
+{{/ifequal}}

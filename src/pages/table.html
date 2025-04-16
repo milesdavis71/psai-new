@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<style>
+    #meres {
+    padding: 0.15rem 0.5rem 0.15rem;
+    border: 1px solid darkgrey;
+    background-color: white;
+  }
+</style>
+</style>
+
+<div class="cell medium-9 medium-cell-block-y">
+
+<div class="grid-container">
+  <div class="grid-x grid-margin-x">
+    <!-- Vertical Tabs Navigation -->
+    <div class="cell medium-2 small-text-center">
+      <ul class="vertical tabs text-center" data-tabs id="vertical-tabs">
+        {{#each proba.tabs}}
+          <li class="tabs-title{{#if @first}} is-active{{/if}}">
+            <a href="#{{id}}"{{#if @first}} aria-selected="true"{{/if}}>{{tabtitle}}</a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    
+    <!-- Tab Content -->
+    <div class="cell medium-10">
+      <div class="tabs-content" data-tabs-content="vertical-tabs">
+        {{#each proba.tabs}}
+          <div class="tabs-panel{{#if @first}} is-active{{/if}}" id="{{id}}">
+            <h5 class="text-center">{{title}}</h5>
+            {{>kompetenciameres_title2line type=id}}
+            {{> kompetenciameres_tableheader_title_short_visz_csop type=id}}
+            <div class="table-scroll" >
+            <table class="unstriped">
+              <thead >
+                <tr>
+                  {{#each table.headers}}
+                    <th class="text-center" id="meres">{{this}}</th>
+                  {{/each}}
+                </tr>
+              </thead>
+              <tbody>
+                {{#each table.rows}}
+                  <tr>
+                    {{#each this}}
+                      <td class="text-center"  id="meres" {{#if rowspan}}rowspan="{{rowspan}}"{{/if}}>
+                        {{content}}
+                      </td>
+                    {{/each}}
+                  </tr>
+                {{/each}}
+              </tbody>
+            </table>
+          </div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
