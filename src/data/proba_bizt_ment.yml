@@ -956,110 +956,22 @@ tabs:
 
   - id: 2011year
     tabtitle: 2011
-    title:  Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskola és Hunyadi János Tagiskola - 2011
-    table:
-      headers:
-        [
-          "tantárgy",
-          "oszt",
-          "fh eredm",
-          "orsz átl",
-          "PS",
-          "BS",
-          "HJ"
-        ]
-      rows:
-      -
-        - rowspan: 2
-          content: "6."
-        - content: matematika
-        - content: 1519
-        - content: 1486
-        - content: 1577
-        - content: 1532
-        - content: 1286
-      -
-        - content: "szövegértés"
-        - content: 1605
-        - content: 1465
-        - content: 1556
-        - content: 1717
-        - content: 1339
-      -
-        - rowspan: 2
-          content: "8."
-        - content: matematika
-        - content: 1626
-        - content: 1601
-        - content: 1782
-        - content: 1645
-        - content: 1477
-      -
-        - content: szövegértés
-        - content: 1594
-        - content: 1577
-        - content: 1671
-        - content: 1571
-        - content: 1551
+    title:  Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája - 2011 - Hamarosan 
 
   - id: 2010year
     tabtitle: 2010
-    title:  Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskola és Hunyadi János Tagiskola - 2010 
-    table:
-      headers:
-        [
-          "tantárgy",
-          "oszt",
-          "fh eredm",
-          "orsz átl",
-          "PS",
-          "BS",
-          "HJ"
-        ]
-      rows:
-      -
-        - rowspan: 2
-          content: "6."
-        - content: matematika
-        - content: 1568
-        - content: 1498
-        - content: 1654
-        - content: 1593
-        - content: 1387
-      -
-        - content: "szövegértés"
-        - content: 1572
-        - content: 1483
-        - content: 1648
-        - content: 1582
-        - content: 1429
-      -
-        - rowspan: 2
-          content: "8."
-        - content: matematika
-        - content: 1643
-        - content: 1622
-        - content: 1735
-        - content: 1602
-        - content: 1542
-      -
-        - content: szövegértés
-        - content: 1670
-        - content: 1583
-        - content: 1731
-        - content: 1609
-        - content: 1639
+    title:  Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskolája - 2010 - Hamarosan 
 
   - id: 2009year
     tabtitle: 2009
-    title: Szegedi Petőfi Sándor Általános Iskola Bálint Sándor Tagiskola és Hunyadi János Tagiskola - 2009
+    title: Szegedi Petőfi Sándor Általános Iskola  - 2009
     table:
       headers:
         [
           "tantárgy",
           "oszt",
           "fh eredm",
-          "orsz átl",
+          "fh eredm orsz átl",
           "PS",
           "BS",
           "HJ"
@@ -1067,31 +979,31 @@ tabs:
       rows:
       -
         - rowspan: 2
-          content: "6."
-        - content: matematika
+          content: matematika
+        - content: "6."
         - content: 540
         - content: 489
         - content: 642
         - content: 522
         - content: 467
       -
-        - content: "szövegértés"
+        - content: "8."
+        - content: 480
+        - content: 484
+        - content: 513
+        - content: 456
+        - content: 473
+      -
+        - rowspan: 2
+          content: szövegértés
+        - content: "6."
         - content: 545
         - content: 513
         - content: 597
         - content: 534
         - content: 509
       -
-        - rowspan: 2
-          content: "8."
-        - content: matematika
-        - content: 480
-        - content: 484
-        - content: 1513
-        - content: 456
-        - content: 473
-      -
-        - content: szövegértés
+        - content: "8."
         - content: 537
         - content: 502
         - content: 619

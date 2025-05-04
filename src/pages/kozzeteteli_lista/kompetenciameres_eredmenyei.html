@@ -17,7 +17,7 @@ layout: default
   <div class="grid-x grid-margin-x">
     <!-- Vertical Tabs Navigation -->
     <div class="cell medium-2 small-text-center">
-      <ul class="vertical tabs text-center" data-tabs id="vertical-tabs">
+      <ul class="vertical tabs text-center" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="500" data-tabs id="deeplinked-tabs">
         {{#each proba.tabs}}
           <li class="tabs-title{{#if @first}} is-active{{/if}}">
             <a href="#{{id}}"{{#if @first}} aria-selected="true"{{/if}}>{{tabtitle}}</a>
@@ -28,7 +28,7 @@ layout: default
     
     <!-- Tab Content -->
     <div class="cell medium-10">
-      <div class="tabs-content" data-tabs-content="vertical-tabs">
+      <div class="tabs-content" data-tabs-content="deeplinked-tabs">
         {{#each proba.tabs}}
           <div class="tabs-panel{{#if @first}} is-active{{/if}}" id="{{id}}">
             <h5 class="text-center">{{title}}</h5>
