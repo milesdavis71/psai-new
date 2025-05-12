@@ -20,7 +20,6 @@ idx = {
     extensions = [
       # "vscodevim.vim"
             "redhat.vscode-yaml"
-            "esbenp.prettier-vscode"
     ];
 
     # Enable previews

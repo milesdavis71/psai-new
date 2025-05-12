@@ -1,28 +1,28 @@
 bsbemutatk:
   - folder: bemutatkozas/bs/
-    filename: "01"
+    filename: '01'
   - folder: bemutatkozas/bs/
-    filename: "02"
+    filename: '02'
   - folder: bemutatkozas/bs/
-    filename: "03"
+    filename: '03'
   - folder: bemutatkozas/bs/
-    filename: "04"
+    filename: '04'
   - folder: bemutatkozas/bs/
-    filename: "05"
+    filename: '05'
   - folder: bemutatkozas/bs/
-    filename: "06"
+    filename: '06'
   - folder: bemutatkozas/bs/
-    filename: "07"
+    filename: '07'
   - folder: bemutatkozas/bs/
-    filename: "08"
+    filename: '08'
   - folder: bemutatkozas/bs/
-    filename: "09"
+    filename: '09'
   - folder: bemutatkozas/bs/
-    filename: "10"
+    filename: '10'
   - folder: bemutatkozas/bs/
-    filename: "11"
+    filename: '11'
   - folder: bemutatkozas/bs/
-    filename: "12"
+    filename: '12'
 
 csengetesi_rend_ps:
   - ora: 1
@@ -280,7 +280,7 @@ jarasiversenBSy:
       helyszin: Szegedi Petőfi Sándor Általános Iskola
       cim: Szeged, Benczúr Gyula u. 29.
       tel: +36 30 736 2795
-      telegybe: "+36307362795"
+      telegybe: '+36307362795'
       mail: titkarsag@petofiszeged.hu
   1-:
     - filename: 2o
@@ -308,7 +308,7 @@ iskolai_segitok:
   - job: iskolapszichológus
     name: Ficz Gábor
     mail: falco444@gmail.com
-    tel1: "+36203879927"
+    tel1: '+36203879927'
     tel2: +36 20 387 9927
 
   - job: Gyógypedagógus I.
@@ -338,13 +338,13 @@ iskolai_segitok:
   - job: Iskolai segítő
     name: Hajdú Éva
     mail: hajdu.eva@csgyjk.ritek.hu
-    tel1: "+36203879927"
+    tel1: '+36203879927'
     tel2: +36 20 387 9927
 
   - job: Iskolarendőr
     name: Kocsis Mihály Zsolt
     mail: jaksai@csongrad.police.hu
-    tel1: "+36203879927"
+    tel1: '+36203879927'
     tel2: +36 20 387 9927
 
 news:
@@ -383,7 +383,7 @@ news:
     imgclass: medium-3
     contentclass: medium-9
     content: news37
-  - title: "Iskolahívógató: Gergely-járás játékos foglalkozás"
+  - title: 'Iskolahívógató: Gergely-járás játékos foglalkozás'
     school: Tagiskola
     img: gergelyjaras.jpg
     align:
@@ -418,7 +418,7 @@ news:
     imgclass: medium-5
     contentclass: medium-7
     content: news29
-  - title: "Suliváró foglalkozások"
+  - title: 'Suliváró foglalkozások'
     school: Székhely
     img: sulivaro.jpg
     align:
@@ -504,7 +504,7 @@ newsold:
     imgclass: medium-3
     contentclass: medium-9
     content: news18
-  - title: "Beiskolázási nyílt óra és iskolába hívogató foglalkozás"
+  - title: 'Beiskolázási nyílt óra és iskolába hívogató foglalkozás'
     school: Székhely
     img: sulivaro.jpg
     align:
@@ -533,7 +533,7 @@ newsold:
     imgclass: medium-5
     contentclass: medium-7
     content: news17
-  - title: "Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben"
+  - title: 'Közlemény: A mindennapos testnevelés szabályai a 2024-25-ös tanévben'
     school: all
     img: csik_bottom.jpg
     align:
@@ -595,8 +595,8 @@ newsold:
 
 ngsz-befiz-date:
   - month: április
-    de: "07:30–14:30"
-    du: "10:00–17:00"
+    de: '07:30–14:30'
+    du: '10:00–17:00'
     date01: 03. 05.
     date02: 03. 06.
     date03: 03. 12.
@@ -608,8 +608,8 @@ ngsz-befiz-date:
     date09: 04. 02.
     date10: 03. 03.
   - month: május
-    de: "07:30–14:30"
-    du: "10:00–17:00"
+    de: '07:30–14:30'
+    du: '10:00–17:00'
     date01: 04. 09.
     date02: 04. 10.
     date03: 04. 16.
@@ -618,8 +618,8 @@ ngsz-befiz-date:
     date06: 04. 24.
     date07: 04. 30.
   - month: június
-    de: "07:30–14:30"
-    du: "10:00–17:00"
+    de: '07:30–14:30'
+    du: '10:00–17:00'
     date01: 05. 07.
     date02: 05. 08.
     date04: 05. 15.
@@ -632,15 +632,15 @@ ngsz-befiz-date:
 
 oldnews:
   - url: hirfolyam_2019_20
-    title: "2019–20"
+    title: '2019–20'
   - url: hirfolyam_2020_21
-    title: "2020–21"
+    title: '2020–21'
   - url: hirfolyam_2021_22
-    title: "2021–22"
+    title: '2021–22'
   - url: hirfolyam_2022_23
-    title: "2022–23"
+    title: '2022–23'
   - url: hirfolyam_2023_24
-    title: "2023–24"
+    title: '2023–24'
 
 psbemutatk:
   1-:
@@ -721,36 +721,36 @@ szaktargyi_korrepetalas:
       tanar: Nagyistók Zsuzsanna
 
 taneszkoz:
-  - class: "1"
+  - class: '1'
     deeplink: 1o
-  - class: "2"
+  - class: '2'
     deeplink: 2o
-  - class: "3"
+  - class: '3'
     deeplink: 3o
-  - class: "4"
+  - class: '4'
     deeplink: 4o
-  - class: "5"
+  - class: '5'
     deeplink: 5o
-  - class: "6"
+  - class: '6'
     deeplink: 6o
-  - class: "7"
+  - class: '7'
     deeplink: 7o
-  - class: "8"
+  - class: '8'
     deeplink: 8o
 
 tanevrendje_ps_bs:
-  - tan_nelk_nap_1: "2024. október 4. (péntek)"
-    tan_nelk_nap_2: "2024. december 7. (szombat)"
-    tan_nelk_nap_3: "2025. február 3. (hétfő)"
-    tan_nelk_nap_4: "2025. június 18. (szerda)"
-    osziszunet_start: "2024. október 25. (péntek)"
-    osziszunet_end: "2024. november 4. (hétfő) "
-    teliszunet_start: "2024. december 20. (péntek)"
-    teliszunet_end: "2025. január 6. (hétfő)"
-    tavasziszunet_start: "2025. április 16. (szerda)"
-    tavasziszunet_end: "2025. április 28. (hétfő)"
-    felev_end: "2025. január 17. (péntek)"
-    ev_end: "2025. június 20. (péntek)"
+  - tan_nelk_nap_1: '2024. október 4. (péntek)'
+    tan_nelk_nap_2: '2024. december 7. (szombat)'
+    tan_nelk_nap_3: '2025. február 3. (hétfő)'
+    tan_nelk_nap_4: '2025. június 18. (szerda)'
+    osziszunet_start: '2024. október 25. (péntek)'
+    osziszunet_end: '2024. november 4. (hétfő) '
+    teliszunet_start: '2024. december 20. (péntek)'
+    teliszunet_end: '2025. január 6. (hétfő)'
+    tavasziszunet_start: '2025. április 16. (szerda)'
+    tavasziszunet_end: '2025. április 28. (hétfő)'
+    felev_end: '2025. január 17. (péntek)'
+    ev_end: '2025. június 20. (péntek)'
 
 kompetenciameres-2023:
   - meresiterulet: angol idegen nyelv
@@ -897,3 +897,9 @@ kompetenciameres-2023:
     csop2: megyeszékh. közepes ált. isk.
     smile3ps: 😐
     smile3bs: 😐
+
+hatartalanul:
+  - tabtitle: PS HAT-23
+    id: 2023ps
+  - tabtitle: BS HAT-23
+    id: 2023bs

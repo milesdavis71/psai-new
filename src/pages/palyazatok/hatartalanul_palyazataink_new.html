@@ -1,0 +1,68 @@
+---
+layout: default
+title: Képgaléria
+images: gallery.images
+columns: gallery.columns
+---
+
+<div class="cell medium-9 medium-cell-block-y">
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            <!-- Vertical Tabs Navigation -->
+            <div class="cell medium-2 small-text-center">
+                <ul
+                    class="vertical tabs text-center"
+                    data-deep-link="true"
+                    data-update-history="true"
+                    data-deep-link-smudge="true"
+                    data-deep-link-smudge-delay="500"
+                    data-tabs
+                    id="deeplinked-tabs"
+                >
+                    {{#each global.hatartalanul}}
+                    <li class="tabs-title{{#if @first}} is-active{{/if}}">
+                        {{> tabtitle}}
+                    </li>
+                    {{/each}}
+                </ul>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="cell medium-10">
+                <div class="tabs-content" data-tabs-content="deeplinked-tabs">
+                    {{#each gallery.sections}}
+                    <div class="grid-container">
+                        <div class="grid-x grid-margin-x">
+                            <div class="cell">
+                                <p>{{ this.text }}</p>
+                            </div>
+                        </div>
+                        <div class="grid-x grid-margin-x">
+                                         {{#each this.images}}
+                                <div
+                                class="cell small-12 large{{ this.images_per_row }}"
+                            >
+                                <div class="cell">
+                                    <a
+                                        href="{{ this.src }}"
+                                        data-lightbox="section-{{@../index}}"
+                                        data-title="{{ this.alt }}"
+                                    >
+                                        <img
+                                            src="{{ this.src }}"
+                                            alt="{{ this.alt }}"
+                                            class="thumbnail"
+                                        />
+                                    </a>
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -17,6 +17,7 @@
         'nyilvanos_vizsgalat'
         'nyitvatartas'
         'esemenynaptar_ps_bs'
+        'intezmenyi_tanfelugyelet_eredmenye_2023'
         'intezmenyi_tanfelugyelet_eredmenye_2018'
         'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
         'pedagogus_tanfelugyeletenek_eredmenye_2016'
@@ -100,12 +101,16 @@
             <a href="#">Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése</a>
             <ul class="menu vertical nested
           {{#ifpage
+            'intezmenyi_tanfelugyelet_eredmenye_2023'
             'intezmenyi_tanfelugyelet_eredmenye_2018'
             'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
             'pedagogus_tanfelugyeletenek_eredmenye_2016'
             }}
             is-active
         {{/ifpage}}">
+                <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2023' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2023.html">Intézményi tanfelügyelet eredménye 2023</a>
+                </li>
                 <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2018' }} class="current" {{/ifpage}}>
                     <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html">Intézményi tanfelügyelet
                         eredménye 2018</a>
