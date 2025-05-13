@@ -356,6 +356,20 @@ news:
     contentclass: medium-7
     content: news35
   - title: Szülői értekezletek 2025 tavasz
+    school: Tagiskola
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news42
+  - title: Családi nap
+    school: Tagiskola
+    img: csaladi_nap.jpg
+    align:
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news41
+  - title: Szülői értekezletek 2025 tavasz
     school: Székhely
     img: szuloi.png
     align: center
