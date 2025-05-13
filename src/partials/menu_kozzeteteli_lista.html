@@ -18,6 +18,7 @@
         'nyitvatartas'
         'esemenynaptar_ps_bs'
         'intezmenyi_tanfelugyelet_eredmenye_2023'
+        'tagiskolai_tanfelugyelet_eredmenye_2025'
         'intezmenyi_tanfelugyelet_eredmenye_2018'
         'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
         'pedagogus_tanfelugyeletenek_eredmenye_2016'
@@ -101,6 +102,7 @@
             <a href="#">Pedagógiai-szakmai ellenőrzési feladatok ellenőrzése</a>
             <ul class="menu vertical nested
           {{#ifpage
+            'tagiskolai_tanfelugyelet_eredmenye_2025'
             'intezmenyi_tanfelugyelet_eredmenye_2023'
             'intezmenyi_tanfelugyelet_eredmenye_2018'
             'intezmenyvezetoi_tanfelugyelet_eredmenye_2018'
@@ -110,6 +112,9 @@
         {{/ifpage}}">
                 <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2023' }} class="current" {{/ifpage}}>
                     <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2023.html">Intézményi tanfelügyelet eredménye 2023</a>
+                </li>
+                <li {{#ifpage 'tagiskolai_tanfelugyelet_eredmenye_2025' }} class="current" {{/ifpage}}>
+                    <a href="{{root}}kozzeteteli_lista/tagiskolai_tanfelugyelet_eredmenye_2025.html">Tagiskolai  tanfelügyelet eredménye 2025</a>
                 </li>
                 <li {{#ifpage 'intezmenyi_tanfelugyelet_eredmenye_2018' }} class="current" {{/ifpage}}>
                     <a href="{{root}}kozzeteteli_lista/intezmenyi_tanfelugyelet_eredmenye_2018.html">Intézményi tanfelügyelet
