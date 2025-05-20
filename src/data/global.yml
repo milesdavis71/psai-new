@@ -906,7 +906,17 @@ kompetenciameres-2023:
     smile3bs: 😐
 
 hatartalanul:
-  - tabtitle: PS HAT-23
-    id: 2023ps
   - tabtitle: BS HAT-23
-    id: 2023bs
+    id: bs2023
+  - tabtitle: PSBS HAT-22
+    id: psbs2022
+  - tabtitle: PS HAT-20
+    id: ps2020
+  - tabtitle: PS HAT-19
+    id: ps2019
+  - tabtitle: BS HAT-19
+    id: bs2019
+  - tabtitle: PS HAT-18
+    id: ps2018
+  - tabtitle: BS HAT-18
+    id: bs2018

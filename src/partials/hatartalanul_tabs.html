@@ -1,0 +1,47 @@
+<div class="grid-container">
+    <div class="grid-x grid-margin-x">
+        <div class="cell">
+            <p>{{ this.text }}</p>
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+            {{#each this.images}}
+            <div
+                class="cell small-12 medium-{{divide 12 ../images_per_row}}"
+            >
+                <a
+                    data-toggle="{{ this.id }}"
+                >
+                    <img
+                        src="{{ this.src }}"
+                        alt="{{ this.alt }}"
+                        class="thumbnail"
+                    />
+                </a>
+            </div>
+            <div
+                class="large reveal"
+                id="{{ this.id }}"
+                data-reveal
+            >
+            <img
+            src="{{ this.src }}"
+            alt="{{ this.alt }}"
+            class="thumbnail"
+        />
+            
+                <button
+                    class="close-button"
+                    data-close
+                    aria-label="Close modal"
+                    type="button"
+                >
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,469 @@
+sections:
+  - title: PS HAT23
+    content:
+      - type: maintitle
+        text: „Történelmi megállók Erdélyben”
+      - type: date
+        text: 2024. június 11–15.
+      - type: paragraph
+        text: Iskolánk hetedik osztályos tanulóival a Határtalanul! pályázat keretében 2024. június 11 - 15. között Erdélybe utazhattunk, ahol az ott eltöltött öt nap során rendkívül sok érdekes és izgalmas program várt bennünket.
+      - type: paragraph
+        text: Az utazás előtt tartott előkészítő órákon a diákok felidézték a trianoni békeszerződés során elcsatolt területeken élő magyarság történetét, illetve megismerhették a székely nép sorsát. Interaktív tananyag segítségével a népi hangszerekkel, hagyományokkal foglalkoztunk.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/busz.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/busz.jpg
+            alt: Kép 1
+      - type: heading
+        # 1. nap
+        text: Első nap
+      - type: paragraph
+        text: Az indulás napján nagyon korán kellett kelnünk, hiszen hosszú út állt előttünk. Hajnali négy órakor álmosan gyülekeztünk az iskola előtt a buszra várva. Kezdeti fáradtságunk hamar elszállt, hiszen a székelyvarsági szállásra vezető utunkat többször is megszakítottuk egy-egy izgalmas helyszínen.
+      - type: paragraph
+        text: Déva váránál álltunk meg először. Verőfényes napsütésben sétáltunk a gyönyörűen felújított vár területén, ahova a drótkötélpályás felvonó segítségével jutottunk el.
+      - type: paragraph
+        text: Folytattuk utunkat Gyulafehérvárra, ahol megtekintettük a székesegyházat, majd a Károly-kapun átsétálva megcsodáltuk a gyönyörű tájat.
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Déva.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Déva.jpg
+            alt: Kép 3
+            caption: Déva
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Gyulafehérvár.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Gyulafehérvár.jpg
+            alt: Kép 4
+            caption: Gyulafehérvár
+      - type: heading
+        text: Második nap'
+      - type: paragraph
+        text: Kirándulásunk második napjának reggelén ellátogattunk a székelyudvarhelyi Emlékezet parkjába, ahol 13 magyar király, író és egyéb híres ember szobránál tettük tiszteletünket. Ezután Szejkefürdőn jártunk, megtekintettük a Székelykapu Múzeumot és Orbán Balázs sírhelyét. Innen Korondra utaztunk és a verőfényes napsütésben helyi kézművesek termékeiből vásárolgattunk, majd egy egészen különös szakma művelőivel, taplász-mesterekkel ismerkedtünk meg. Megmutatták nekünk, hogy hogyan készítenek táskát, kendőt, sapkát és különböző dísztárgyakat taplógombából. Délután szekereken jutottunk el a Csorgókő-vízeséshez, majd az ötszintes kilátóról gyönyörködtünk Székelyvarság káprázatos domborzatában.
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/szejkefurdo.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/szejkefurdo.jpg
+            alt: Kép 3
+            caption: Szejkefürdő
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/korond.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/korond.jpg
+            alt: Kép 4
+            caption: Korond
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Úton_a_Csorgókő_vízeséshez.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Úton_a_Csorgókő_vízeséshez.jpg
+            alt: Kép 3
+            caption: Úton a Csorgókő vízeséshez
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Székelyvarság_kilátó.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Székelyvarság_kilátó.jpg
+            alt: Kép 4
+            caption: Gyulafehérvár
+      - type: heading
+        text: Harmadik nap
+      - type: paragraph
+        text: Kirándulásunk harmadik napján első utunk a Dani Gergely Általános Iskolába vezetett, ami a legkeletibb magyar iskola Gyimesbükkön. A helyi hetedik osztályosok, osztályfőnökük és az iskola igazgatója fogadott minket. Magával ragadó volt a gyermekek nyitottsága, vendégszeretete. Ez a közvetlenség hatott a mi diákjainkra is, akik örömmel vettek részt táncmulatságban, majd közös sporttevékenységben. Fájó szívvel köszöntünk el vendéglátóinktól, akikkel jó barátságot alakítottak ki gyermekek, pedagógusok egyaránt.
+      - type: paragraph
+        text: A délutánunkat a hegyek között folytattuk a Hidegségben. A Muhos patak mellett fekvő esztenánál szalonnát és kolbászt sütöttünk, valamint házi készítésű sajtot kóstoltunk. A helyi idegenvezető megismertette velünk a gyimesi csángók történetét. Hazafelé menet útba ejtettük az ezeréves határt is, ahol élő történelemórán vettünk részt. Megható volt az itt élő emberek viszontagságos életútját hallgatni ebben a gazdag természeti környezetben.
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Dani_Gergely_Általános_Iskola.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Dani_Gergely_Általános_Iskola.jpg
+            alt: Kép 3
+            caption: Dani Gergely Általános Iskola
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/muhos_patak_mellett.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/muhos_patak_mellett.jpg
+            alt: Kép 4
+            caption: A Muhos patak mellett
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/sutogetes_az_esztenanal.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/sutogetes_az_esztenanal.jpg
+            alt: Kép 3
+            caption: Sütögetés az esztenánál
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/ezereves_hatarnal.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/ezereves_hatarnal.jpg
+            alt: Kép 4
+            caption: Az ezeréves határnál
+      - type: heading
+        text: Negyedik nap
+      - type: paragraph
+        text: Erdélyi tartózkodásunk negyedik napján korán reggel a Súgó - barlang felé vettük az irányt. Miután megküzdöttünk a meredek hegyoldallal, a barlangban cseppkövek csodálatos látványa fogadott bennünket. A barlang mélyén lekapcsoltuk a zseblámpákat, hogy kipróbáljuk, milyen érzés teljes csendben és vaksötétben lenni.
+      - type: paragraph
+        text: A Súgó-barlangból egy újabb csodálatosan szép természeti jelenséghez, a Gyilkos-tóhoz indultunk. A Gyilkos-tónál finom kürtős kalácsot ettünk, hogy legyen energiánk a hosszú sétához a Békás-szorosban. Lélegzetelállítóan gyönyörű látványt nyújt a Békás-patak és az azt körülölelő hatalmas sziklafalak. Igazi természeti ritkaság, amit itt láthattunk. A függőhídon való átjutás igazi kihívás elé állította tanulóinkat.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/gyilkos-to.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/gyilkos-to.jpg
+            alt: Kép 3
+            caption: Gyilkos-tó
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Békás-szoros.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Békás-szoros.jpg
+            alt: Kép 4
+            caption: Békás szoros
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/esti_játék.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/esti_játék.jpg
+            alt: Kép 4
+            caption: Esti játék
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/bekas-szoros-csoportkep.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/bekas-szoros-csoportkep.jpg
+            alt: Kép 3
+            caption: Békás szoros
+      - type: heading
+        text: Ötödik nap
+      - type: paragraph
+        text: Az ötödik nap ismét az utazásról szólt. Szívünkben vegyes érzésekkel indultunk haza. Egyrészt sajnáltuk, hogy vége lett a csodás kalandoknak, másrészt örültünk, hogy este végre viszontláthatjuk a családunkat.
+      - type: paragraph
+        text: Fehéregyházán felkerestük a Petőfi Múzeumot, ahol egy lebilincselő előadás meghallgatása után egy koszorú elhelyezésével emlékeztünk meg Petőfi Sándorról és elénekeltük a Székely himnuszt. Segesváron sétáltunk a vár területén, majd megmásztuk a Diákok lépcsőjét és megnéztük Petőfi szobrát.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Fehéregyháza.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Fehéregyháza.jpg
+            alt: Kép 3
+            caption: Gyilkos-tó
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/segesvar.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/segesvar.jpg
+            alt: Kép 4
+            caption: Békás szoros
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Óratorony.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Óratorony.jpg
+            alt: Kép 4
+            caption: Esti játék
+      - type: paragraph
+        text: Kirándulásunk utolsó helyszíne a nagybaromlaki erődtemplom volt. Felmentünk a templomtoronyba, ahonnan csodálatos kilátás nyílt a környező vidékre, felidézve bennünk az összes festői szépségű táj emlékét, melyeket az elmúlt napokban láthattunk.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Nagybaromlak.jpg
+            thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Nagybaromlak.jpg
+            alt: Kép 3
+            caption: Nagybaromlak
+      - type: paragraph
+        text: Hazaérkezésünk után fotókkal színesítettük beszámolónkat, amelyet az Erdélyben szerzett élményekről tartottunk diáktársainknak.
+      - type: paragraph
+        text: Szerencsések vagyunk, hogy lehetőséget kaptunk erre az erdélyi útra. Rengeteg tudással gazdagodtunk. Olyan határainkon kívül eső területeken játunk, ahol magyarul beszélnek, magyarként élnek az emberek. Megismerhettük hagyományaikat, népi kultúrájukat is. Minden általunk meglátogatott helyszínről előzetesen kiselőadásokkal készültünk, melyeket hol a hosszú út közben, hol a helyszíneken adtunk elő egymásnak. Esténként vetélkedőket szerveztünk, melyek során játékos formában mérhették össze frissen megszerzett tudásunkat tanulóink. Lefekvés előtt soha nem maradt el a közös játék a szabadban, vagy a társalgóban, ahol időnként spontán bulik is kialakultak. A hosszú buszúton sem unatkoztunk soha. Rengeteget nevettünk és énekeltünk. Maradandó élmény marad ez az út mindannyiunk számára, egy szép, örök emlék, mely akkor is összeköt majd bennünket, ha már nem járunk egy iskolába.
+
+  # BS HAT-23
+  - title: BS HAT23
+    content:
+      - type: maintitle
+        text: Királyok, fejedelmek az 1000 éves határig
+      - type: date
+        text: 2024. június 11–15.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/01.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/01.jpg
+            alt: 01
+      - type: paragraph
+        text: 6. osztályos korunkban, valamikor május-júniusban Ági néni/ ofőnk/ úgy jött be hozzánk, hogy iskolánk pályázatot nyújt be a Határtalanul programra, ha sikerül, öt egész napot fogunk együtt eltölteni Erdélyben. Nagy volt az öröm és a várakozás. Szülői értekezleten megbeszélték a szülők, hogy mindenki benne van a dologban. Vártunk-vártunk és egyszer valamikor szeptemberben jött az osztály facebookján a hír! Megyünk, mert nyertünk!
+      - type: paragraph
+        text: Tudtuk, hogy sokat kell majd dolgozni vele, de már akkor éreztük, hogy biztos valami nagyon különleges élményben lesz részünk. 5 napos kirándulás! Már ekkor vártuk!
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/02.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/02.jpg
+            alt: 02
+      - type: paragraph
+        text: 'A tanév során több osztályfőnöki órán beszélgettünk erről, de valamikor tavasszal lett komoly a dolog. Előkészítőórákat tartottunk: volt történelem, földrajz és általános felkészítés. Bea néni nagyon sokat mesélt Erdély történelméről, a fejedelemségről. Földrajz órákon pedig Erdély természetföldrajzával ismerkedtünk. Igazgatóhelyettes néni rengeteget járt Erdélyben, ezért ő az ott látható nevezetességekről, emberekről mesélt nekünk.'
+      - type: paragraph
+        text: Gyöngyi néni a székely himnuszt tanította nekünk, ami akkor túl szomorúnak tűnt nekünk. Mivel nagyon szeretünk dalolni, ezért ezt a dalt is szépen tudtuk megszólaltatni. A népi hangszerekről is tanultunk játékos, interaktív formában.
+      - type: paragraph
+        text: Az utolsó előkészítőóra néhány nappal az indulásunk előtt volt, itt még pontosítottunk 1-2 dolgot, összeraktuk az ajándékokat szüleink segítségével, akik legalább olyan izgatottak voltak az út miatt, mint mi. Ági néni előre gondolkozott és összeszedte a személyi igazolványunkat, nehogy a határon derüljön ki, hogy valakinek a nagy izgalomban otthon maradt. Biztosra ment.
+      # első nap
+      - type: heading
+        text: '1. nap: indulás'
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/03.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/03.jpg
+            alt: 03
+      - type: paragraph
+        text: Hajnalban a rigókkal keltünk és 4-kor már mindenki a buszmegállóban toporgott, hatalmas szemekkel. Érdekes, most senki nem aludt el, mint iskolaidőben az elsőórákról.
+      - type: paragraph
+        text: Gyorsan a határhoz értünk, ahol minden fennakadás nélkül átjutottunk. Első megállónk Déva vára volt. Látva a felvonót, minél előbb szerettünk volna beszállni. Azonban türelmesnek kellett lennünk, mert a 10 órás nyitásig várnunk kellett fél órát. De ami késik, nem múlik! Eljött a mi időnk, és már szállhattunk is be a kabinba. Nagyon meleg idő volt, tűzött a nap. A 250 magas sziklán büszkén jártuk be a várat.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/04.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/04.jpg
+            alt: 04
+      - type: paragraph
+        text: Utunkat folytattuk Gyulafehérvárra. Ezt a várost az Egri csillagokból már ismertük, meg töri órán Bea néni is rengeteget mesélt a Hunyadi sírról, meg az erdélyi fejedelmekről. Már nagyon vártuk az 1000 éves templomot. Mikor bementünk, tátva maradt a szánk. Csodálatos volt. Megkerestük a Hunyadi sírokat és megkoszorúztuk a törökverő és fia, a kivégzett László sírját, és folytattuk utunkat, amiről akkor még nem is tudtuk, milyen messze van.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: 05.jpg
+            thumb:
+            alt: 05
+      - type: paragraph
+        text: 'Fáradtan értünk a szállásra, Székelyvarságba. Kész kaland volt, mire a busz beállt a parkolóba. Zsuzsika néni, a Csorgókő Panzió tulajdonosa a teraszon várt minket, láthatóan örült az érkezésünknek. A szállás egy luxus szállodának is beillene: minden szobához külön fürdőszoba tartozott, és általában ketten voltunk egy szobában. Az egyik tanári szoba a folyosó közepén volt, gondolom azért, hogy ne tudjunk észrevétlenül átosonni a lányokhoz. Mondjuk nehéz is lett volna, a faházban minden lépést lehetett hallani.'
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/06.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/06.jpg
+            alt: 06
+      - type: paragraph
+        text: A vacsora nagyon ízlett mindenkinek. Nagy-nagy szeretettel tálalták fel nekünk mind a három a fogást. Bármit ettünk, az házi volt, mindent maguk a háziak készítettek el. 10 órakor próbálkoztak a tanáraink az altatóval, de nem sok eredménnyel. Az osztály 90 %-a szerintem semmit nem aludt.
+        # 2. nap
+      - type: heading
+        text: 2. nap
+      - type: paragraph
+        text: Reggel 6:45 volt az ébresztő, készülődés, reggeli után ismét buszra szálltunk. Tudtuk, hogy mire számíthatunk aznap, mert tanáraink mindig részletesen elmondták a programot, és azt is, mi kerüljön bele a hátizsákba. Ekkor még nem is sejtettük, hogy milyen izgalmakban lesz részünk. Olyan jól éreztük magunkat a busz hátuljában, hogy észre sem vettük, mikor szállt fel hozzánk Robi, a túravezetőnk. Nagyon érdekesen beszélt. Értettük minden szavát, de mégis másként fejezte ki magát, mint mi. Tőle tanultuk a veddfelke kifejezést, amit a hátizsákunkba tettünk arra az időre, ha a barlangban fáznánk. Egy rövid, de nehéz túra után jutottunk el a Sugó-barlanghoz, ahova fejlámpával be is mentünk.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/07.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/07.jpg
+            alt: 07
+      - type: paragraph
+        text: Kicsit csúszós volt bent az út, és néhol nagyon le kellett hajolni. Aki nem tette meg, vagy nem figyelt, az bizony beverte a kobakját. Robitól tudom, hogy ez a barlang a Gyergyói medence legjelentősebb helye, a különleges denevéreivel együtt. Igaza volt a túravezetőnek, mert a 7-12 fokos helyen szükségünk volt a veddfelkére.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/08.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/08.jpg
+            alt: 08
+      - type: paragraph
+        text: Ezután buszon jutottunk el a Gyilkos-tóig, ahol mindenekelőtt egy helyi kürtőskalácsot kapott mindenki, ami életem legfinomabb kürtőskalácsa volt. A Békás-szorost gyalog jártuk be, ami a nevét a mellette húzódó Békás patakról kapta, amely egyben a kialakítója is volt.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/09.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/09.jpg
+            alt: 09
+      - type: paragraph
+        text: Robi mutatott nekünk egy különleges helyet, a kis Békást. Azt mondta, ezt a helyet csak a legjobb gyerekeknek mutatja meg, mert egy igazi függőhídon keltünk át. Kettőt tervezett, de kaptunk egy medve riasztást, ezért az első híd átkelése után visszafordultunk.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/10.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/10.jpg
+            alt: 10
+      - type: paragraph
+        text: A Gyilkos-tóról már tanultunk Laci bácsitól, itt Robi is megmutatta, hogy hogyan keletkezett földcsuszamlással. Próbáltuk jól az emlékezetünkbe vésni ezt a különleges látványt, mert a kiálló fatörzsek sajnos nem maradnak meg mindig.
+      - type: paragraph
+        text: Estére a szállásra érve Zsuzsika néni ismét finomat főzött nekünk, mind a tíz ujjunkat megnyaltuk vacsora után. Ez egy igazi családi vállalkozás, mindenki azért dolgozik, hogy mi vendégek jól érezzük magunkat. Ez meg is történt, mert a közös játéknak tanáraink 10 órakor is alig tudtak véget vetni.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/11.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/11.jpg
+            alt: 11
+      - type: heading
+        # 3. nap
+        text: 3. nap
+      - type: paragraph
+        text: Korán keltünk, mert tanáraink azt mondták, ma messzire látogatunk. Izgatottan vártuk ezt a napot, mert a kis ajándékokat adjuk át a Dani Gergely Általános Iskola szintén hetedikes tanulóinak.
+      - type: paragraph
+        text: Az oda vezető út gyönyörű volt és hosszú. Alig vártuk a találkozást a diákokkal. Amint megérkeztünk az iskola elé, feltűnt, hogy vmilyen népviseletben jönnek ki a tanulók az iskolából. Katinka néni elmondta, hogy most ért véget a ballagás, itt ez az ünneplő ruha. Nagyon furcsa volt nekünk. A tornateremben történt meg a nagy találkozás. Igazából ugyanolyan gyerekek, mint mi. Az igazgatónő kedvesen köszöntött minket, majd egyikünk bemutatta az iskolánkat, ahonnan jöttünk. Ezután táncoltak, zenéltek nekünk. Nagyon érdekes volt, mert nekik nem kellett mikrofon, hogy halljuk, olyan hangosan tudtak énekelni. Közös éneklésbe is kezdtünk, először a Tavaszi szél kezdetű népdalt daloltuk együtt.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/12.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/12.jpg
+            alt: 12
+      - type: paragraph
+        text: Az igazgatónő kérésére, hogy énekeljünk még egyet, egyikünk azt mondta, hogy a székely himnuszt is énekeljük el. Ilyen szépen, még sohasem szólt. Valami volt a levegőben, mert mindannyian éreztük, hogy most történik valami, bennünk. Innen kezdve felszabadultan kerestük egymás társaságát, táncoltunk, beszélgettünk egymással. Amíg nem esett az eső, az udvaron fociztunk is.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/13.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/13.jpg
+            alt: 13
+      - type: paragraph
+        text: Nehéz volt otthagyni őket, de megfogadtuk, hogy Instán és Fb-on tartani fogjuk a kapcsolatot. Így is lett, sokan levelezünk velük a mai napig.
+      - type: paragraph
+        text: 'Innen az ezeréves határhoz vitt utunk. Kicsit borús idő kísért minket. Az itt álló vasúti őrházat is megnéztük, még szerettük volna a Rákóczi várat is látni, de még felújítás miatt zárva volt. A Kontumáci kápolnánál gyülekeztünk, ahol a helyi idegenvezető, Fülöp megtanította nekünk, hogy kik azok a csángók, és hogy háromféle csoportja létezik: a moldvai, a gyimesi és a hétfalusi. Nagyon kedves ember, mert meghívott minket a saját esztennájába, amiről addig nem is tudtuk, mi az.'
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/14.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/14.jpg
+            alt: 14
+      - type: paragraph
+        text: Ez az a hely, ahova kiköltöznek az állatokkal tavasszal és a tél beálltáig itt is maradnak. A sajtkészítés folyamatát is bemutatta nekünk, bár a lányok az oltógyomornál rosszul is lettek.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/15.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/15.jpg
+            alt: 15
+      - type: paragraph
+        text: Tábortüzet is rakott nekünk, ahol mindenki magának sütögethette a szalonnáját, kolbászát. Igazi házi pityókás kenyeret adott hozzá Fülöp, ami nagyon ízletes volt.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/16.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/16.jpg
+            alt: 16
+      - type: paragraph
+        text: Háromféle sajtot kóstolhattunk, mindenkinek a középső volt a legfinomabb, annak legalább volt íze.
+      - type: paragraph
+        text: Az esztena körül kicsit kóboroltunk a domboldalon, majd az ofő unszolására búcsút intettünk ennek a szép helynek, utaztunk vissza a bázisunkra, Zsuzsika nénihez, aki finom vacsorával várt bennünket. Most a kis unokája is segített a tálalásban, pedig csak öt éves, nagyon aranyos volt.
+      - tpye: paragraph
+        text: A szállásunk mellett volt egy kis kutya, akivel lehetett játszani is, jól tűrte a közeledésünket.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/17.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/17.jpg
+            alt: 17
+      - type: heading
+        #  4. nap
+        text: 4. nap
+      - type: paragraph
+        text: Reggel korán keltünk, majd megreggeliztünk és szendvicseket készítettünk az útra. Ezt követően indultunk Szejkefürdőre, ahol egy székely kapukkal átívelt úton keresztül mentünk fel Orbán Balázs sírjához, amit szintén megkoszorúztunk.
+      - type: paragraph
+        text: Esős időben érkeztünk Korondra Zoli bácsihoz és Erzsike nénihez. Zoli bácsi tapló gombából készít különböző tárgyakat. El is mesélte nekünk, milyen nagy szaktudás kell ahhoz, hogy ezt a gombát megtalálja, és meg is tudja munkálni. Legtöbben egy kis egeret vásároltunk, amit hűtőmágnesnek hoztuk haza, na meg a lányokat ijesztgetni vele.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/18.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/18.jpg
+            alt: 18
+      - type: paragraph
+        text: Ezt követően tértünk vissza Székelyudvarhelyre, ahol az Emlékezés Parkját kerestük fel. Koszorúzásra, megemlékezésekre került sor.
+      - type: paragraph
+        text: Sajnos a parajdi sóbánya zárva volt biztonsági okokból, ezért Katinka néni egy másik programot szervezett nekünk. A szállásunkról szekereken indultunk neki az erdőnek, jó zötyögős úton. Minket azonban ez sem zavart, mert útközben jókat beszélgettünk egymással.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/19.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/19.jpg
+            alt: 19
+      - type: paragraph
+        text: A táj ismét gyönyörű volt, megálltunk a Csorgókő vízesésnél, akinek vízálló cipője volt, a patakban gázolhatott is. Persze az is vizes lett, akinek nem volt ilyen cipője. Ezután egy több emeletes kilátóból néztünk a 360 fokos panorámát. A lovakhoz tartozott két csikó is, akik szabadon követtek minket. Ha elkóboroltak, a terelő kutya azonnal ugatásával visszavezette őket a szekerek mellé. Nagyon vicces volt látni, milyen komolyan veszi a kutya a feladatát, és valóban az is volt.
+      - type: images
+        images_per_row: 2
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/20.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/20.jpg
+            alt: 20
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/21.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/21.jpg
+            alt: 21
+      - type: paragraph
+        text: Eljött az utolsó éjszaka, az utolsó finom, házi vacsora. Töltött káposzta és almáspite volt a meglepetés fogás a leves után. Mondanom sem kell, hogy ilyen finomat még nem ettem életemben. Megköszöntük Zsuzsa néniéknek a vendégszeretetét, és hogy mindig finom vacsorával várt minket. Mindenki elérzékenyült.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/22.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/22.jpg
+            alt: 22
+      - type: paragraph
+        text: Szomorúan pakoltunk össze a bőröndükbe estére, senki sem akart hazamenni, szívesen maradtunk volna még itt.
+      - type: heading
+        # 5. nap
+        text: 5. nap
+      - type: paragraph
+        text: Korán keltünk, bepakoltunk a buszba és elmentünk reggelizni, mert utána Fehéregyházáig meg sem álltunk. Itt a múzeum gondnoka elmondta, hogy három tömegsír van, ahol Petőfi maradványa lehet. Szerinte nem ebben a tömegsírban nyugszik a nagy költő, de az emlékezés szobránál elhelyeztük koszorúnkat és tovább indultunk Segesvár felé.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/23.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/23.jpg
+            alt: 23
+      - type: paragraph
+        text: Itt az óratotnyot néztük meg, melynek két számlapja közül az egyik a város felé, a másik a vár felé néz. Itt láttuk Drakula szülőházát, ami most étteremként működik. Megmásztuk a diákok lépcsőjét, de mindenki más fokot számolt a hivatalos 175 lépcső helyett. Visszatérve az egyetemi épülettől fagyiztunk egyet és folytattuk utunkat Nagybaromlak felé.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/24.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/24.jpg
+            alt: 24
+      - type: paragraph
+        text: Ez egy erődtemplom, amit a szászok használnak, akik még itt maradtak. Felmászhattunk a harangok közé elég félelmetes csigalépcsőn keresztül. Valamelyikünk megszólaltatta a harangot, nagyon hangos volt.
+      - type: paragraph
+        text: Ezután megkezdtük 6 órás utunkat hazafelé Szegedre. Nagylaknál olyan hosszú kamionsor volt, hogy megijedtünk, soha nem jutunk át. Szerencsére a sofőrünk tudta melyik sorba kell állni és gyorsan átértünk a határon. 8-ra értünk haza, már a szülők ott tolongtak az iskola előtt. Elfáradtunk, de megérte, hiszen sok szép tájat láttunk.
+      - type: heading
+        text: Értékelő óra
+      - type: paragraph
+        text: Itt magunk között voltunk, illetve meghívtuk a felkészítő tanárainkat is. Itt mindenki értékelte a kirándulást, elmondta a jó és rossz élményeket, tapasztalatokat. Közös munkával fotókat válogattunk az iskolai facebookra és digitális tábla segítségével megnéztük a képeket és az elkészült videókat. Jókat nevettünk, mert eszünkbe jutottak a szép emlékek és a sok gondtalan perc.
+      - type: heading
+        text: Témanap
+      - type: paragraph
+        text: Úgy gondoltuk, hogy ezt a rengeteg dolgot amit láttunk és történt velünk, azt mindenképpen érdemes megosztani a társainkkal, ezért szerveztünk egy kis bemutatót. Itt előadtuk a dalokat amiket tanultunk, megkínáltuk őket az Erdélyből hozott lekváros kenyérrel és rengeteg élményt osztottunk meg velük.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/25.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/25.jpg
+            alt: 25
+      - type: paragraph
+        text: Röviden összefoglalva kedves naplónk, ezek történtek. Köszönjük az Emberi Erőforrás Minisztériumának a pályázati támogatást, a sok kedves embernek, akik segítettek minket az utunk során, és persze ofőnek azt, hogy el mert minket vinni és végig kitartott mellettünk.
+      - type: images
+        images_per_row: 1
+        images:
+          - full: /assets/img/palyazatok/bs/hatartalanul/hat_23/full/26.jpg
+            thumb: /assets/img/palyazatok/bs/hatartalanul/hat_23/thumb/26.jpg
+            alt: 26
+
+  - title: PS|BS HAT22
+    content:
+      - type: maintitle
+        text: Királyok, fejedelmek az 1000 éves határ mentén – Hamarosan...
+      - type: date
+        text: 2023. május 17–21.
+
+  - title: PS HAT20
+    content:
+      - type: maintitle
+        text: Az 1848-49-es szabadságharc hőseinek nyomában Erdély területén – Hamarosan...
+      - type: date
+        text: 2022. június 11–15.
+
+  - title: PS HAT19
+    content:
+      - type: maintitle
+        text: Erdély természeti kincsei gyermekszemmel – Hamarosan...
+      - type: date
+        text: 2022. június 11–15.
+
+  - title: BS HAT19
+    content:
+      - type: maintitle
+        text: Királyok és fejedelmek nyomában Erdélyben – Hamarosan...
+      - type: date
+        text: 2022. június 10–14.
+
+  - title: PS HAT18
+    content:
+      - type: maintitle
+        text: Magyar írók, költők nyomában Erdély területén – Hamarosan...
+      - type: date
+        text:
+
+  - title: BS HAT18
+    content:
+      - type: maintitle
+        text: Történelmi megállók Erdélyben – Hamarosan...
+      - type: date
+        text: 2019. május 23-27.
+
+  - title: PS HAT17
+    content:
+      - type: maintitle
+        text: Erdélyi legendák nyomában – Hamarosan...
+      - type: date
+        text: 2018. május 30-a és június 3-a között
+
+  - title: BS HAT17
+    content:
+      - type: maintitle
+        text: Erdély kincseinek nyomában – Hamarosan...
+      - type: date
+        text:
