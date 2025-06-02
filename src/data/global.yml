@@ -348,6 +348,20 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Év végi események
+    school: all
+    img: tanev-vege.jpg
+    align: center
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news44
+  - title: Leendő első osztályosok szülői értekezlete
+    school: Tagiskola
+    img: szuloi.png
+    align: center
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news43
   - title: Szülői értekezletek 2025 tavasz
     school: Tagiskola
     img: szuloi.png
