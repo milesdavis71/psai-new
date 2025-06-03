@@ -348,6 +348,13 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Drog-, cigaretta-, és alkoholfogyasztás káros hatásai című  prevenciós szülői értekezletetek időpontjai
+    school: all
+    img: drogs.jpg
+    align: center
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news45
   - title: Év végi események
     school: all
     img: tanev-vege.jpg
