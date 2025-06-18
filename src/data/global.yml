@@ -348,6 +348,12 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Magyarország jó tanulója jó sportolója 2024
+    school: Székhely
+    img: sirian-bence.jpg
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news46
   - title: Drog-, cigaretta-, és alkoholfogyasztás káros hatásai című  prevenciós szülői értekezletetek időpontjai
     school: all
     img: exclamation.jpg
