@@ -605,3 +605,54 @@ screen and (min-width: 40em) {
     height: 18em;
 }
 */
+
+// markdown p tag-hez alsó felső margin, félkövér, dőlt
+.md-p {
+    &-0 {
+      margin: 0 0 0 0;
+  
+      &-b { @extend .md-p-0; font-weight: bold; }
+      &-i { @extend .md-p-0; font-style: italic; }
+      &-u { @extend .md-p-0; text-decoration: underline; }
+    }
+  
+    &-top1 {
+      margin: 1em 0 0 0;
+  
+      &-b { @extend .md-p-top1; font-weight: bold; }
+      &-i { @extend .md-p-top1; font-style: italic; }
+      &-u { @extend .md-p-top1; text-decoration: underline; }
+    }
+  
+    &-left-1 {
+      margin: 0 0 0 -1em;
+  
+      &-b { @extend .md-p-left-1; font-weight: bold; }
+      &-i { @extend .md-p-left-1; font-style: italic; }
+      &-u { @extend .md-p-left-1; text-decoration: underline; }
+    }
+  }.md-p {
+    &-0 {
+      margin: 0 0 0 0;
+  
+      &-b { @extend .md-p-0; font-weight: bold; }
+      &-i { @extend .md-p-0; font-style: italic; }
+      &-u { @extend .md-p-0; text-decoration: underline; }
+    }
+  
+    &-top1 {
+      margin: 1em 0 0 0;
+  
+      &-b { @extend .md-p-top1; font-weight: bold; }
+      &-i { @extend .md-p-top1; font-style: italic; }
+      &-u { @extend .md-p-top1; text-decoration: underline; }
+    }
+  
+    &-left-1 {
+      margin: 0 0 0 -1em;
+  
+      &-b { @extend .md-p-left-1; font-weight: bold; }
+      &-i { @extend .md-p-left-1; font-style: italic; }
+      &-u { @extend .md-p-left-1; text-decoration: underline; }
+    }
+  }
