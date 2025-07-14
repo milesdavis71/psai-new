@@ -517,7 +517,7 @@ sections:
       - type: images
         images_per_row: 2
         images:
-          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Úton_a_Csorgókő_vízeséshez.jpg
+          - full: /assets/img/palyazatok/ps/hatartalanul/hat_23/full/Úton_b_Csorgókő_vízeséshez.jpg
             thumb: /assets/img/palyazatok/ps/hatartalanul/hat_23/thumb/Úton_a_Csorgókő_vízeséshez.jpg
             alt: Kép 3
             caption: Úton a Csorgókő vízeséshez
@@ -882,6 +882,246 @@ sections:
         text: Királyok, fejedelmek az 1000 éves határ mentén – Hamarosan...
       - type: date
         text: 2023. május 17–21.
+      - type: paragraph
+        text: Iskolánk hetedik osztályos tanulóival a Határtalanul! pályázat keretében 2023. május 17- 21. között Erdélybe utazhattunk, ahol az ott eltöltött öt nap során rendkívül sok érdekes és izgalmas program várt bennünket.
+      - type: heading
+        text: Első nap
+      - type: paragraph
+        text: Az indulás napján nagyon korán kellett kelnünk, hiszen hosszú út állt előttünk. Hajnali négy órakor álmosan gyülekeztünk az iskola előtt a buszra várva. Kezdeti fáradtságunk hamar elszállt, hiszen a székelyvarsági szállásra vezető utunkat többször is megszakítottuk egy-egy izgalmas helyszínen.
+      - type: paragraph
+        text: Déva váránál álltunk meg először. Az időjárás kegyes volt hozzánk, érkezésünkkor már elállt az eső, így nem volt akadálya annak, hogy gyalog tegyük meg a várhoz vezető hosszú utat. Megérte az erőfeszítést, mivel innen gyönyörű kilátás nyílt a környező hegyekre.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_1_deva.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_1_deva.jpg
+            alt: 01
+            caption: Déva
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_2_deva.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_2_deva.jpg
+            alt: 02
+            caption: Déva
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_3_deva.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_3_deva.jpg
+            alt: 03
+            caption: Déva
+      - type: paragraph
+        text: Folytattuk utunkat Gyulafehérvárra, ahol megtekintettük a székesegyházat, majd a Károly-kapun átsétálva megcsodáltuk a gyönyörű tájat.
+      - type: paragraph
+        text: Fehéregyházán felkerestük a Petőfi Múzeumot, ahol egy lebilincselő előadás meghallgatása után egy koszorú elhelyezésével emlékeztünk meg Petőfi Sándorról és elénekeltük a Székely himnuszt.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_4_a_Gyulafehérvár.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_4_a_Gyulafehérvár.jpg
+            alt: 01
+            caption: Gyulafehérvár
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_4_b_Gyulafehérvár.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_4_b_Gyulafehérvár.jpg
+            alt: 01
+            caption: Gyulafehérvár
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_5_Fehéregyháza.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_5_Fehéregyháza.jpg
+            alt: 01
+            caption: Fehéregyháza
+      - type: paragraph
+        text: Innen utunk a szállásunkra vezetett, a székelyvarsági Csorgókő Panzióba. Itt igen kedves fogadtatásban volt részünk. Az egész napos fárasztó túrázás után nagyon jól esett a finom, meleg vacsora.
+# 03
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_6_Fehéregyháza.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_6_Fehéregyháza.jpg
+            alt: 01
+            caption: Fehéregyháza
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_7_székelyvarság.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_7_székelyvarság.jpg
+            alt: 02
+            caption: Fehéregyháza
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/1_3_1_8_székelyvarságeva.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/1_8_székelyvarság.jpg
+            alt: 03
+            caption: Székelyvarság
+      - type: heading
+        text: Második nap
+      - type: paragraph
+        text: Kirándulásunk második napjának reggelén ellátogattunk a székelyudvarhelyi Emlékezet parkjába, ahol 13 magyar király, író és egyéb híres ember szobránál tettük tiszteletünket. Ezután Szejkefürdőn jártunk, megtekintettük a Székelykapu Múzeumot és Orbán Balázs sírhelyét. Innen Korondra utaztunk és a verőfényes napsütésben helyi kézművesek termékeiből vásárolgattunk.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_1_Székelyudvarhely.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_1_Székelyudvarhely.jpg
+            alt: 01
+            caption: Székelyudvarhely
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_2_Székelyudrarhely-emlékpark.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_2_Székelyudrarhely-emlékpark.jpg
+            alt: 02
+            caption: Szejkefürdő
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_3_Szejkekapu.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_3_Szejkekapu.jpg
+            alt: 03
+            caption: Szejkefürdő
+      - type: paragraph
+        text: Ebéd után a parajdi sóbányában kapcsolódhattunk ki. Az egészségünknek kedvező környezetben néhány órát pihenéssel töltöttünk el.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_4_Korond-sóbánya.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_4_Korond-sóbánya.jpg
+            alt: 01
+            caption: Parajdi sóbánya
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_5_Korond-sóbánya.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_5_Korond-sóbánya.jpg
+            alt: 02
+            caption: Parajdi sóbánya
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_6_Korond-sóbánya.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_6_Korond-sóbánya.jpg
+            alt: 03
+            caption: Parajdi sóbánya
+      - type: paragraph
+        text: Délután visszautaztunk Korondra, ahol egy egészen különös szakma művelőivel, taplász-mesterekkel ismerkedtünk meg. Megmutatták nekünk, hogy hogyan készítenek táskát, kendőt, sapkát és különböző dísztárgyakat taplógombából.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_7_Korond-sóbánya.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_7_Korond-sóbánya.jpg
+            alt: 01
+            caption: Parajdi sóbánya
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_8_Korond-taplász-mesterek.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_8_Korond-taplász-mesterek.jpg
+            alt: 02
+            caption: Korond
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/2_9_Korond-taplász-mesterek.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/2_9_Korond-taplász-mesterek.jpg
+            alt: 03
+            caption: Korond            
+      - type: heading
+        text: Harmadik nap
+      - type: paragraph
+        text: Kirándulásunk harmadik napján első utunk a csíkszeredai Nagy István Művészeti Középiskolába vezetett, ahol a helyi hetedik osztályosok és osztályfőnökük vendégszeretetét élvezhettük. Szívélyes fogadtatásban részesültünk az iskola pedagógusaitól. Készült egy közös freskó is, amelyet a csíkszeredai gyerekekkel együtt festettünk.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_1_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_1_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            alt: 01
+            caption: Csíkszereda
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_2_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_2_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            alt: 02
+            caption: Csíkszereda
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_3_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_3_csíkszeredai-Nagy-István-Művészeti-Középiskola.jpg
+            alt: 03
+            caption: Csíkszereda
+      - type: paragraph
+        text: Délután egy újabb csodaszép táj megtekintésére volt lehetőségünk. Gyimesbükkbe látogattunk el. Lovas szekerekkel mentünk fel a hegyek közé, ahol egy esztenánál szalonnát és kolbászt sütöttünk, valamint házi készítésű sajtot kóstoltunk.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_4_Gyimesbükk.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_4_Gyimesbükk.jpg
+            alt: 01
+            caption: Gyimesbükk
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_5_Gyimesbükk.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_5_Gyimesbükk.jpg
+            alt: 02
+            caption: Gyimesbükk
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_6_Gyimesbükk.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_6_Gyimesbükk.jpg
+            alt: 03
+            caption: Gyimesbükk            
+      - type: paragraph
+        text: Egy helyi idegenvezető megismertette velünk a gyimesi csángók történetét. Hazafelé menet útba ejtettük az ezeréves határt is.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_7_Gyimesbükk.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_7_Gyimesbükk.jpg
+            alt: 01
+            caption: Gyimesbükk
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_8_Gyimesbükk.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_8_Gyimesbükk.jpg
+            alt: 02
+            caption: Gyimesbükk
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/3_9_Ezeréves_határ.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/3_9_Ezeréves_határ.jpg
+            alt: 03
+            caption: Ezeréves határ 
+      - type: heading
+        text: Negyedik nap
+      - type: paragraph
+        text: Erdélyi tartózkodásunk negyedik napján korán reggel a Súgó - barlang felé vettük az irányt. Miután megküzdöttünk a meredek hegyoldallal, a barlangban cseppkövek csodálatos látványa fogadott bennünket. A barlang mélyén lekapcsoltuk a zseblámpákat, hogy kipróbáljuk, milyen érzés teljes csendben és vaksötétben lenni.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_1_a_Súgó-barlang.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_1_a_Súgó-barlang.jpg
+            alt: 01
+            caption: Súgó-barlang
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_1_b_Súgó-barlang.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_1_b_Súgó-barlang.jpg
+            alt: 01
+            caption: Súgó-barlang
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_3_Lázár-kastély.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_3_Lázár-kastély.jpg
+            alt: 03
+            caption: Lázár-kastély 
+      - type: paragraph
+        text: A Súgó-barlangból egy újabb csodálatosan szép természeti jelenséghez, a Gyilkos-tóhoz indultunk. Útközben megálltunk megnézni a Lázár-kastélyt. A Gyilkos-tónál finom kürtős kalácsot ettünk, hogy legyen energiánk a hosszú sétához a Békás-szorosban. Lélegzetelállítóan gyönyörű látványt nyújt a Békás-patak és az azt körülölelő hatalmas sziklafalak. Igazi természeti ritkaság, amit itt láthattunk.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_2_Gyilkos-tó.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_2_Gyilkos-tó.jpg
+            alt: 01
+            caption: Gyilkos-tó
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_4_Békás-szoros.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_4_Békás-szoros.jpg
+            alt: 02
+            caption: Békás-szoros
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/4_6_Békás-szoros.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/4_6_Békás-szoros.jpg
+            alt: 03
+            caption: Békás-szoros 
+      - type: heading
+        text: Ötödik nap
+      - type: paragraph
+        text: Az ötödik nap ismét az utazásról szólt. Szívünkben vegyes érzésekkel indultunk haza. Egyrészt sajnáltuk, hogy vége lesz a csodás kalandoknak, másrészt örültünk, hogy este végre viszontláthatjuk a családunkat. Útközben megálltunk Segesváron, itt megmásztuk a Diáklépcsőt és megnéztük Petőfi szobrát.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_1_Segesvár.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_1_Segesvár.jpg
+            alt: 01
+            caption: Segesvár
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_2_Segesvár.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_2_Segesvár.jpg
+            alt: 02
+            caption: Segesvár
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_3_Segesvár.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_3_Segesvár.jpg
+            alt: 03
+            caption: Segesvár 
+      - type: paragraph
+        text: Kirándulásunk utolsó helyszíne a nagybaromlaki erődtemplom volt. Felmentünk a templomtoronyba, ahonnan csodálatos kilátás nyílt a környező vidékre, felidézve bennünk az összes festői szépségű táj emlékét, melyeket az elmúlt napokban láthattunk. Életet is mentettünk. Egy fészkéből kiesett madárfiókát helyeztünk biztonságba.
+      - type: images
+        images_per_row: 3
+        images:
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_5_Nagybaromlak.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_5_Nagybaromlak.jpg
+            alt: 01
+            caption: Nagybaromlak
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_6_Nagybaromlak.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_6_Nagybaromlak.jpg
+            alt: 02
+            caption: Nagybaromlak
+          - full: /assets/img/palyazatok/kozos/hatartalanul/hat_22/full/5_1_busz.jpg
+            thumb: /assets/img/palyazatok/kozos/hatartalanul/hat_22/thumb/5_1_busz.jpg
+            alt: 03
+            caption: Hazafele 
+      - type: paragraph
+        text: Szerencsések vagyunk, hogy lehetőséget kaptunk erre az erdélyi útra. Rengeteg tudással gazdagodtunk. Olyan határainkon kívül eső területeken játunk, ahol magyarul beszélnek, magyarként élnek az emberek. Megismerhettük hagyományaikat, népi kultúrájukat is. Minden általunk meglátogatott helyszínről előzetesen kiselőadásokkal készültünk, melyeket hol a hosszú út közben, hol a helyszíneken adtunk elő egymásnak. Esténként vetélkedőket szerveztünk, melyek során játékos formában mérhették össze frissen megszerzett tudásunkat tanulóink. Lefekvés előtt soha nem maradt el a közös játék a szabadban, vagy a társalgóban, ahol időnként spontán bulik is kialakultak. Még jobbá tette a kirándulást, hogy iskolánk székhelyének és tagintézményének diákjai közösen utaztak és a szállás is egy épületben volt. Így új barátságok is kialakultak, és többünkben is megfogalmazódott, hogy a jövőben is szívesen vennénk részt közös programokon. A hosszú buszúton sem unatkoztunk soha. Rengeteget nevettünk és énekeltünk. Maradandó élmény marad ez az út mindannyiunk számára, egy szép, örök emlék, mely akkor is összeköt majd bennünket, ha már nem járunk egy iskolába.
 
   - title: PS HAT20
     content:
