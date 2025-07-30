@@ -348,6 +348,12 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Taneszközlisták 2025/26-os tanév
+    school: all
+    img: taneszkozlista.jpg
+    imgclass: medium-12
+    contentclass: medium-12
+    content: news48
   - title: Nyári vezetői ügyeleti napok 2025
     school: all
     img: nyari_ugyelet_2020.jpg
