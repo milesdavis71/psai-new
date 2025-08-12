@@ -1,5 +1,6 @@
+
 <h5 class="text-center">
-  2023. augusztus 10-től érvényes<br><u>bruttó napi étkezési térítési díjak</u>
+  {{date}} érvényes<br><u>bruttó napi étkezési térítési díjak</u>
 </h5>
 
 <h6 class="text-center subheader" style="margin-top: 1rem;"><strong>gyermek</strong></h6>
@@ -14,17 +15,17 @@
     </tr>
     <tr>
       <td class="text-left">normál</td>
-      <td>173,99 Ft</td>
-      <td>670,56 Ft</td>
-      <td>171,45 Ft</td>
-      <td>1016,00 Ft</td>
+      <td>{{norm-tiz}} Ft</td>
+      <td>{{norm-ebed}} Ft</td>
+      <td>{{norm-uzs}} Ft</td>
+      <td>{{norm-sum}} Ft</td>
     </tr>
     <tr>
       <td class="text-left">diétás</td>
-      <td>257,81 Ft</td>
-      <td>1004,57 Ft</td>
-      <td>255,27 Ft</td>
-      <td>1517,65 Ft</td>
+      <td>{{diet-tiz}} Ft</td>
+      <td>{{diet-ebed}} Ft</td>
+      <td>{{diet-uzs}} Ft</td>
+      <td>{{diet-sum}} Ft</td>
     </tr>
   </tbody>
 </table>
@@ -41,11 +42,11 @@
         </tr>
         <tr>
           <td class="text-left">normál</td>
-          <td>1168,40 Ft</td>
+          <td>{{norm-ebed-adult}} Ft</td>
         </tr>
         <tr>
           <td class="text-left">diétás</td>
-          <td>1751,58 Ft</td>
+          <td>{{diet-ebed-adult}} Ft</td>
         </tr>
       </tbody>
     </table>
