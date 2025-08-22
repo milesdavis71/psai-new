@@ -348,6 +348,13 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Szülői értekezletek 2025 ősz
+    school: Székhely
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news49
   - title: Taneszközlisták 2025/26-os tanév
     school: all
     img: taneszkozlista.jpg
@@ -960,34 +967,93 @@ hatartalanul:
   - tabtitle: BS HAT-18
     id: bs2018
 
-
 etkezesi_teritesi_dijak:
 top:
-  caption: "Étkezési díjak"
+  caption: 'Étkezési díjak'
   columns:
-    - { key: megnevezes, label: "Megnevezés" }
-    - { key: reggeli,    label: "Reggeli" }
-    - { key: tizorai,    label: "Tízórai" }
-    - { key: ebed,       label: "Ebéd" }
-    - { key: uzsonna,    label: "Uzsonna" }
-    - { key: vacsora,    label: "Vacsora" }
-    - { key: osszesen,   label: "Összesen" }
+    - { key: megnevezes, label: 'Megnevezés' }
+    - { key: reggeli, label: 'Reggeli' }
+    - { key: tizorai, label: 'Tízórai' }
+    - { key: ebed, label: 'Ebéd' }
+    - { key: uzsonna, label: 'Uzsonna' }
+    - { key: vacsora, label: 'Vacsora' }
+    - { key: osszesen, label: 'Összesen' }
   rows:
-    - { megnevezes: "Óvoda",                        reggeli: "",      tizorai: "170,18", ebed: "576,58",   uzsonna: "153,67", vacsora: "",        osszesen: "900,43" }
-    - { megnevezes: "Általános iskola",             reggeli: "",      tizorai: "187,96", ebed: "723,90",   uzsonna: "185,42", vacsora: "",        osszesen: "1 097,28" }
-    - { megnevezes: "Középfokú, kollégium",         reggeli: "443,23",tizorai: "203,20", ebed: "788,67",   uzsonna: "201,93", vacsora: "532,13",  osszesen: "2 169,16" }
-    - { megnevezes: "Óvoda diétás",                 reggeli: "",      tizorai: "256,54", ebed: "858,52",   uzsonna: "232,21", vacsora: "",        osszesen: "1 347,27" }
-    - { megnevezes: "Általános iskola diétás",      reggeli: "",      tizorai: "278,13", ebed: "1 084,58", uzsonna: "259,89", vacsora: "",        osszesen: "1 638,30" }
-    - { megnevezes: "Középfokú, kollégium diétás",  reggeli: "665,48",tizorai: "304,80", ebed: "1 182,37", uzsonna: "309,90", vacsora: "792,48",  osszesen: "3 246,12" }
+    - {
+        megnevezes: 'Óvoda',
+        reggeli: '',
+        tizorai: '170,18',
+        ebed: '576,58',
+        uzsonna: '153,67',
+        vacsora: '',
+        osszesen: '900,43',
+      }
+    - {
+        megnevezes: 'Általános iskola',
+        reggeli: '',
+        tizorai: '187,96',
+        ebed: '723,90',
+        uzsonna: '185,42',
+        vacsora: '',
+        osszesen: '1 097,28',
+      }
+    - {
+        megnevezes: 'Középfokú, kollégium',
+        reggeli: '443,23',
+        tizorai: '203,20',
+        ebed: '788,67',
+        uzsonna: '201,93',
+        vacsora: '532,13',
+        osszesen: '2 169,16',
+      }
+    - {
+        megnevezes: 'Óvoda diétás',
+        reggeli: '',
+        tizorai: '256,54',
+        ebed: '858,52',
+        uzsonna: '232,21',
+        vacsora: '',
+        osszesen: '1 347,27',
+      }
+    - {
+        megnevezes: 'Általános iskola diétás',
+        reggeli: '',
+        tizorai: '278,13',
+        ebed: '1 084,58',
+        uzsonna: '259,89',
+        vacsora: '',
+        osszesen: '1 638,30',
+      }
+    - {
+        megnevezes: 'Középfokú, kollégium diétás',
+        reggeli: '665,48',
+        tizorai: '304,80',
+        ebed: '1 182,37',
+        uzsonna: '309,90',
+        vacsora: '792,48',
+        osszesen: '3 246,12',
+      }
 
 bottom:
-  caption: ""
+  caption: ''
   columns:
-    - { key: megnevezes, label: "Megnevezés" }
-    - { key: reggeli,    label: "Reggeli*" }
-    - { key: ebed,       label: "Ebéd" }
-    - { key: vacsora,    label: "Vacsora*" }
-    - { key: osszesen,   label: "Összesen" }
+    - { key: megnevezes, label: 'Megnevezés' }
+    - { key: reggeli, label: 'Reggeli*' }
+    - { key: ebed, label: 'Ebéd' }
+    - { key: vacsora, label: 'Vacsora*' }
+    - { key: osszesen, label: 'Összesen' }
   rows:
-    - { megnevezes: "Étkezési térítés díj",        reggeli: "709,17", ebed: "1 261,87", vacsora: "851,41", osszesen: "2 822,45" }
-    - { megnevezes: "Étkezési térítés díj diétás", reggeli: "",        ebed: "1 891,79", vacsora: "",        osszesen: "1 891,79" }
+    - {
+        megnevezes: 'Étkezési térítés díj',
+        reggeli: '709,17',
+        ebed: '1 261,87',
+        vacsora: '851,41',
+        osszesen: '2 822,45',
+      }
+    - {
+        megnevezes: 'Étkezési térítés díj diétás',
+        reggeli: '',
+        ebed: '1 891,79',
+        vacsora: '',
+        osszesen: '1 891,79',
+      }
