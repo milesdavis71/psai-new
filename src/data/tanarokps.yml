@@ -11,10 +11,6 @@
   grad: egyetem
   spec1: fizika–technika szakos általános iskolai tanár
 
-- name: Czeglédyné Somi Éva
-  grad: főiskola
-  spec1: földrajz–rajz szakos általános iskolai tanár
-
 - name: Csányi Erika
   grad: főiskola
   spec1: általános iskolai tanító
@@ -27,14 +23,25 @@
   grad: főiskola
   spec1: magyar–történelem szakos általános iskolai tanár
 
-- name: Haumann Anett
+- name: Haumann Anett – tartósan távollévő
   grad: egyetem
   spec1: okleveles német- és nemzetiségi német szakos általános iskolai tanár
   spec2: angol–német szakos tanár
 
+- name: Héjja Emese
+  grad: főiskola
+  spec1: rajz szakos általános iskolai tanár
+  spec2: művelődésszervező
+
 - name: Kovács-Kincses Emilia
   grad: főiskola
   spec1: biológia–kémia szakos általános iskolai tanár
+
+- name: Kovácsné Farsang Beáta
+  grad: egyetem
+  spec1: filozófia szakos bölcsész tanár
+  spec2: történelem szakos bölcsész és tanár
+  spec3: fejlesztőpedagógus
 
 - name: Labanczné Bányász Anett
   grad: főiskola
@@ -55,7 +62,7 @@
   spec2: gyógypedagógus
   spec3: tanulásban akadályozottak pedagógiája szakos tanár
 
-- name: Molnár-Tóth Szilvia 
+- name: Molnár-Tóth Szilvia
   grad: egyetem, főiskola
   spec1: testnevelés szakos középiskolai tanár
   spec2: testnevelés–rekreáció szakos általános iskolai tanár
@@ -87,4 +94,3 @@
 - name: Zombori-Benczur Izabella
   grad: egyetem
   spec1: középiskolai biológia–természetismeret-környezettan tanár
-
