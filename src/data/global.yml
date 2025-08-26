@@ -349,6 +349,13 @@ iskolai_segitok:
 
 news:
   - title: Szülői értekezletek 2025 ősz
+    school: Tagiskola
+    img: szuloi.png
+    align: center
+    imgclass: medium-6
+    contentclass: medium-6
+    content: news50
+  - title: Szülői értekezletek 2025 ősz
     school: Székhely
     img: szuloi.png
     align: center
