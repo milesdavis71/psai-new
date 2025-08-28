@@ -348,6 +348,19 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Tanévnyitó ünnepség 2025 ősz
+    school: Székhely
+    img: tanevnyito.jpg
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news52
+  - title: Tanévnyitó ünnepség 2025 ősz
+    school: Tagiskola
+    img: tanevnyito.jpg
+    align: center
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news51
   - title: Szülői értekezletek 2025 ősz
     school: Tagiskola
     img: szuloi.png
@@ -799,18 +812,7 @@ taneszkoz:
     deeplink: 8o
 
 tanevrendje_ps_bs:
-  - tan_nelk_nap_1: '2024. október 4. (péntek)'
-    tan_nelk_nap_2: '2024. december 7. (szombat)'
-    tan_nelk_nap_3: '2025. február 3. (hétfő)'
-    tan_nelk_nap_4: '2025. június 18. (szerda)'
-    osziszunet_start: '2024. október 25. (péntek)'
-    osziszunet_end: '2024. november 4. (hétfő) '
-    teliszunet_start: '2024. december 20. (péntek)'
-    teliszunet_end: '2025. január 6. (hétfő)'
-    tavasziszunet_start: '2025. április 16. (szerda)'
-    tavasziszunet_end: '2025. április 28. (hétfő)'
-    felev_end: '2025. január 17. (péntek)'
-    ev_end: '2025. június 20. (péntek)'
+
 
 kompetenciameres-2023:
   - meresiterulet: angol idegen nyelv
