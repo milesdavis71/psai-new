@@ -11,6 +11,7 @@
     pkgs.exiftool
     pkgs.imagemagick
     pkgs.openssh
+    pkgs.lftp
  ];
 
   # Sets environment variables in the workspace
@@ -20,6 +21,7 @@ idx = {
     extensions = [
       # "vscodevim.vim"
             "redhat.vscode-yaml"
+            "ftp-mini.vsix"
     ];
 
     # Enable previews
