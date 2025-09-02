@@ -1,0 +1,5 @@
+lftp -u "petofiszeged.edu.hu","iTfDK5S3yD" sftp://sftp.edu.hu:22 -e "\
+set net:timeout 20; \
+set net:reconnect-interval-base 5; \
+mirror -R --verbose --only-newer --exclude-glob assets/ dist/ /www/; \
+bye"
