@@ -313,27 +313,27 @@ iskolai_segitok:
 
   - job: Gyógypedagógus I.
     name: Mede Brigitta
-    mail: −
-    tel1: −
-    tel2: −
+    mail: nincs megadva
+    tel1: '+36307362795'
+    tel2: +36 30 7362795
 
   - job: Gyógypedagógus II.
     name: Bozóki Petra
-    mail: −
-    tel1: −
-    tel2: −
+    mail: nincs megadva
+    tel1: '+36307362795'
+    tel2: +36 30 7362795
 
   - job: Szurdópedagógus
     name: Petrás Zsuzsanna
-    mail: −
-    tel1: −
-    tel2: −
+    mail: nincs megadva
+    tel1: '+36307362795'
+    tel2: +36 30 7362795
 
   - job: Logopédus
     name: Dusik-Balázs Dóra
-    mail: −
-    tel1: −
-    tel2: −
+    mail: nincs megadva
+    tel1: '+36307362795'
+    tel2: +36 30 7362795
 
   - job: Iskolai segítő
     name: Hajdú Éva
