@@ -348,6 +348,12 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Iskolába hívogató
+    school: Tagiskola
+    img: iskolaba-hivogato.jpg
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news53
   - title: Tanévnyitó ünnepség 2025 ősz
     school: Székhely
     img: tanevnyito.jpg
