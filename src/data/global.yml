@@ -349,6 +349,12 @@ iskolai_segitok:
 
 news:
   - title: Iskolába hívogató
+    school: Székhely
+    img: iskolaba-hivogato.jpg
+    imgclass: medium-3
+    contentclass: medium-9
+    content: news54
+  - title: Iskolába hívogató
     school: Tagiskola
     img: iskolaba-hivogato.jpg
     imgclass: medium-3
