@@ -274,8 +274,16 @@ gallery_fooldal_bs:
       title: 2024_06_25_Színes-programok
       date: 2024_06_25_Színes-programok
 
-jarasiversenBSy:
-  huszonot:
+jarasiverseny:
+  huszonotosz:
+    - datum: 2025. november 6. (csütörtök) 13:30
+      helyszin: Szegedi Petőfi Sándor Általános Iskola
+      nevezeshatarido: 2025. november 4-ig
+      cim: Szeged, Benczúr Gyula u. 29.
+      tel: +36 30 736 2795
+      telegybe: '+36307362795'
+      mail: titkarsag@petofiszeged.hu
+  huszonottavasz:
     - datum: 2025. február 27. (csütörtök) 13 óra 30 perc
       helyszin: Szegedi Petőfi Sándor Általános Iskola
       cim: Szeged, Benczúr Gyula u. 29.
