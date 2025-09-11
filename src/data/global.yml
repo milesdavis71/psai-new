@@ -343,11 +343,17 @@ iskolai_segitok:
     tel1: '+36307362795'
     tel2: +36 30 7362795
 
+  - job: Védőnő
+    name: Vona Dóra
+    mail: nincs megadva
+    tel1: '+36305108256'
+    tel2: +36 30 5108256
+
   - job: Iskolai segítő
-    name: Hajdú Éva
-    mail: hajdu.eva@csgyjk.ritek.hu
-    tel1: '+36203879927'
-    tel2: +36 20 387 9927
+    name: –
+    mail: –
+    tel1: –
+    tel2: –
 
   - job: Iskolarendőr
     name: Kocsis Mihály Zsolt
