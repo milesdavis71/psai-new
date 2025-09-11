@@ -1,0 +1,133 @@
+LEGFONTOSABB!!
+!!!!!!!!!!!!!!
+
+
+Upload File
+------------
+ctrl+alt+(u, f)
+Upload the current file
+
+Upload Folder
+-------------
+ctrl+alt+(u, r)
+Upload the entire folder the current file is located in
+
+
+Remote Workflow
+---------------
+---------------
+
+Sync Local -> Remote
+-------------------
+ctrl+alt+(u, y)
+
+Upload VCS Changed Files
+------------------------
+ctrl+alt+(u, c)
+Upload all files changed or created since the last commit to your VCS (SVN, Git or Hg)
+
+
+
+Upload Open Files
+-----------------
+ctrl+alt+(u, n)
+Upload all open files that are configured with an SFTP/FTP remote
+
+Download File
+-------------
+ctrl+alt+(u, o)
+Download the remote version of the selected file and overwrite the local copy
+
+
+
+Download Folder
+---------------
+ctrl+alt+(u, e)
+Download the entire folder
+
+Diff Remote File
+----------------
+ctrl+alt+(u, i)
+Download the remote version of a file to a temp location and diff it with the local version
+
+Rename Local and Remote Files
+-----------------------------
+Context menu only
+Rename the file on the server as well as the local copy
+
+Delete Remote File
+------------------
+Context menu only
+Delete the file off of the server
+
+Delete Local and Remote Files
+-----------------------------
+Context menu only
+Delete the file off of the server in addition to the local copy
+
+Sync Local -> Remote
+--------------------
+ctrl+alt+(u, y)
+Compare file modification times and confirm actions before uploading the selected file or folder. This will also delete files off of the remote server that do not exist locally.
+
+Sync Remote -> Local
+--------------------
+ctrl+alt+(u, d)
+Compare file modification times and confirm actions before downloading the selected file or folder. This will also delete files off of the local machine that do not exist remotely.
+
+Sync Both Directions
+--------------------
+ctrl+alt+(u, b)
+Compare file modification times and confirm actions before uploading/downloading the selected file or folder. This will never delete files, and will always perform the action that causes the newest file to be present in both locations.
+
+Monitor File
+------------
+ctrl+alt+(u, m)
+Watch the file for modifications (from Sublime or other applications). When the file modification time changes, the file will be uploaded. This was designed to be used with programs such as LiveReload and CSS compliers. The file must remain open in Sublime to be monitored. Once it is closed, monitoring stops.
+
+Browse Remote
+-------------
+ctrl+alt+(u, w)
+Open the server quick panel browser at the remote folder corresponding to the selected file or folder
+
+
+Server Workflow
+---------------
+---------------
+
+Setup Server
+------------
+ctrl+alt+(r, s)
+Setup a new server.
+
+Browse Server
+ctrl+alt+(r, b)
+List the servers, with an option to setup a new one.
+
+Last Server
+ctrl+alt+(r, n)
+Show the current directory listing for the last used server.
+
+Edit Server
+ctrl+alt+(r, e)
+List the servers for the purpose of editing.
+
+Delete Server
+ctrl+alt+(r, d)
+List the servers for the purpose of deletion.
+
+Both Workflows
+--------------
+--------------
+
+Show SFTP Panel
+---------------
+ctrl+alt+(u, s)
+Show the SFTP activity panel
+
+Cancel
+------
+ctrl+alt+(u, x)
+Stop the current SFTP/FTP server activity (connection, upload or download)
+
+All keyboard shortcuts can be customized by selecting the menu item Preferences ▶ Package Settings ▶ SFTP ▶ Key Bindings – Default. Shortcuts to be customized should be copied into the sibling menu item Key Bindings – User and customized there. This will prevent updates from overriding the customizations.
