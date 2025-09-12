@@ -331,12 +331,6 @@ iskolai_segitok:
     tel1: '+36307362795'
     tel2: +36 30 7362795
 
-  - job: Szurdópedagógus
-    name: Petrás Zsuzsanna
-    mail: nincs megadva
-    tel1: '+36307362795'
-    tel2: +36 30 7362795
-
   - job: Logopédus
     name: Dusik-Balázs Dóra
     mail: nincs megadva
@@ -350,10 +344,10 @@ iskolai_segitok:
     tel2: +36 30 5108256
 
   - job: Iskolai segítő
-    name: –
-    mail: –
-    tel1: –
-    tel2: –
+    name: Karadag Emin Han
+    mail: karadag.emin@csgyjk.ritek.hu
+    tel1: '+36307362795'
+    tel2: +36 30 7362795
 
   - job: Iskolarendőr
     name: Kocsis Mihály Zsolt
