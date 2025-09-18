@@ -1,0 +1,35 @@
+{{!-- Elvárás: a hívó oldal front matterében legyen: gallery_slug --}}
+{{#each galleries}}
+  {{#eq this.slug ../gallery_slug}}
+    <header class="grid-x grid-margin-x align-middle">
+      <div class="cell small-12 medium-8">
+        <h1 class="h4" style="margin-bottom:.25rem;">{{this.title}}</h1>
+        {{#if this.date}}<p class="text-muted" style="margin:0;">{{this.date}}</p>{{/if}}
+        {{#if this.description}}<p style="margin-top:.5rem;">{{this.description}}</p>{{/if}}
+      </div>
+      <div class="cell small-12 medium-4 text-right">
+        <a href="/fooldal.html" class="button tiny hollow">← Vissza a főoldalra</a>
+      </div>
+    </header>
+
+    <section class="gg-container" data-layout="horizontal" style="margin-top:1rem;">
+      <div class="gg-box">
+        {{#each this.images}}
+          <img
+            src="{{thumb}}"
+            data-full="{{full}}"
+            alt="{{alt}}"
+            loading="lazy">
+        {{/each}}
+      </div>
+
+      <div id="gg-screen" style="display:none;">
+        <div class="gg-image"></div>
+        <div class="gg-close gg-btn">✕</div>
+        <div class="gg-prev gg-btn">‹</div>
+        <div class="gg-next gg-btn">›</div>
+      </div>
+    </section>
+  {{/eq}}
+{{/each}}
+{{>grid_gallery_js}}
