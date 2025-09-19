@@ -1,6 +1,15 @@
-- slug: '2025_09_01_tanevnyito'
-  title: 'Tanévnyitó ünnepség'
-  date: '2024-09-01'
-  description: 'Az ünnepélyes tanévnyitó pillanatai.'
-  cover_thumb: '/assets/img/galeriak/2025_26/ps/2025_09_01_tanevnyito/cover.jpg'
-  count: 6
+years:
+  - key: '2025_26'
+    name: 'Petőfi Sándor Általános Iskola'
+    events:
+      - slug: '2025_09_01_tanevnyito'
+        title: 'Tanévnyitó ünnepség'
+        date: '2024-09-01'
+        description: 'Az ünnepélyes tanévnyitó pillanatai.'
+        # EGYIK:
+        count: 12
+
+      - slug: '2024-10-15-oszi-kirandulas'
+        title: 'Őszi kirándulás'
+        date: '2024-10-15'
+        count: 18

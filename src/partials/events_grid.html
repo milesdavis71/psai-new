@@ -1,0 +1,16 @@
+
+<div class="cell medium-9 medium-cell-block-y">
+
+{{#each galleries.years}}
+{{#ifequal key "2025_26"}}
+{{#each this.events}}
+        <p>{{title}}
+          <br>
+          {{date}}
+        </p>
+        <img
+          src="/assets/img/galeriak/2025_26/ps/{{slug}}/01.jpg">
+{{/each}}
+{{/ifequal}}
+{{/each}}
+</div>

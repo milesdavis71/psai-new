@@ -1,9 +1,6 @@
-
-    {{#each galleries}}
-    {{#eq slug @root.gallery_slug}}
-          <h5 class="text-center"> {{title}} <br>
-          {{#if date}}<small>{{date}}</small>{{/if}} </h5>
-          <!-- {{#if description}}<p  class="text-center">{{description}}</p>{{/if}} -->
+<div class="cell medium-9 medium-cell-block-y">
+<h5 class="text-center"> {{title}} <br>
+<small>{{date}}</small> </h5>
 
 
     <div class="content">
@@ -18,7 +15,7 @@
     </div>
 
       </div>
-    {{/eq}}
-  {{/each}}
+
   {{> grid_gallery_js}}
   {{> vissza2}}
+</div>
