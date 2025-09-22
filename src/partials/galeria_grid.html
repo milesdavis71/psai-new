@@ -1,0 +1,40 @@
+  
+  <header class="grid-x grid-margin-x align-middle">
+    <div class="cell">
+      <h1 class="h4" style="margin-bottom:.75rem;">Petőfi – {{year}} galériák</h1>
+    </div>
+  </header>
+  
+  {{!-- cards tömb kikeresése a data fájlból --}}
+  {{#each (lookup (lookup @root data) "cards")}}
+    {{#if @first}}
+      <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
+    {{/if}}
+  
+    <div class="cell">
+      <div class="card" style="height:100%;">
+        <a href="/galeriak/{{../../year}}/petofi/{{slug}}.html" aria-label="{{title}}">
+          <img
+            src="/assets/galeria/{{../../year}}/petofi/{{slug}}/thumbs/01.jpg"
+            alt="{{title}}"
+            loading="lazy">
+        </a>
+        <div class="card-section">
+          <h2 class="h6" style="margin-bottom:.25rem;">
+            <a href="/galeriak/{{../../year}}/petofi/{{slug}}.html">{{title}}</a>
+          </h2>
+          {{#if date}}
+            <p class="text-muted" style="font-size:.9rem; margin-bottom:.5rem;">{{date}}</p>
+          {{/if}}
+          {{#if description}}
+            <p style="margin-bottom:0;">{{description}}</p>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  
+    {{#if @last}}
+      </div>
+    {{/if}}
+  {{/each}}
+  
