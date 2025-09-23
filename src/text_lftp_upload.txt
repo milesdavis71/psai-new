@@ -1,4 +1,4 @@
-lftp -u "petofiszeged.edu.hu","iTfDK5S3yD" sftp://sftp.edu.hu:22 -e "\
+lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e "\
 set net:timeout 20; \
 set net:reconnect-interval-base 5; \
 mirror -R --verbose --only-newer --exclude-glob assets/ dist/ /www/; \
@@ -6,9 +6,9 @@ bye"
 
 egy sorba
 -----------
-lftp -u "petofiszeged.edu.hu","iTfDK5S3yD" sftp://sftp.edu.hu:22 -e "set net:timeout 20; set net:reconnect-interval-base 5; mirror -R --verbose --only-newer --exclude-glob assets/ dist/ /www/; bye"
+lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e "set net:timeout 20; set net:reconnect-interval-base 5; mirror -R --verbose --only-newer --exclude-glob assets/ dist/ /www/; bye"
 
 -----
 versenyek mappát kizárva
 
-lftp -u "petofiszeged.edu.hu","iTfDK5S3yD" sftp://sftp.edu.hu:22 -e " set net:timeout 20; set net:reconnect-interval-base 5; mirror -R --verbose --only-newer \--exclude-glob assets/ \--exclude-glob dist/versenyek/ \ dist/ /www/; bye"
+lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e " set net:timeout 20; set net:reconnect-interval-base 5; mirror -R --verbose --only-newer --exclude-glob assets/ --exclude-glob dist/versenyek/ dist/ /www/; bye"
