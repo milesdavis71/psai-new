@@ -1,23 +1,25 @@
 <div class="cell medium-9 medium-cell-block-y">
-{{> vissza2}}
+  {{> vissza2}}
 
-<h5 class="text-center"> {{title}} <br>
-<small>{{date}}</small> </h5>
+  <h5 class="text-center">{{title}}<br>
+    <small>{{date}}</small>
+  </h5>
 
-
-    <div class="content">
-        <div class="gg-container">
-        <div class="gg-box dark" id="square">
-          {{#range 1 count pad=2}}
-            <img
-              src="/assets/img/galeriak/2025_26/ps/{{../slug}}/{{this}}.jpg">
-          {{/range}}
-        </div>
-
-    </div>
-
+  <div class="content">
+    <div class="gg-container">
+      <div class="gg-box dark" id="square">
+        {{#range 1 count pad=2}}
+          <img
+            src="/assets/img/galeriak/2025_26/ps/{{../slug}}/thumb/{{this}}_thumb.jpg"
+            data-full="/assets/img/galeriak/2025_26/ps/{{../slug}}/full/{{this}}_full.jpg"
+            alt="{{../title}} – {{this}}"
+            loading="lazy">
+        {{/range}}
       </div>
+    </div>
+  </div>
 
-  {{> grid_gallery_js}}
+  {{>grid_gallery_js}}
+
   {{> vissza2}}
 </div>
