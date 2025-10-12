@@ -357,6 +357,18 @@ iskolai_segitok:
 
 news:
   - title: Iskolába hívogató
+    school: Tagiskola
+    img: iskolaba-hivogato.jpg
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news56
+  - title: Szent Mihály-napi lépegető
+    school: Tagiskola
+    img: lepegeto.jpg
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news55
+  - title: Iskolába hívogató
     school: Székhely
     img: iskolaba-hivogato.jpg
     imgclass: medium-3
