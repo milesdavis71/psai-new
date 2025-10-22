@@ -356,6 +356,12 @@ iskolai_segitok:
     tel2: +36 20 387 9927
 
 news:
+  - title: Őszi szünet
+    school: all
+    img: oszi-szunet-2025.jpg
+    imgclass: medium-4
+    contentclass: medium-8
+    content: news57
   - title: Iskolába hívogató
     school: Tagiskola
     img: iskolaba-hivogato.jpg
