@@ -1,0 +1,59 @@
+# ==============================
+# Zurb Foundation FTP deploy script (LFTP)
+# Feltölti a dist/ tartalmát a szerverre, kihagyja az assets mappát,
+# automatikusan létrehozza a hiányzó könyvtárakat,
+# törli a szerveren a már nem létező HTML fájlokat,
+# és a végén összefoglalót ír a log alapján.
+# ==============================
+
+# Alap FTP beállítások
+set ftp:ssl-allow true
+set net:max-retries 2
+set net:timeout 20
+set mirror:use-pget-n 5
+set xfer:clobber on
+set ftp:list-options -a
+set cmd:fail-exit true
+
+# FTP kapcsolat (CSERÉLD KI!)
+open -u FTP_FELHASZNALO,FTP_JELSZO ftp.szervered.hu
+
+# Helyi és távoli mappák
+lcd dist
+cd /www
+
+# Szinkronizálás indítása + logolás
+echo "=== Fájlfeltöltés indul ==="
+echo "Forrás: $(pwd)"
+echo "Cél: /public_html"
+echo
+
+mirror -R \
+  --exclude-glob assets/** \
+  --include-glob *.html \
+  --include-glob */*.html \
+  --verbose \
+  --continue \
+  --only-newer \
+  --parallel=3 \
+  --create-dirs \
+  --delete \
+  --log=deploy.log \
+  .
+
+echo
+echo "=== Feltöltés befejezve ==="
+echo
+
+# Összefoglaló statisztika a log alapján
+echo "Összefoglaló:"
+echo "--------------------------------------"
+echo "Feltöltött fájlok: $(grep -c 'Uploading file' deploy.log || echo 0)"
+echo "Új könyvtárak: $(grep -c 'Making directory' deploy.log || echo 0)"
+echo "Törölt fájlok: $(grep -c 'Removing file' deploy.log || echo 0)"
+echo "Törölt könyvtárak: $(grep -c 'Removing directory' deploy.log || echo 0)"
+echo "--------------------------------------"
+echo "Log fájl: deploy.log"
+echo
+echo "Kész ✔️"
+bye

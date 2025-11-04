@@ -343,11 +343,17 @@ iskolai_segitok:
     tel1: '+36305108256'
     tel2: +36 30 5108256
 
-  - job: Iskolai segítő
+  - job: Iskolai szociális segítő I.
     name: Karadag Emin Han
     mail: karadag.emin@csgyjk.ritek.hu
     tel1: '+36307362795'
     tel2: +36 30 7362795
+
+  - job: Iskolai szociális segítő II.
+    name: Balogh Gábor
+    mail: balogh.gabor@csgyjk.ritek.hu
+    tel1: '+36202932818'
+    tel2: +36 20 2932818
 
   - job: Iskolarendőr
     name: Kocsis Mihály Zsolt

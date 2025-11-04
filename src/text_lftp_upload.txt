@@ -12,3 +12,6 @@ lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e "set net:t
 versenyek mappát kizárva
 
 lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e " set net:timeout 20; set net:reconnect-interval-base 5; mirror -R --verbose --only-newer --exclude-glob assets/ --exclude-glob dist/versenyek/ dist/ /www/; bye"
+
+lftp -u "petofiszeged.edu.hu","sN7gkPF6HlOV" sftp://sftp.edu.hu:22 -e "set cmd:fail-exit true; lcd dist; cd /www; mirror -R --only-newer --include-glob *.html --include-glob */*.html --include-glob */*/*.html --exclude-glob assets/** --create-dirs --verbose .; bye"
+
