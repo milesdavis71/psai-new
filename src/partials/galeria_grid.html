@@ -2,11 +2,11 @@
   {{!-- cards tömb kikeresése a data fájlból --}}
   {{#each (lookup (lookup @root data) "cards")}}
     {{#if @first}}
-      <div class="grid-x grid-margin-x small-up-1 medium-up-2 large-up-4">
+      <div class="grid-x grid-margin-x small-up-1 medium-up-3 large-up-4" data-equalizer data-equalize-on="medium">
     {{/if}}
   
-    <div class="cell">
-      <div class="card" style="height:100%;">
+    <div class="cell" style="margin-bottom: 0.5em;" >
+      <div class="card" data-equalizer-watch>
         <a href="/galeriak/{{../year}}/{{../schoolfoldername}}/{{slug}}.html" aria-label="{{title}}">
           <img
             src="/assets/img/galeriak/{{../year}}/{{../schoolfoldername}}/{{slug}}/thumb/01_thumb.jpg"
@@ -18,7 +18,7 @@
             <a href="/galeriak/{{../year}}/{{../schoolfoldername}}/{{slug}}.html"> {{title}}</a>
           </p>
           {{#if date}}
-            <p class="text-center" style="margin-bottom:.5rem;">{{date}}</p>
+            <p class="text-center">{{date}}</p>
           {{/if}}
         </div>
       </div>
