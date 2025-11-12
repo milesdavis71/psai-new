@@ -10,10 +10,7 @@ async function main() {
             password: 'sN7gkPF6HlOV',
         })
 
-        await sftp.put(
-            'dist/galeriak/2025_26/ps/fooldal_ps.html',
-            '/www/galeriak/2025_26/ps/fooldal_ps.html'
-        )
+        await sftp.put('dist/index.html', '/www/index.html')
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
