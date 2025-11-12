@@ -7,10 +7,10 @@ async function main() {
             host: 'sftp.edu.hu',
             port: 22,
             username: 'petofiszeged.edu.hu',
-            password: 'sN7gkPF6HlOV',
+            password: 'aflcabpZDp8V',
         })
 
-        await sftp.put('dist/index.html', '/www/index.html')
+        await sftp.put('dist/osztalyaink_ps.html', '/www/osztalyaink_ps.html')
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {

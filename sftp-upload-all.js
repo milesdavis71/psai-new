@@ -9,7 +9,7 @@ const config = {
   host: 'sftp.edu.hu',
   port: 22,
   username: 'petofiszeged.edu.hu',
-  password: 'sN7gkPF6HlOV'
+  password: 'aflcabpZDp8V'
 };
 
 // 🔧 Helyi és távoli alapmappa
