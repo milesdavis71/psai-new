@@ -10,7 +10,10 @@ async function main() {
             password: 'aflcabpZDp8V',
         })
 
-        await sftp.put('dist/osztalyaink_ps.html', '/www/osztalyaink_ps.html')
+        await sftp.put(
+            'dist/bemutatkozas/iskolankat_segito_kulsos_munkatarsak.html',
+            '/www/bemutatkozas/iskolankat_segito_kulsos_munkatarsak.html'
+        )
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
