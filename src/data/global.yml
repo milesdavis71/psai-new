@@ -363,6 +363,12 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Készíts színes falevelekből egy képet!
+      school: Tagiskola
+      img: falevel.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news59
     - title: Járási mesemondó és prózamondó verseny
       school: Székhely
       img: nincs
