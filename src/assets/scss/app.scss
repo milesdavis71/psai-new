@@ -1,8 +1,8 @@
 @charset 'utf-8';
 
-@import "settings";
-@import "foundation";
-@import "motion-ui";
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
 
 @include foundation-global-styles;
 // @include foundation-grid;
@@ -63,12 +63,14 @@ $featured-article-links-border: rem-calc(1) solid $light-gray;
 $featured-article-side-links-height: rem-calc(450);
 
 // big feature
-$featured-article-big-bg: url("https://placehold.it/600?text=Big+Feature") no-repeat center center;
+$featured-article-big-bg: url('https://placehold.it/600?text=Big+Feature')
+    no-repeat center center;
 $featured-article-title-size-big: rem-calc(28);
 $featured-article-author-size-big: rem-calc(18);
 
 // small feature
-$featured-article-small-bg: url("https://placehold.it/200?text=Small+Feature") no-repeat center center;
+$featured-article-small-bg: url('https://placehold.it/200?text=Small+Feature')
+    no-repeat center center;
 $featured-article-title-size-small: rem-calc(16);
 $featured-article-author-size-small: rem-calc(12);
 
@@ -164,28 +166,28 @@ $featured-article-author-size-small: rem-calc(12);
     text-transform: uppercase;
 }
 
-@import "components/building-blocks/news-card";
-@import "components/building-blocks/responsive-hidden-nav";
-@import "components/building-blocks/topbar-responsive";
-@import "components/building-blocks/comment-section";
-@import "components/building-blocks/about-the-author";
-@import "components/building-blocks/wide-article-link";
-@import "components/building-blocks/large-article-header";
-@import "components/building-blocks/simple-article-header";
-@import "components/building-blocks/blockquote";
-@import "components/building-blocks/flexible-article-images";
-@import "components/building-blocks/featured-article-side-links";
-@import "components/building-blocks/featured-blog-posts-panel";
-@import "components/building-blocks/sticky-social-bar";
-@import "components/building-blocks/ecommerce-footer";
-@import "components/building-blocks/pagination-circular";
-@import "components/building-blocks/pagination-pointed";
-@import "components/building-blocks/tag-cloud";
-@import "components/building-blocks/social-buttons";
-@import "components/building-blocks/polls";
-@import "components/building-blocks/news-image-gallery";
-@import "components/building-blocks/quote-inline";
-@import "components/building-blocks/neat-article-container";
+@import 'components/building-blocks/news-card';
+@import 'components/building-blocks/responsive-hidden-nav';
+@import 'components/building-blocks/topbar-responsive';
+@import 'components/building-blocks/comment-section';
+@import 'components/building-blocks/about-the-author';
+@import 'components/building-blocks/wide-article-link';
+@import 'components/building-blocks/large-article-header';
+@import 'components/building-blocks/simple-article-header';
+@import 'components/building-blocks/blockquote';
+@import 'components/building-blocks/flexible-article-images';
+@import 'components/building-blocks/featured-article-side-links';
+@import 'components/building-blocks/featured-blog-posts-panel';
+@import 'components/building-blocks/sticky-social-bar';
+@import 'components/building-blocks/ecommerce-footer';
+@import 'components/building-blocks/pagination-circular';
+@import 'components/building-blocks/pagination-pointed';
+@import 'components/building-blocks/tag-cloud';
+@import 'components/building-blocks/social-buttons';
+@import 'components/building-blocks/polls';
+@import 'components/building-blocks/news-image-gallery';
+@import 'components/building-blocks/quote-inline';
+@import 'components/building-blocks/neat-article-container';
 
 //hír
 
@@ -246,7 +248,7 @@ $featured-article-author-size-small: rem-calc(12);
                 @include button-style($social-brand-google-plus, auto, $white);
             }
 
-            >.fa {
+            > .fa {
                 color: $white;
 
                 &.fa-comments-o {
@@ -298,7 +300,7 @@ $featured-article-author-size-small: rem-calc(12);
     --column-width: 220px;
 }
 
-.gg-container *[data-theme="dark"] {
+.gg-container *[data-theme='dark'] {
     --main-color: #ddd;
     --secondary-color: #eee;
     --txt-color: #111;
@@ -396,12 +398,12 @@ $featured-article-author-size-small: rem-calc(12);
         grid-row-end: span 2;
     }
 
-    [data-layout="horizontal"] img:nth-child(2n):not(:last-of-type) {
+    [data-layout='horizontal'] img:nth-child(2n):not(:last-of-type) {
         grid-column-end: span 2;
         grid-row-end: span 1;
     }
 
-    [data-layout="square"] img:nth-child(2n):not(:last-of-type) {
+    [data-layout='square'] img:nth-child(2n):not(:last-of-type) {
         grid-row-end: span 1;
         grid-column-end: span 1;
     }
@@ -441,19 +443,19 @@ $featured-article-author-size-small: rem-calc(12);
 
 .search-button::before,
 .twitter-typeahead::before {
-    content: "\f16c";
+    content: '\f16c';
     display: block;
     position: absolute;
     top: 0.4rem;
     left: 0.9rem;
     z-index: 1;
-    font-family: "foundation-icons";
+    font-family: 'foundation-icons';
     font-size: 1.75rem;
     color: #8a8a8a;
 }
 
 .search-button.search-open::before {
-    content: "\f217";
+    content: '\f217';
     font-size: 1.5rem;
     padding-top: 5px;
     padding-right: 10px;
@@ -485,9 +487,7 @@ $featured-article-author-size-small: rem-calc(12);
     box-shadow: none;
 }
 
-@media print,
-screen and (max-width: 39.99875em) {
-
+@media print, screen and (max-width: 39.99875em) {
     .docs-search:not(.tt-input),
     .tt-input,
     .tt-hint {
@@ -518,7 +518,7 @@ screen and (max-width: 39.99875em) {
 .tt-suggestion::before,
 .tt-suggestion::after {
     display: table;
-    content: " ";
+    content: ' ';
     -webkit-flex-basis: 0;
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -561,8 +561,7 @@ screen and (max-width: 39.99875em) {
     text-overflow: ellipsis;
 }
 
-@media print,
-screen and (min-width: 40em) {
+@media print, screen and (min-width: 40em) {
     .tt-suggestion {
         padding: 1rem;
     }
@@ -583,7 +582,7 @@ screen and (min-width: 40em) {
 }
 
 .tt-empty:before {
-    content: ":(";
+    content: ':(';
     font-weight: bold;
     font-size: 2rem;
     color: #999;
@@ -607,52 +606,23 @@ screen and (min-width: 40em) {
 */
 
 // markdown p tag-hez alsó felső margin, félkövér, dőlt
-.md-p {
-    &-0 {
-      margin: 0 0 0 0;
-  
-      &-b { @extend .md-p-0; font-weight: bold; }
-      &-i { @extend .md-p-0; font-style: italic; }
-      &-u { @extend .md-p-0; text-decoration: underline; }
-    }
-  
-    &-top1 {
-      margin: 1em 0 0 0;
-  
-      &-b { @extend .md-p-top1; font-weight: bold; }
-      &-i { @extend .md-p-top1; font-style: italic; }
-      &-u { @extend .md-p-top1; text-decoration: underline; }
-    }
-  
-    &-left-1 {
-      margin: 0 0 0 -1em;
-  
-      &-b { @extend .md-p-left-1; font-weight: bold; }
-      &-i { @extend .md-p-left-1; font-style: italic; }
-      &-u { @extend .md-p-left-1; text-decoration: underline; }
-    }
-  }.md-p {
-    &-0 {
-      margin: 0 0 0 0;
-  
-      &-b { @extend .md-p-0; font-weight: bold; }
-      &-i { @extend .md-p-0; font-style: italic; }
-      &-u { @extend .md-p-0; text-decoration: underline; }
-    }
-  
-    &-top1 {
-      margin: 1em 0 0 0;
-  
-      &-b { @extend .md-p-top1; font-weight: bold; }
-      &-i { @extend .md-p-top1; font-style: italic; }
-      &-u { @extend .md-p-top1; text-decoration: underline; }
-    }
-  
-    &-left-1 {
-      margin: 0 0 0 -1em;
-  
-      &-b { @extend .md-p-left-1; font-weight: bold; }
-      &-i { @extend .md-p-left-1; font-style: italic; }
-      &-u { @extend .md-p-left-1; text-decoration: underline; }
-    }
-  }
+.mt-1 {
+    display: block;
+    margin-top: 1em;
+}
+.mt-2 {
+    display: block;
+    margin-top: 2em;
+}
+.mt-3 {
+    display: block;
+    margin-top: 3em;
+}
+.mt-4 {
+    display: block;
+    margin-top: 4em;
+}
+.mt-5 {
+    display: block;
+    margin-top: 5em;
+}
