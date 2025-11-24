@@ -363,6 +363,12 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Isklolába hívobató
+      school: Tagiskola
+      img: robot.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news61
     - title: Fogadóóra – 2025. december
       school: Székhely
       img: fogadoora_small.jpg

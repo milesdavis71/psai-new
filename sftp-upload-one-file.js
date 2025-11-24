@@ -10,10 +10,7 @@ async function main() {
             password: 'aflcabpZDp8V',
         })
 
-        await sftp.put(
-            'dist/bemutatkozas/taneszkozok_bs.html',
-            '/www/bemutatkozas/taneszkozok_bs.html'
-        )
+        await sftp.put('dist/index.html', '/www/index.html')
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
