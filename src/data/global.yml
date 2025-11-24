@@ -363,6 +363,12 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Fogadóóra – 2025. december
+      school: Székhely
+      img: fogadoora_small.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news60
     - title: Készíts színes falevelekből egy képet!
       school: Tagiskola
       img: falevel.jpg
