@@ -28,12 +28,16 @@
     </li>
     <li>
         <a href="#">&thinsp;&thinsp;<i class="fas fa-map-marker-alt"></i>&thinsp;&thinsp;Elérhetőségeink</a>
-        <ul class="menu vertical nested {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs'}}is-active{{/ifpage}}">
+        <ul class="menu vertical nested {{#ifpage 'elerhetosegeink' 'elerhetosegeink_helyunk_a_terkepen_ps_bs' 'adatvedelmi_kepviselo'}}is-active{{/ifpage}}">
+            <li {{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs' }} class="current" {{/ifpage}}>
             <li {{#ifpage 'elerhetosegeink' }} class="current" {{/ifpage}}>
                 <a href="{{root}}bemutatkozas/elerhetosegeink.html">Címek, e-mailcímek, telefonszámok</a>
             </li>
             <li {{#ifpage 'elerhetosegeink_helyunk_a_terkepen_ps_bs' }} class="current" {{/ifpage}}>
                 <a href="{{root}}elerhetosegeink_helyunk_a_terkepen_ps_bs.html">Helyünk a térképen {{>label}}</a>
+            </li>
+            <li {{#ifpage 'adatvedelmi_kepviselo' }} class="current" {{/ifpage}}>
+                <a href="{{root}}elerhetosegeink/adatvedelmi_kepviselo.html">Adatvédelmi képviselő</a>
             </li>
         </ul>
     </li>

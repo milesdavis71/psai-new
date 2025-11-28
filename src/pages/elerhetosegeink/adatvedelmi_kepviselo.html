@@ -1,0 +1,23 @@
+---
+job: adatvédelmi képviselő
+name: Farkas Zsolt
+address: Szegedi Tankerületi Központ, 6726 Szeged, Bal fasor 17-21.
+mail: szeged.adatvedelem@kk.gov.hu
+---
+
+<div class="cell medium-9 medium-cell-block-y">
+    {{>head_psbs}}
+    <div class="card">
+        <div class="card-divider" style="margin: 0 auto; text-align: center">
+            <strong>{{job}}</strong>
+        </div>
+        <div class="card-section">
+            <p class="text-center">
+                <b>Név:</b> {{name}}<br />
+                <b>Cím:</b> {{address}}<br />
+                <b>E-mail cím:</b>
+                <a href="mailto:{{mail}}"> {{mail}}</a>
+            </p>
+        </div>
+    </div>
+</div>
