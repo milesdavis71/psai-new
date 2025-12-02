@@ -501,9 +501,9 @@ iskolai_segitok:
 
   - job: Iskolarendőr
     name: Kőhegyi Árpád
-    mail: nincs megadva
-    tel1: 'nincs megadva'
-    tel2: nincs megadva
+    mail: kohegyia@csongrad.police.hu
+    tel1: '+36204986004'
+    tel2: +36 20 4986004
 
 news:
   2025-26:

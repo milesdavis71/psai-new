@@ -11,8 +11,8 @@ async function main() {
         })
 
         await sftp.put(
-            'dist/befiz_idopontok_ngsz.html',
-            '/www/befiz_idopontok_ngsz.html'
+            'dist/bemutatkozas/iskolankat_segito_kulsos_munkatarsak.html',
+            '/www/bemutatkozas/iskolankat_segito_kulsos_munkatarsak.html'
         )
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
