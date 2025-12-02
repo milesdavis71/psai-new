@@ -10,7 +10,10 @@ async function main() {
             password: 'aflcabpZDp8V',
         })
 
-        await sftp.put('dist/index.html', '/www/index.html')
+        await sftp.put(
+            'dist/befiz_idopontok_ngsz.html',
+            '/www/befiz_idopontok_ngsz.html'
+        )
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
