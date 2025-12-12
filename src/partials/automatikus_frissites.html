@@ -1,8 +1,11 @@
 <!-- Automatikus frissítés script -->
 <script>
     ;(function () {
-        var CHECK_INTERVAL = 10000 // 10 másodperc
+        // hány ms-enként ellenőrizzen (itt: 10 másodperc)
+        var CHECK_INTERVAL = 10000
+        // a verziófájl elérési útvonala – Foundationnél így használj relatív gyökeret
         var VERSION_URL = '{{root}}version.json'
+
         var currentVersion = null
 
         function checkVersion() {
@@ -12,7 +15,7 @@
             fetch(url, { cache: 'no-store' })
                 .then(function (res) {
                     console.log('[version-check] HTTP státusz:', res.status)
-                    if (!res.ok) return
+                    if (!res.ok) return null
                     return res.json()
                 })
                 .then(function (data) {
@@ -32,27 +35,17 @@
                         currentVersion
                     )
 
-                    // első futás: csak eltároljuk, mi a mostani verzió
+                    // első futás: csak eltároljuk az aktuális verziót
                     if (currentVersion === null) {
                         currentVersion = serverVersion
                         return
                     }
 
-                    // ha változott, reload
+                    // ha változott a verzió, frissítjük az oldalt
                     if (serverVersion !== currentVersion) {
                         console.log('[version-check] VERZIÓ VÁLTOZOTT → RELOAD')
-
-                        // cache-kerülős reload ugyanarra az oldalra
-                        var newUrl =
-                            window.location.pathname +
-                            '?v=' +
-                            encodeURIComponent(serverVersion) +
-                            '&_=' +
-                            Date.now() +
-                            window.location.hash
-
-                        console.log('[version-check] Navigáció:', newUrl)
-                        window.location.assign(newUrl)
+                        currentVersion = serverVersion // hogy ne fusson végtelen ciklusba
+                        window.location.reload()
                     }
                 })
                 .catch(function (err) {
@@ -60,6 +53,7 @@
                 })
         }
 
+        // azonnali első ellenőrzés, majd periodikusan
         checkVersion()
         setInterval(checkVersion, CHECK_INTERVAL)
     })()
