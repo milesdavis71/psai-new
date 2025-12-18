@@ -507,6 +507,18 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Téli szünet
+      school: all
+      img: teli_szunet.jpg
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news63
+    - title: Karácsonyi vásár
+      school: Székhely
+      img: kari-vasar.jpg
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news62
     - title: Iskolába hívogató
       school: Tagiskola
       img: robot.jpg
