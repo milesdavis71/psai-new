@@ -49,10 +49,6 @@
   spec2: közoktatási vezető, mesterpedagógus,
   spec3: művelődésszervező
 
-- name: Patyi Zoltán
-  grad: főiskola
-  spec1: néptánc oktató
-
 - name: Purcsi Kata
   grad: egyetem
   spec1: általános iskolai testnevelő tanár
@@ -92,6 +88,10 @@
   spec2: differenciáló, fejlesztő pedagógiai ismeretek
   spec3: szakvizsgázott pedagógus, fejlesztőpedagógus
 
-- name: Zombori-Benczur Izabella
+- name: Dr. Zádoriné Pepó Patrícia
+  grad: egyetem
+  spec1: középiskolai földrajz tanár
+
+- name: Zombori-Benczur Izabella – tartósan távollévő
   grad: egyetem
   spec1: középiskolai biológia–természetismeret-környezettan tanár
