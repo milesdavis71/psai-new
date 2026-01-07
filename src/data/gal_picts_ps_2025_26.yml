@@ -69,19 +69,19 @@ cards:
 
   - slug: '2025_11_24_tarsas_tanulas'
     title: '„társas tanulás'
-    date: '2025. 11.  24.'
+    date: '2025. 11. 24.'
 
   - slug: '2025_11_25_2025_bolyai_csapatverseny'
     title: '2025 bolyai csapatverseny'
-    date: '2025. 11.  25.'
+    date: '2025. 11. 25.'
 
   - slug: '2025_11_25_5_osztalyosok_a_Mora_ferenc_muzeumban'
     title: '5. osztályosok a Móra Ferenc Múzeumban '
-    date: '2025. 11.  25.'
+    # date: '2025. 11. 25.'
 
   - slug: '2025_11_26_egeszsegnap'
     title: 'egészségnap'
-    date: '2025. 11.  26.'
+    date: '2025. 11. 26.'
 
   - slug: '2025_12_03_tanuloink_iskolan_kivuli_sikerei'
     title: 'Tanulóink iskolán kívüli sikerei'
@@ -89,12 +89,12 @@ cards:
 
   - slug: '2025_12_04_mikulas_buli'
     title: 'mikulás buli'
-    date: '2025. 12.  04.'
+    date: '2025. 12. 04.'
 
   - slug: '2025_12_09_rendhagyo_tortenelemora_projektmunka'
     title: 'rendhagyó történelemóra-projektmunka'
-    date: '2025. 12.  09.'
+    date: '2025. 12. 09.'
 
   - slug: '2025_12_18_interaktiv_angolorak'
     title: 'interaktív angolórák'
-    date: '2025. 12.  18.'
+    date: '2025. 12. 18.'

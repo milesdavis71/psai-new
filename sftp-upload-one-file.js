@@ -10,7 +10,7 @@ async function main() {
             password: 'aflcabpZDp8V',
         })
 
-        await sftp.put('dist/index.html', '/www/index.html')
+        await sftp.put('dist/szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html', '/www/szuloi_ertekezlet_fogadoora/egyeni_fogadoorak_ps_bs.html')
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
