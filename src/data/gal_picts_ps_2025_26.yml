@@ -68,7 +68,7 @@ cards:
     date: '2025. 10. 25.'
 
   - slug: '2025_11_24_tarsas_tanulas'
-    title: '„társas tanulás'
+    title: 'társas tanulás'
     date: '2025. 11. 24.'
 
   - slug: '2025_11_25_2025_bolyai_csapatverseny'
@@ -76,8 +76,8 @@ cards:
     date: '2025. 11. 25.'
 
   - slug: '2025_11_25_5_osztalyosok_a_Mora_ferenc_muzeumban'
-    title: '5. osztályosok a Móra Ferenc Múzeumban '
-    # date: '2025. 11. 25.'
+    title: '5. osztályosok a Móra Múzeumban '
+    date: '2025. 11. 25.'
 
   - slug: '2025_11_26_egeszsegnap'
     title: 'egészségnap'
@@ -92,7 +92,7 @@ cards:
     date: '2025. 12. 04.'
 
   - slug: '2025_12_09_rendhagyo_tortenelemora_projektmunka'
-    title: 'rendhagyó történelemóra-projektmunka'
+    title: 'rendhagyó történelemóra'
     date: '2025. 12. 09.'
 
   - slug: '2025_12_18_interaktiv_angolorak'
