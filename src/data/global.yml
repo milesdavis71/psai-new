@@ -509,9 +509,10 @@ news:
   2025-26:
     - title: Tavaszi suliváró foglalkozásaink
       school: Székhely
-      img: sulivaro.jpg
-      imgclass: medium-3
-      contentclass: medium-9
+      img: boy.jpg
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
       content: news64
     - title: Téli szünet
       school: all
