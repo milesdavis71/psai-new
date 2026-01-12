@@ -507,6 +507,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Rajzpályázat
+      school: Tagiskola
+      img: rajzpalyazat.jpg
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news65
     - title: Tavaszi suliváró foglalkozásaink
       school: Székhely
       img: boy.jpg
