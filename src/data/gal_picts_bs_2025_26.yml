@@ -66,3 +66,51 @@ cards:
   - slug: '2025_11_18_kozos_tanulasi_program'
     title: 'Közös tanulási program'
     date: '2025. 11. 18.'
+
+  - slug: '2025_11_26_versenyeredmenyek_1'
+    title: 'Versenyeredmények 1'
+    date: '2025. 11. 26.'
+
+  - slug: '2025_11_28_8_oszt_a_torvenyszeken'
+    title: '8. osztály a törvényszéken'
+    date: '2025. 11. 28.'
+
+  - slug: '2025_11_28_versenyeredmenyek_2'
+    title: 'Versenyeredmények 2'
+    date: '2025. 11. 28.'
+
+  - slug: '2025_12_03_kezmuves szakkor'
+    title: 'Kézműves szakkör'
+    date: '2025. 12. 03.'
+
+  - slug: '2025_12_05_versenyeredmenyek_3'
+    title: 'Versenyeredmények 3'
+    date: '2025. 12. 05.'
+
+  - slug: '2025_12_09_versenyeredmenyek_4'
+    title: 'Versenyeredmények 4'
+    date: '2025. 12. 09.'
+
+  - slug: '2025_12_10_betlehem_kiallítas'
+    title: 'Betlehem kiállítás'
+    date: '2025. 12. 10.'
+
+  - slug: '2025_12_11_iskolai_matematika_verseny'
+    title: 'Iskolai matematika verseny'
+    date: '2025. 12. 11.'
+
+  - slug: '2025_12_15_adventi_keszulodes'
+    title: 'Adventi készülődés'
+    date: '2025. 12. 15.'
+
+  - slug: '2025_12_18_agora_mikulas_kakao_bar'
+    title: 'Agora Mikulás kakaóbár'
+    date: '2025. 12. 18.'
+
+  - slug: '2025_12_19_karacsonyi_musor'
+    title: 'Karácsonyi műsor'
+    date: '2025. 12. 19.'
+
+  - slug: '2026_01_09_teli_varazslat'
+    title: 'Téli varázslat'
+    date: '2026. 01. 09.'
