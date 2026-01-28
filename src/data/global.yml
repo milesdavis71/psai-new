@@ -53,8 +53,12 @@ download_pdf:
     url: szuloi_nyilatkozat_a_delutani_foglalkozasok_elhagyasarol.pdf
   - title: Adategyeztető lap – Székhely/Tagiskola
     url: adategyeteto_lap.pdf
-  - title: Etika vagy Hit és erkölcstan szülői nyilatkozat – Székhely/Tagiskola
-    url: etika_vagy_hit_es_erkolcstan_szuloi_nyilatkozat.pdf
+  - title: Hit és erkölcstan adatkezelési tájékoztató – Székhely/Tagiskola
+    url: hit_es_erkolcstan_adatkezelesi_tajekoztato_2026.pdf
+  - title: Etika vagy Hit- és erkölcstan szülői nyilatkozat – Székhely
+    url: nyilatkozat_hit_vagy_erkolcs_ps_2026.pdf
+  - title: Etika vagy Hit- és erkölcstan szülői nyilatkozat – Tagiskola
+    url: nyilatkozat_hit_vagy_erkolcs_bs_2026.pdf
   - title: Szülői hozzájáruló nyilatkozat fénykép vagy videofelvétel készítéséhez és felhasználásához – Székhely/Tagiskola
     url: szuloi_hozzajarulo_nyilatkozat_fenykep_vagy_videofelvetel_keszitesehez_es_felhasznalasahoz.pdf
   - title: Szülői nyilatkozat osztálykassza vezetéséről – Székhely/Tagiskola
@@ -507,7 +511,7 @@ iskolai_segitok:
 
 news:
   2025-26:
-    - title: Félévi szűlői értekezletek
+    - title: Félévi szülői értekezletek
       school: Tagiskola
       img: szuloi.png
       align: center
