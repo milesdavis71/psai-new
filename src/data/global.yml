@@ -512,6 +512,13 @@ iskolai_segitok:
 news:
   2025-26:
     - title: Félévi szülői értekezletek
+      school: Székhely
+      img: szuloi.png
+      align: center
+      imgclass: medium-6
+      contentclass: medium-6
+      content: news67
+    - title: Félévi szülői értekezletek
       school: Tagiskola
       img: szuloi.png
       align: center
