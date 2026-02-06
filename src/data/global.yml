@@ -511,6 +511,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Rendhagyó könyvtári óra szülőknek és pedagógusoknak
+      school: all
+      img: baracsi-katalin.jpg
+      align: center
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news68
     - title: Félévi szülői értekezletek
       school: Székhely
       img: szuloi.png
