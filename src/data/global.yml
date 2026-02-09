@@ -511,6 +511,20 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Iskolába hívogató
+      school: Tagiskola
+      img: bs-iskolaba-hivogato-sport.jpg
+      align: center
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news70
+    - title: KRÉTA online nyelvtanuló alkalmazás
+      school: all
+      img: kreta-nyelvtanulas.jpg
+      align: center
+      imgclass: medium-12
+      contentclass: medium-12
+      content: news69
     - title: Rendhagyó könyvtári óra szülőknek és pedagógusoknak
       school: all
       img: baracsi-katalin.jpg
