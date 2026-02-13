@@ -511,6 +511,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Álláspályázat igazgató munkakör betöltésére
+      school: all
+      img: felkialtojel.jpg
+      align: center
+      imgclass: medium-2
+      contentclass: medium-10
+      content: news71
     - title: Iskolába hívogató
       school: Tagiskola
       img: bs-iskolaba-hivogato-sport.jpg

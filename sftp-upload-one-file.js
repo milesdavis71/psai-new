@@ -10,7 +10,7 @@ async function main() {
             password: 'aflcabpZDp8V',
         })
 
-        await sftp.put('dist/osztalyaink_ps.html', '/www/osztalyaink_ps.html')
+        await sftp.put('dist/index.html', '/www/index.html')
 
         console.log('✅ Fájl sikeresen felülírva a szerveren')
     } catch (err) {
