@@ -511,6 +511,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Iskolába hívogató
+      school: Tagiskola
+      img: bs-iskolaba-hivogato-2026-festes.jpg
+      align: center
+      imgclass: medium-3
+      contentclass: medium-9
+      content: news72
     - title: Álláspályázat igazgató munkakör betöltésére
       school: all
       img: felkialtojel.jpg
