@@ -511,6 +511,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Fogadóóra
+      school: Székhely
+      img: fogadoora_small.png
+      align: center
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news73
     - title: Iskolába hívogató
       school: Tagiskola
       img: bs-iskolaba-hivogato-2026-festes.jpg
