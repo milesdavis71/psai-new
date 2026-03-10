@@ -511,6 +511,13 @@ iskolai_segitok:
 
 news:
   2025-26:
+    - title: Tájékoztató a 2026/2027. tanévre történő általános iskolai beiratkozásról
+      school: all
+      img: beiratkozas.jpg
+      align: center
+      imgclass: medium-4
+      contentclass: medium-8
+      content: news74
     - title: Suliváró foglalkozásaink
       school: Székhely
       img: ps-2026-tavasz-suliv-fogl.jpg
